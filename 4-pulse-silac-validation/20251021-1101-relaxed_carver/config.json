@@ -1,0 +1,9 @@
+{
+  "original_dim": 128,
+  "hidden_dim1": 256,
+  "hidden_dim2": 128,
+  "latent_dim": 64,
+  "loss_type": "cos+KL",
+  "rec_weight": 1,
+  "dropout_rate": 0.25
+}
