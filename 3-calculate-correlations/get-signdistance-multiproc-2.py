@@ -5,7 +5,7 @@ import multiprocessing as mp
 import pandas as pd
 import numpy as np
 import scipy, os, sys, time, dcor, math
-from itertools import batched #Require python >= 3.12 !!!
+from more_itertools import batched 
 start = time.perf_counter()
 
 FLD = sys.argv[1]
@@ -32,7 +32,7 @@ def calculate_correlations_w_pval(i, latent_space=latent):
     return pd.DataFrame(correlations, columns=['nodeA','nodeB','distance','Score','pval'])
 
 if __name__=='__main__':
-    mp.freeze_support()
+    # mp.freeze_support()
     
     batches = batched(range(len(latent)-1), n=1000)
 
@@ -45,8 +45,6 @@ if __name__=='__main__':
         correlations.to_csv(savepath, compression='gzip', index=False)
         print(savepath)
         del correlations
-    
 
 finish = time.perf_counter()
 print(f'Finished in {round(finish-start, 2)} second(s)')
-    
