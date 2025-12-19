@@ -61,8 +61,8 @@ for cluster,df in data.groupby(clustering_col).__iter__():
     combo.append(tmp)
     del tmp
 combo = pd.concat(combo, ignore_index=True)
-combo.name = '[' + combo.stId + '] ' + combo.name
-combo.to_csv(os.path.join(FLD,'results_combo.csv'))
+combo.name = '[' + combo.stId + '] ' + combo.name.apply(lambda x: x[:70])
+combo.to_csv(os.path.join(FLD,'results_combo.csv'), index=False)
 
 
 

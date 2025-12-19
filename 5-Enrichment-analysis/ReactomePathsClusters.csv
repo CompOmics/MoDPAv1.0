@@ -1,0 +1,83 @@
+name,cluster
+[R-HSA-176033] Interactions of Vpr with host cellular proteins,C1
+[R-HSA-180910] Vpr-mediated nuclear import of PICs,C1
+[R-HSA-9824446] Viral Infection Pathways,C1
+[R-HSA-9839923] Dengue Virus Infection,C1
+[R-HSA-9918481] Dengue Virus-Host Interactions,C1
+[R-HSA-9665230] Drug resistance in ERBB2 KD mutants,C1
+[R-HSA-9665251] Resistance of ERBB2 KD mutants to lapatinib,C1
+[R-HSA-9665250] Resistance of ERBB2 KD mutants to AEE788,C1
+[R-HSA-9665247] Resistance of ERBB2 KD mutants to osimertinib,C1
+[R-HSA-9665246] Resistance of ERBB2 KD mutants to neratinib,C1
+[R-HSA-9665233] Resistance of ERBB2 KD mutants to trastuzumab,C1
+[R-HSA-9665245] Resistance of ERBB2 KD mutants to tesevatinib,C1
+[R-HSA-1643685] Disease,C1
+[R-HSA-5663205] Infectious disease,C1
+[R-HSA-6802952] Signaling by BRAF and RAF1 fusions,C1
+[R-HSA-2219528] PI3K/AKT Signaling in Cancer,C1
+[R-HSA-2219530] Constitutive Signaling by Aberrant PI3K in Cancer,C1
+[R-HSA-9013409] RHOJ GTPase cycle,C2
+[R-HSA-9013106] RHOC GTPase cycle,C2
+[R-HSA-8980692] RHOA GTPase cycle,C2
+[R-HSA-9013026] RHOB GTPase cycle,C2
+[R-HSA-194315] Signaling by Rho GTPases,C2
+[R-HSA-9012999] RHO GTPase cycle,C2
+[R-HSA-9006934] Signaling by Receptor Tyrosine Kinases,C2
+"[R-HSA-9716542] Signaling by Rho GTPases, Miro GTPases and RHOBTB3",C2
+[R-HSA-5673001] RAF/MAP kinase cascade,C2
+[R-HSA-5683057] MAPK family signaling cascades,C2
+[R-HSA-5684996] MAPK1/MAPK3 signaling,C2
+[R-HSA-198753] ERK/MAPK targets,C2
+"[R-HSA-6811558] PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",C2
+[R-HSA-9652282] Drug-mediated inhibition of ERBB2 signaling,C2
+[R-HSA-212676] Dopamine Neurotransmitter Release Cycle,C2
+[R-HSA-9772755] Formation of WDR5-containing histone-modifying complexes,C2
+[R-HSA-4615885] SUMOylation of DNA replication proteins,C3
+[R-HSA-4551638] SUMOylation of chromatin organization proteins,C3
+[R-HSA-4570464] SUMOylation of RNA binding proteins,C3
+[R-HSA-2990846] SUMOylation,C3
+[R-HSA-3108232] SUMO E3 ligases SUMOylate target proteins,C3
+[R-HSA-156827] L13a-mediated translational silencing of Ceruloplasmin expression,C3
+[R-HSA-72689] Formation of a pool of free 40S subunits,C3
+[R-HSA-72706] GTP hydrolysis and joining of the 60S ribosomal subunit,C3
+[R-HSA-9948299] Ribosome-associated quality control,C3
+[R-HSA-9954714] PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA,C3
+[R-HSA-9954716] ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA,C3
+[R-HSA-392499] Metabolism of proteins,C3
+[R-HSA-156842] Eukaryotic Translation Elongation,C3
+[R-HSA-156902] Peptide chain elongation,C3
+[R-HSA-2980766] Nuclear Envelope Breakdown,C4
+[R-HSA-68875] Mitotic Prophase,C4
+[R-HSA-68877] Mitotic Prometaphase,C4
+[R-HSA-68886] M Phase,C4
+[R-HSA-1640170] Cell Cycle,C4
+"[R-HSA-69278] Cell Cycle, Mitotic",C4
+[R-HSA-69481] G2/M Checkpoints,C4
+[R-HSA-69620] Cell Cycle Checkpoints,C4
+[R-HSA-72187] mRNA 3'-end processing,C5
+[R-HSA-9770562] mRNA Polyadenylation,C5
+[R-HSA-72163] mRNA Splicing - Major Pathway,C5
+[R-HSA-72172] mRNA Splicing,C5
+[R-HSA-8953854] Metabolism of RNA,C5
+[R-HSA-72202] Transport of Mature Transcript to Cytoplasm,C5
+[R-HSA-72203] Processing of Capped Intron-Containing Pre-mRNA,C5
+[R-HSA-9675108] Nervous system development,C6
+[R-HSA-9010553] Regulation of expression of SLITs and ROBOs,C6
+[R-HSA-376176] Signaling by ROBO receptors,C6
+[R-HSA-422475] Axon guidance,C6
+[R-HSA-2262752] Cellular responses to stress,C7
+[R-HSA-8953897] Cellular responses to stimuli,C7
+[R-HSA-2559584] Formation of Senescence-Associated Heterochromatin Foci (SAHF),C7
+[R-HSA-2559586] DNA Damage/Telomere Stress Induced Senescence,C7
+[R-HSA-1500931] Cell-Cell communication,C8
+[R-HSA-9764265] Regulation of CDH1 Expression and Function,C8
+[R-HSA-9759476] Regulation of Homotypic Cell-Cell Adhesion,C8
+[R-HSA-9764274] Regulation of Expression and Function of Type I Classical Cadherins,C8
+[R-HSA-140342] Apoptosis induced DNA fragmentation,C9
+[R-HSA-111465] Apoptotic cleavage of cellular proteins,C9
+[R-HSA-75153] Apoptotic execution phase,C9
+[R-HSA-4839726] Chromatin organization,C1
+[R-HSA-3214841] PKMTs methylate histone lysines,C1
+[R-HSA-3247509] Chromatin modifying enzymes,C1
+[R-HSA-2408522] Selenoamino acid metabolism,C0
+[R-HSA-5223345] Miscellaneous transport and binding events,C0

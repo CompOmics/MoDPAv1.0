@@ -14,15 +14,15 @@ from matplotlib import pyplot as plt
 data_path = "./without_sulfo/compassionate_buck-v2/Leiden-0.5/nodes.csv"
 FLD = os.path.split(data_path)[0]
 
-# In[2]:
-pathways = pd.read_csv('https://download.reactome.org/94/ReactomePathways.txt', sep='\t', header=None)
+# In[2]: Links to download.reactome might need to be updated
+pathways = pd.read_csv('https://download.reactome.org/95/ReactomePathways.txt', sep='\t', header=None)
 pathways.columns = ['ID','name','species']
 human_pathways = pathways[pathways.species=='Homo sapiens'].copy(deep=True)
 id2name = human_pathways.set_index('ID').to_dict()['name']
 
 
 # In[3]:
-hierarchy = pd.read_csv('https://download.reactome.org/94/ReactomePathwaysRelation.txt', sep='\t', header=None)
+hierarchy = pd.read_csv('https://download.reactome.org/95/ReactomePathwaysRelation.txt', sep='\t', header=None)
 hierarchy.columns = ['parent','child']
 hierarchy_hs = hierarchy[hierarchy.child.isin(id2name)].copy(deep=True)
 hierarchy_hs.to_csv('ReactomePathwaysHierarchyHuman.csv', index=False, encoding='utf-8')

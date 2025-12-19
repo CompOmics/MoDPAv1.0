@@ -1,5 +1,0 @@
-species_id,stId,name,FDR,entities_tot,entities_found,reactions_tot,reactions_found
-9606,R-HSA-4839726,Chromatin organization,0.0009068915719316895,269,7,105,20
-9606,R-HSA-3247509,Chromatin modifying enzymes,0.0009068915719316895,254,7,85,14
-9606,R-HSA-9772755,Formation of WDR5-containing histone-modifying complexes,0.016362945413727292,42,3,30,10
-9606,R-HSA-3214841,PKMTs methylate histone lysines,0.01811144061032577,48,3,22,7

@@ -9,6 +9,7 @@
 3-calculate-correlations/*.ipynb
 4-pulse-silac-validation/*.ipynb
 ipynb_checkpoints/
+ionbot-dev/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

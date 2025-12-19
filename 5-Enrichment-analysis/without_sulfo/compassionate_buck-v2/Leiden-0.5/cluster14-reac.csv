@@ -1,4 +1,0 @@
-species_id,stId,name,FDR,entities_tot,entities_found,reactions_tot,reactions_found
-9606,R-HSA-9012999,RHO GTPase cycle,0.04581922553648532,460,12,91,20
-9606,R-HSA-194315,Signaling by Rho GTPases,0.04581922553648532,708,15,203,35
-9606,R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",0.04581922553648532,724,15,212,35

@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from scipy.stats import hypergeom
-from itertools import combinations
+from more_itertools import distinct_combinations
 
 def pseudo_jaccard(vec1,vec2):
     z = []
@@ -83,7 +83,7 @@ def calculate_jaccard_matrix(data, pvalue_threshold=0.05, return_dataframe=True)
     
     # Calculate for all pairs
     results = []
-    for i, j in combinations(range(n_obs), 2):
+    for i, j in distinct_combinations(range(n_obs), 2):
         jaccard = jaccard_similarity_binary(matrix[i], matrix[j])
         pval = jaccard_pvalue(matrix[i], matrix[j], universe_size)
         

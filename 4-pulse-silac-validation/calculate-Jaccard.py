@@ -3,17 +3,15 @@
 import numpy as np
 import pandas as pd
 from scipy.stats import hypergeom
-from itertools import combinations
 from Jaccard_idx import *
 
 
 # In[2]:
 data_binary = pd.read_csv(
     "binary-matrix.csv.gz",
-    # nrows=1000,
+    # nrows=100, #for testing
     index_col=0
 )
-# data_binary
 
 
 # In[16]:
