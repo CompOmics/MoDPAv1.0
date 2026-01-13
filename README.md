@@ -27,3 +27,8 @@ Example:<br>
 `python .\B_relative_PTMs.py . 2025-12-19`
 
 #### Prepare VAE training data
+
+Filter the results with `1-quant-pipeline-MoDPA_v2\C_prefilter-relative-PTMs.py` and extract PTM-by-experiment matrices (1 per PTM of interest) using `1-quant-pipeline-MoDPA_v2\D_Get-MoDPA-matrices.py`. Provide the list of PTMs of interest as a .csv file with the following columns:
+|AA|unimod_id|ptm_name|
+|C|4|Carbamidomethyl|
+Combine the PTMs of interest into one dataset with `1-quant-pipeline-MoDPA_v2\E_combine-MoDPA-matrices.py`.
