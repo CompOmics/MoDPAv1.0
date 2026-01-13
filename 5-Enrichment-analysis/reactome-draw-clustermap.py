@@ -33,4 +33,4 @@ h = sns.clustermap(reac_clusters.fillna(0), method='ward',
               dendrogram_ratio=.05,)
 # plt.xticks(rotation=90)
 h.ax_heatmap.set_xticklabels(h.ax_heatmap.get_xticklabels(), rotation=90)
-plt.savefig(os.path.join(FLD,'Reactome_clustermap_with_legend.png'), dpi=300, bbox_inches='tight')
+h.savefig(os.path.join(FLD,'Reactome_clustermap_with_legend.png'), dpi=300, bbox_inches='tight')

@@ -13,11 +13,27 @@ FLD = os.path.split(data_path)[0]
 clustering_col = '__leidenCluster'
 data = pd.read_csv(data_path)
 
+data.rename(columns={
+    'shared name':'PTM_ID', 
+    'mod-label':'modification',
+    'RES':'residue',
+    'POS':'position',
+    'MOD':'Unimod_ID'
+    }, inplace=True)
+print(data.shape)
+data[
+    ['PTM_ID','UniAcc','residue','position','modification','Unimod_ID']
+].to_csv(os.path.join(FLD, 'better-nodes.csv'))
 
 for cluster,df in data.groupby(clustering_col).__iter__():
-    outpath = os.path.join(FLD, f'cluster{cluster}-reac.csv')
+    outpath  = os.path.join(FLD, f'cluster{cluster}-reac.csv')
+    outpath2 = os.path.join(FLD, f'cluster{cluster}.csv')
     markers = list(set(df.UniAcc))
     
+    df[ # save the nodes of the clusters into separate .csv files
+        ['PTM_ID','UniAcc','residue','position','modification','Unimod_ID']
+    ].to_csv(outpath2, index=False)
+
     if len(markers)<20:
         continue
 
