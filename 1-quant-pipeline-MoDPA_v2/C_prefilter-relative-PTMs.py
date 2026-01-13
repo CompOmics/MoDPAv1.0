@@ -11,8 +11,8 @@ def parse_cli() -> argparse.Namespace:
     p = argparse.ArgumentParser()
     p.add_argument("data_folder", type=str, help="Path to processed folder with the data.")
     p.add_argument("date", type=str, help="Date in YYYY-MM-DD format.")
-    p.add_argument("target_fasta_path", type=str)
-    p.add_argument("contam_fasta_path", type=str)
+    p.add_argument('--targets', dest='target_fasta_path', type=str, default=None, help="Path to FASTA file with target proteins to keep.")
+    p.add_argument('--contaminants', dest='contam_fasta_path', type=str, default=None, help="Path to FASTA file with contaminant proteins to remove.")
     return p.parse_args()
 
 
@@ -20,17 +20,17 @@ def parse_cli() -> argparse.Namespace:
 args = parse_cli()
 
 # In[ ]:
-fasta = {}
-Fasta.getFasta(args.target_fasta_path, fasta)
-# Fasta.getFasta('C:/Users/Enrico/OneDrive - UGent/UniProtKB_2023/human_combined_metamORF_Swiss_Prot.fasta.gz', fasta)
-prot_targets = set(fasta.keys())
-print('# Target proteins =',len(prot_targets))
+def get_protein_set_from_fasta(fasta_path):
+    fasta = {}
+    Fasta.getFasta(fasta_path, fasta)
+    return set(fasta.keys())
 
-cont_fasta = {}
-Fasta.getFasta(args.contam_fasta_path, cont_fasta)
-prot_contaminants = set(cont_fasta.keys())
-print('# Contaminants =',len(prot_contaminants))
-del fasta, cont_fasta
+if args.target_fasta_path:
+    prot_targets = get_protein_set_from_fasta(args.target_fasta_path)
+    print('# Target proteins =',len(prot_targets))
+if args.contam_fasta_path:
+    prot_contaminants = get_protein_set_from_fasta(args.contam_fasta_path)
+    print('# Contaminants =',len(prot_contaminants))
 
 
 # In[ ]:
@@ -42,12 +42,20 @@ outpath = inpath.replace('.csv.gz', '_prefiltered.csv.gz')
 relcounts = pl.read_csv(inpath)
 print(relcounts.shape)
 
+relcounts = relcounts.lazy()
 relcounts = relcounts.filter(
-    pl.col('UniAcc').is_in(prot_targets)&
-    pl.col('UniAcc').is_in(prot_contaminants).not_()&
     (pl.col('relative_psm_counts') > 0)&
     (pl.col('relative_psm_counts') < 1)    
 )
+if args.target_fasta_path:
+    relcounts = relcounts.filter(
+        pl.col('UniAcc').is_in(prot_targets)
+    )
+if args.contam_fasta_path:
+    relcounts = relcounts.filter(
+        ~pl.col('UniAcc').is_in(prot_contaminants)
+    )
+relcounts = relcounts.collect()
 print(relcounts.shape)
 print("PTMs in dataset:")
 print(relcounts.select('ptm_name').unique())
