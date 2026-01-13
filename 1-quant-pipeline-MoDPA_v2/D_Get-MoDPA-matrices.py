@@ -11,6 +11,8 @@ def parse_cli() -> argparse.Namespace:
     p = argparse.ArgumentParser()
     p.add_argument("data_folder", type=str, help="Path to processed folder with the data.")
     p.add_argument("date", type=str, help="Date in YYYY-MM-DD format.")
+    p.add_argument('--myptms', dest='myptms', type=str, default='./PTMs-of-interest.csv', 
+               help="Path to list of PTMs to analyze. (default: ./PTMs-of-interest.csv)")
     return p.parse_args()
 
 # In[6]:
@@ -70,7 +72,7 @@ def main():
     
     
     # In[5]:
-    myptms = pl.read_csv(f"./{args.data_folder}/PTMs-of-interest.csv") # csv with aminoacid, unimod id, and name
+    myptms = pl.read_csv(args.myptms) # csv with aminoacid, unimod id, and name
     myptms = myptms.rows()
     print(myptms)
     

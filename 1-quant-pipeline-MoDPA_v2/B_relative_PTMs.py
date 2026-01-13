@@ -159,7 +159,10 @@ def main():
         compression='gzip',
         encoding='utf-8'
     )
-    shutil.rmtree(tmp_dir_path)
+    try:
+        shutil.rmtree(tmp_dir_path)
+    except:
+        print('!! could not remove temporary folder counts-per-msrun')
 
 
 if __name__ == "__main__":

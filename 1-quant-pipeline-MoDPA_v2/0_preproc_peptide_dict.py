@@ -11,6 +11,7 @@ from tqdm import tqdm
 def parse_cli() -> argparse.Namespace:
     p = argparse.ArgumentParser()
     p.add_argument('fasta', metavar='fasta', type=str, help="Path to gzipped .fasta file")
+    p.add_argument('--output', dest='output', type=str, default='peptide_dict.csv.gz', help="Path to output file (.csv.gz)")
     return p.parse_args() 
 
 def getClass(acc, fasta) -> str:
@@ -109,6 +110,6 @@ pep_dict = pd.DataFrame(
     columns=['peptide','proteins']
 )
 pep_dict.to_csv(
-    'peptide_dict_new.csv.gz', index=False, compression='gzip', encoding='utf-8'
+    args.output, index=False, compression='gzip', encoding='utf-8'
 )
 

@@ -11,7 +11,10 @@ def parse_cli() -> argparse.Namespace:
     p = argparse.ArgumentParser()
     p.add_argument("data_folder", type=str, help="Path to processed folder with the data.")
     p.add_argument("date", type=str, help="Date in YYYY-MM-DD format.")
-    p.add_argument('--std_filter', dest='std_filter', type=float, default=.05, help="standard deviation filtering cutoff (default: 0.05)")
+    p.add_argument('--myptms', dest='myptms', type=str, default='./PTMs-of-interest.csv', 
+                   help="Path to list of PTMs to analyze. (default: ./PTMs-of-interest.csv)")
+    p.add_argument('--std_filter', dest='std_filter', type=float, default=.05,
+                   help="Standard deviation filtering cutoff (default: 0.05)")
     return p.parse_args()
 
 def percent_nonzero(x):
@@ -24,7 +27,7 @@ def percent_nonzero(x):
 # In[2]:
 args = parse_cli()
 
-myptms = pl.read_csv(f"./{args.data_folder}/PTMs-of-interest.csv") # csv with aminoacid, unimod id, and name
+myptms = pl.read_csv(args.myptms) # csv with aminoacid, unimod id, and name
 myptms = myptms.rows()
 
 # In[3]:
