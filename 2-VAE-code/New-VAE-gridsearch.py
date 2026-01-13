@@ -15,7 +15,7 @@ def parse_cli() -> argparse.Namespace:
     p.add_argument('train', metavar='training data', type=str, help="Path to MoD")
     p.add_argument('--savefld', dest='savefld', type=str, default=date.today().isoformat(), help="Output folder (default: today's date)")
     p.add_argument('--gpu', dest='gpu', type=str, default='0', help="Which GPU to use (default: 0)")
-    p.add_argument('--txt-params', dest='txt', type=str, default='0', help="Are there parameters saved in a txt file? If yes, provide the path.(default: 0, meaning no). ")
+    p.add_argument('--txt-params', dest='txt', type=str, default='0', help="Are there parameters saved in a txt file? If yes, provide the path (default: 0, meaning no). ")
     return p.parse_args() 
 
 args = parse_cli()

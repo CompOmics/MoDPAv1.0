@@ -4,15 +4,20 @@ import concurrent.futures
 import multiprocessing as mp
 import pandas as pd
 import numpy as np
-import scipy, os, sys, time, dcor, math
+import scipy, os, sys, time, dcor, math, argparse
 from more_itertools import batched 
 start = time.perf_counter()
 
-FLD = sys.argv[1]
+def parse_cli() -> argparse.Namespace:
+    p = argparse.ArgumentParser()
+    p.add_argument("model", type=str, help="Path to VAE folder.")
+    return p.parse_args()
+
+args = parse_cli()
 try:
-    latent = pd.read_pickle(os.path.join(FLD,'Latent-space.pkl.gz'))
+    latent = pd.read_pickle(os.path.join(args.model,'Latent-space.pkl.gz'))
 except:
-    latent = pd.read_csv(os.path.join(FLD,'Latent-space.csv.gz'), index_col=0)
+    latent = pd.read_csv(os.path.join(args.model,'Latent-space.csv.gz'), index_col=0)
 # print(latent.dtypes)
 
 def calculate_correlations_w_pval(i, latent_space=latent):
@@ -41,7 +46,7 @@ if __name__=='__main__':
             results = executor.map(calculate_correlations_w_pval, batch)
             correlations = pd.concat(results, ignore_index=True)
             
-        savepath = os.path.join(FLD,f"{FLD.split('-')[-1]}-signed-distances-{batch_id}-partial.csv.gz")
+        savepath = os.path.join(args.model,f"{args.model.split('-')[-1]}-signed-distances-{batch_id}-partial.csv.gz")
         correlations.to_csv(savepath, compression='gzip', index=False)
         print(savepath)
         del correlations
