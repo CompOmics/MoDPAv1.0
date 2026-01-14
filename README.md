@@ -53,8 +53,12 @@ Use `3-calculate-correlations/get-signdistance-multiproc-2.py` to calculate sign
 #### Pulsed SILAC data analysis
 
 Pulsed SILAC is a variation of SILAC where labeled amino acids are added to the growth medium for a short period to assess de novo protein production. Over time, light-labeled proteins decrease due to turnover, while heavy-labeled proteins increase.<br>
-This experimental setup thus provides a simple model in which unlabelled Arginines (R0) and Lysines (K0) will follow similar trends, while their heavy-labeled counterparts (R10, K8) which will exhibit the opposite trend. Other modifications, like Methionine oxidations, are not expected to correlate with light or heavy labels. Validation used rule-based edge labeling: 
+This experimental setup thus provides a simple model in which unlabelled Arginines (R0) and Lysines (K0) will follow similar trends, while their heavy-labeled counterparts (R10, K8) which will exhibit the opposite trend. Other modifications, like Methionine oxidations, are not expected to correlate with light or heavy labels.<br>
+Validation used rule-based edge labeling: 
 1. Positive associations between two heavy or two light residues are valid
 2. Negative associations between one heavy and one light residue are valid
 3. All other associations are invalid.
+
+The MoDPA network is compared to a randomized network to verify whether our method is capturing biological associations or random artefacts.<br>
+Two randomizations algorithms are available: `4-pulse-silac-validation/randomize-network.py`, whereby edges are shuffled without changing the degree of the nodes, and `4-pulse-silac-validation/Full-random-network.py`, whereby no restrictions have been specified.
 
