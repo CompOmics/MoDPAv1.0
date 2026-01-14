@@ -20,7 +20,9 @@ To speed up the mapping process, a "peptide dictionary" file can be provided, wh
 The remaining scripts inside the `1-quant-pipeline-MoDPA_v2` parse the peptidoform IDs and counts files to generate absolute counts for each peptidoforms (A). These absolute counts are then used to compute relative PTMs counts (B). 
 
 Example:
+
 `python .\A_Pipeline_Sept2025.py ./v0113-partial/20250217_Peptidoforms_IDs_v0113.csv.gz .\v0113-partial\20251003_Peptidoforms_counts_v0113.csv.gz .\peptide_dict_new.csv.gz .\Human_2023_01_isoforms.fasta.gz`
+
 `python .\B_relative_PTMs.py . 2025-12-19`
 
 ###### Prepare VAE training data
