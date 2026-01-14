@@ -3,7 +3,7 @@
 import networkx as nx
 import numpy as np
 import pandas as pd
-import sys
+import argparse
 
 def Degree_preserving_randomization(G):
     print(len(G.edges()))
@@ -24,13 +24,17 @@ def Degree_preserving_randomization(G):
                 G.add_edge(*newedge2, weight=weight2)
     print(len(G.edges()))
 
-if len(sys.argv) != 3:
-    print("Usage: python 20251027-randomize-network.py inpath outpath")
-    sys.exit(1)
-inpath = sys.argv[1]
-outpath = sys.argv[2]
+def parse_cli() -> argparse.Namespace:
+    p = argparse.ArgumentParser()
+    p.add_argument("input", type=str, help="Path to input file (nonrandom network)")
+    p.add_argument("--output", dest='output', type=str, default='deegree-preserved-random-network.csv.gz', 
+                   help="Path to output file (default: deegree-preserved-random-network.csv.gz)")
+    return p.parse_args()
 
-edgelist = pd.read_csv(inpath, usecols=['nodeA','nodeB','Score'])
+
+
+args = parse_cli()
+edgelist = pd.read_csv(args.input, usecols=['nodeA','nodeB','Score'])
 # edgelist = edgelist[edgelist.distance > 0.38].copy(deep=True)
 G = nx.Graph()
 G.add_weighted_edges_from(
@@ -49,5 +53,5 @@ for edge in list(G.edges()):
         abs(G.edges()[edge]['weight'])
     ])
 edgelist2 = pd.DataFrame(edgelist2, columns=['nodeA','nodeB','Score','distance'])
-edgelist2.to_csv(outpath, index=False, encoding='utf8', compression='gzip')
+edgelist2.to_csv(args.output, index=False, encoding='utf8', compression='gzip')
 
