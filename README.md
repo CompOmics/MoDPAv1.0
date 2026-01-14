@@ -26,7 +26,7 @@ Example:<br>
 `python .\A_Pipeline_Sept2025.py ./v0113-partial/20250217_Peptidoforms_IDs_v0113.csv.gz .\v0113-partial\20251003_Peptidoforms_counts_v0113.csv.gz .\peptide_dict_new.csv.gz .\Human_2023_01_isoforms.fasta.gz`<br>
 `python .\B_relative_PTMs.py . 2025-12-19`
 
-##### Prepare VAE training data
+###### Prepare VAE training data
 
 Filter the results with `1-quant-pipeline-MoDPA_v2\C_prefilter-relative-PTMs.py` and extract PTM-by-experiment matrices (1 per PTM of interest) using `1-quant-pipeline-MoDPA_v2\D_Get-MoDPA-matrices.py`.<br>
 Provide the list of PTMs of interest as a .csv file with the following columns:
@@ -42,6 +42,10 @@ Combine the PTMs of interest into one dataset with `1-quant-pipeline-MoDPA_v2\E_
 Multiple models can be trained at the same time with `2-VAE-code/New-VAE-gridsearch.py`. The hyperparameters of the models can be specified either within the code file OR in a separate .txt file (if hard-coded, they will be saved in a .txt, in case you need to re-run).<br>
 After training, run `2-VAE-code/New-VAE-validation.py` to get an overview of trained models and select the best one. The `Latent-space` of the model will serve as input to Step 3, PTM correlations calculation.<br>
 ***Using a GPU is recommended for training the VAEs.***
+
+#### Calculate correlations between PTMs
+
+Use `3-calculate-correlations/get-signdistance-multiproc-2.py` to calculate signed distances correlations between PTMs in the latent space. To make it feasible to process large datasets (10000+ PTMs), the data is analyzed in chunks. Use `3-calculate-correlations/combine-signdistance-results.py` to combine the partial results into one file and perform multiple testing correction.
 
 #### Calculate correlations between PTMs
 

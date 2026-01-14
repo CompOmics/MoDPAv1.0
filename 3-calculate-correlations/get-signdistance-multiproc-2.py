@@ -4,7 +4,7 @@ import concurrent.futures
 import multiprocessing as mp
 import pandas as pd
 import numpy as np
-import scipy, os, sys, time, dcor, math, argparse
+import scipy, os, time, dcor, math, argparse
 from more_itertools import batched 
 start = time.perf_counter()
 
@@ -33,8 +33,8 @@ def calculate_correlations_w_pval(i, latent_space=latent):
             pearson, _ = scipy.stats.pearsonr(arrayA, arrayB)
             d = dcor.distance_correlation(arrayA, arrayB)
             signd = math.copysign(d,pearson)
-            correlations.append([ptmA, ptmB, f'{d:.2f}', f'{signd:.2f}', f'{dpval:.4f}'])
-    return pd.DataFrame(correlations, columns=['nodeA','nodeB','distance','Score','pval'])
+            correlations.append([ptmA, ptmB, signd, dpval, d, pearson])
+    return pd.DataFrame(correlations, columns=['nodeA','nodeB','Score','pval','distance','PCC'])
 
 if __name__=='__main__':
     # mp.freeze_support()
@@ -47,7 +47,7 @@ if __name__=='__main__':
             correlations = pd.concat(results, ignore_index=True)
             
         savepath = os.path.join(args.model,f"{args.model.split('-')[-1]}-signed-distances-{batch_id}-partial.csv.gz")
-        correlations.to_csv(savepath, compression='gzip', index=False)
+        correlations.to_csv(savepath, compression='gzip', index=False, float_format='%.3f', encoding='utf-8')
         print(savepath)
         del correlations
 
