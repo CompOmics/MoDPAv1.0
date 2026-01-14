@@ -62,3 +62,6 @@ Validation used rule-based edge labeling:
 The MoDPA network is compared to a randomized network to verify whether our method is capturing biological associations or random artefacts.<br>
 Two randomizations algorithms are available: `4-pulse-silac-validation/randomize-network.py`, whereby edges are shuffled without changing the degree of the nodes, and `4-pulse-silac-validation/Full-random-network.py`, whereby no restrictions have been specified.
 
+#### Clustering and enrichment analysis
+
+Downstream analysis of the network can be performed in different ways. In our publication, we used the clusterMaker Cytoscape plugin to generate 23 clusters of strongly interconnected PTMs (Leiden algorithm; objective_function = modularity; resolution_parameter = 0.5; beta = 0.01; n_iterations = 2). The clustered PTMs can be found in `5-Enrichment-analysis/compassionate_buck-v2/Leiden-0.5/clustered-nodes.csv`. We finally performed a Reactome pathway enrichment analysis on the modified proteins within each cluster (`5-Enrichment-analysis/reactome-pathways-enrichment.py`).

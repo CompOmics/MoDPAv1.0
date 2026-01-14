@@ -1,16 +1,26 @@
 #!/usr/bin/env python
 # coding: utf-8
 from reactome2py import content, analysis
-import os, time
+import os, time, sys, argparse
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+def parse_cli() -> argparse.Namespace:
+    p = argparse.ArgumentParser()
+    p.add_argument("data_path", type=str, help="Path to the clustered nodes CSV file.")
+    p.add_argument('clustering_col', type=str, help="Column with cluster names/indices.")
+    return p.parse_args()
 
-data_path = "./without_sulfo/compassionate_buck-v2/Leiden-0.5/nodes.csv"
+args = parse_cli()
+data_path = args.data_path
+clustering_col = args.clustering_col
+
+if not os.path.isfile(data_path):
+    sys.exit(f"Error: data file not found: {data_path}")
+
 FLD = os.path.split(data_path)[0]
-clustering_col = '__leidenCluster'
 data = pd.read_csv(data_path)
 
 data.rename(columns={
@@ -21,9 +31,9 @@ data.rename(columns={
     'MOD':'Unimod_ID'
     }, inplace=True)
 print(data.shape)
-data[
-    ['PTM_ID','UniAcc','residue','position','modification','Unimod_ID']
-].to_csv(os.path.join(FLD, 'better-nodes.csv'))
+data[ # saves the nodes in a slightly better format
+    ['PTM_ID',clustering_col,'UniAcc','residue','position','modification','Unimod_ID']
+].to_csv(os.path.join(FLD, 'nicely-formatted-nodes.csv'))
 
 for cluster,df in data.groupby(clustering_col).__iter__():
     outpath  = os.path.join(FLD, f'cluster{cluster}-reac.csv')
@@ -31,7 +41,7 @@ for cluster,df in data.groupby(clustering_col).__iter__():
     markers = list(set(df.UniAcc))
     
     df[ # save the nodes of the clusters into separate .csv files
-        ['PTM_ID','UniAcc','residue','position','modification','Unimod_ID']
+        ['PTM_ID',clustering_col,'UniAcc','residue','position','modification','Unimod_ID']
     ].to_csv(outpath2, index=False)
 
     if len(markers)<20:
