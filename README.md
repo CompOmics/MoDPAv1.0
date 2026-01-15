@@ -49,7 +49,7 @@ After training, run `2-VAE-code/New-VAE-validation.py` to get an overview of tra
 
 #### Calculate correlations between PTMs
 
-Use `3-calculate-correlations/get-signdistance-multiproc-2.py` to calculate signed distances correlations between PTMs in the latent space. To make it feasible to process large datasets (10000+ PTMs), the data is analyzed in chunks. Use `3-calculate-correlations/combine-signdistance-results.py` to combine the partial results into one file and perform multiple testing correction.
+Use `3-calculate-correlations/get-signdistance-multiproc.py` to calculate signed distances correlations between PTMs in the latent space. To make it feasible to process large datasets (10000+ PTMs), the data is analyzed in chunks. Use `3-calculate-correlations/combine-signdistance-results.py` to combine the partial results into one file and perform multiple testing correction.
 
 #### Pulsed SILAC data analysis
 

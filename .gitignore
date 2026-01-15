@@ -4,10 +4,7 @@
 20251030-1725-compassionate_buck-signed-distances.csv.gz
 
 *.gz
-1-quant-pipeline-MoDPA_v2/*.ipynb
-2-VAE-code/*.ipynb
-3-calculate-correlations/*.ipynb
-4-pulse-silac-validation/*.ipynb
+*.ipynb
 ipynb_checkpoints/
 ionbot-dev/
 

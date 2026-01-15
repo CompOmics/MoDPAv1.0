@@ -4,10 +4,7 @@ import pandas as pd
 import polars as pl
 import numpy as np
 from PTMmap import Fasta
-import argparse, re
-import pyteomics.parser
-from tqdm import tqdm
-
+import argparse
 from datetime import date, datetime
 TODAY = date.today().isoformat() 
 print('The date is:',TODAY)
@@ -19,8 +16,8 @@ def parse_cli() -> argparse.Namespace:
                         help="Path to 'Peptidoforms' file.")
     p.add_argument('peptidoform_counts', metavar='peptidoform_counts', type=str, 
                         help="Path to 'peptidoform_counts' file.")
-    # p.add_argument('peptides_mappings', metavar='peptides_mappings', type=str, 
-    #                     help="Path to 'peptides_mappings' file.")
+    p.add_argument('peptides_mappings', metavar='peptides_mappings', type=str, 
+                        help="Path to 'peptides_mappings' file.")
     p.add_argument('fasta', metavar='fasta', type=str, 
                         help='Path to FASTA file.')
     return p.parse_args()
@@ -41,78 +38,38 @@ def unique_counts_per_UniAcc(prot_list, counts):
     """Map a sequence of UniProt accessions to their unique-peptide counts, defaulting to 0."""
     return [counts.get(acc, 0) for acc in prot_list]
 
-def read_peptide_to_protein_mappings(fasta_path, pep_set):
-    ## CONSTANTS
-    MIN_PMZ = 500
-    MAX_PMZ = 6000
-    MIN_LENGTH = 7
-    MAX_LENGTH = 30
-    AMINO_MASSES = {
-        "A": 71.037114,
-        "C": 103.009185,
-        "D": 115.026943,
-        "E": 129.042593,
-        "F": 147.068414,
-        "G": 57.021464,
-        "H": 137.058912,
-        "I": 113.084064,
-        "K": 128.094963,
-        "L": 113.084064,
-        "M": 131.040485,
-        "N": 114.042927,
-        "P": 97.052764,
-        "Q": 128.058578,
-        "R": 156.101111,
-        "S": 87.032028,
-        "T": 101.047679,
-        "V": 99.068414,
-        "W": 186.079313,
-        "Y": 163.063329,
-    }
-    AMINO_MAP = {
-        a: i for i, a in enumerate(sorted((a for a in AMINO_MASSES.keys() if a != "L")))
-    }
-    AMINO_MAP["L"] = AMINO_MAP["I"]
-    non_aa_characters = re.compile(
-        r'[^%s]' % ("".join(list(AMINO_MASSES.keys())))
-    ) #Matches anything that is NOT a valid AA
-    
+def read_peptide_to_protein_mappings(pep_dict_path, pep_set, fasta_path):
     # read Fasta to classify proteins into canonical, isoforms, ecc
     fasta = {}
     Fasta.getFasta(fasta_path, fasta)
     Fasta.addClassification(fasta)
-    proteins = list(fasta.keys())
-    pep_df = []
-    print("Parsing .fasta file...")
-    for UniAcc in tqdm(proteins, total=len(proteins)):
-        sequence = fasta[UniAcc]['Seq']
-    
-        for peptide in pyteomics.parser.cleave(sequence, 'Trypsin/P', 2):
-            # 'Trypsin/P' cleaves after K/R, ignores Proline
-            if len(peptide) < MIN_LENGTH or len(peptide) > MAX_LENGTH or non_aa_characters.findall(peptide):
-                continue
-            # if peptide not in pep_set:
-            #     continue
-            if peptide.startswith("M") and sequence.startswith(peptide) and len(peptide)-1 >= MIN_LENGTH:
-                pep_df.append((peptide[1:], UniAcc, fasta[UniAcc]['Entry'], sequence.find(peptide[1:]) + 1))
-            pep_df.append((peptide, UniAcc, fasta[UniAcc]['Entry'], sequence.find(peptide) + 1))
-    
-    pep_df = pl.DataFrame(
-        pep_df, orient="row",
-        schema={'sequence':pl.String, 'UniAcc':pl.String, 'entry':pl.String, 'start':pl.Int64}
-        ).lazy()
-    pep_df = pep_df.filter(pl.col('sequence').is_in(pep_set))
-    pep_df = pep_df.sort('UniAcc')
-    pep_df = pep_df.sort(
+    # read ionbot pep dict file
+    pepdict = pl.scan_csv(pep_dict_path)
+    pepdict = pepdict.rename({'peptide':'sequence'})
+    # print(f"#Unique pep sequences in searchDB = {len(pepdict.select(pl.col('sequence')).unique()):,}")
+    pepdict = pepdict.filter(pl.col('sequence').is_in(pep_set))
+    # print(f"#Unique pep sequences found by Ionbot = {len(pepdict.select(pl.col('sequence')).unique()):,}")
+
+    pepdict = pepdict.with_columns(pl.col("proteins").str.split(by="||"))
+    pepdict = pepdict.explode('proteins')
+    pepdict = pepdict.with_columns(
+        pl.col("proteins").str.replace_all(r"\(\(|\)\)", "//")
+        )
+    pepdict = pepdict.with_columns(
+        pl.col('proteins').str.split('//').list.get(3).str.replace_all(r"\|", ".").alias('UniAcc'),
+        pl.col('proteins').str.split('//').list.get(0).alias('entry'),
+        pl.col('proteins').str.split('//').list.get(1).str.split('-').list.get(0).cast(pl.Int32).alias('start')
+        )
+    pepdict = pepdict.sort(
         pl.col('UniAcc').map_elements(lambda x: getClass(x,fasta))
         )
-    pep_df = pep_df.group_by('sequence').agg(
+    pepdict = pepdict.group_by('sequence').agg(
         [pl.col('start'), pl.col('UniAcc'), pl.col('entry')]
         )
-    pep_df = pep_df.with_columns(
+    pepdict = pepdict.with_columns(
         (pl.col('UniAcc').list.len() > 1).alias('ambiguous_map')
         )
-    return pep_df.collect()
+    return pepdict.collect()
     
 # def get_leading(row):
 #     counts = list(row['unique_counts'])
@@ -124,11 +81,9 @@ def read_peptide_to_protein_mappings(fasta_path, pep_set):
 #     leading_start = starts[counts.index(max(counts))]
 #     return leading_prot, leading_entry, leading_start
 
-def get_ambiguous_peptides(fasta_path, pep_set):
-    maps_ambig_partial = read_peptide_to_protein_mappings(fasta_path, pep_set) 
-    # maps_ambig_partial = maps_ambig_partial.filter(pl.col('sequence').is_in(pep_set))
+def get_ambiguous_peptides(pep_dict_path, pep_set, fasta_path):
+    maps_ambig_partial = read_peptide_to_protein_mappings(pep_dict_path, pep_set, fasta_path)    
     unique_mappings = maps_ambig_partial.filter(~pl.col('ambiguous_map'))
-    
     unique_mappings = unique_mappings.with_columns(
         pl.col('UniAcc').list.get(0).alias('unique_protein')
     )
@@ -139,10 +94,10 @@ def get_ambiguous_peptides(fasta_path, pep_set):
     maps_ambig_partial = maps_ambig_partial.with_columns(
         pl.col('UniAcc').map_elements(lambda x: unique_counts_per_UniAcc(x,unique_counts)).alias('unique_counts')
     )
-
     maps_ambig_partial = maps_ambig_partial.with_columns(
         pl.col('unique_counts').map_elements(np.argmax).alias('max_idx')
-    ).with_columns(
+    )
+    maps_ambig_partial = maps_ambig_partial.with_columns(
         pl.col('UniAcc').list.get(pl.col('max_idx')).alias('LeadProt'),
         pl.col('entry').list.get(pl.col('max_idx')).alias('LeadEntry'),
         pl.col('start').list.get(pl.col('max_idx')).alias('pep_start') 
@@ -154,9 +109,7 @@ def get_ambiguous_peptides(fasta_path, pep_set):
     maps_ambig_partial = maps_ambig_partial.sort('ambiguous_map')
     return maps_ambig_partial.select(['sequence','pep_start','LeadProt','LeadEntry','UniAcc','unique_counts','max_idx'])
 
-def map_ionbot_IDs(IDs_path, 
-                   # pep_dict_path, 
-                   psm_counts_path, fasta_path):
+def map_ionbot_IDs(IDs_path, pep_dict_path, psm_counts_path, fasta_path):
     my_ids = pl.read_csv(psm_counts_path,columns=['peptidoform_id'])
     my_ids = my_ids['peptidoform_id'].to_list()
     ids = pl.scan_csv(IDs_path)
@@ -166,8 +119,9 @@ def map_ionbot_IDs(IDs_path,
     del my_ids
     
     maps_ambig = get_ambiguous_peptides(
-        fasta_path, 
-        ids['sequence'].unique().to_list()
+        pep_dict_path, 
+        ids['sequence'].unique().to_list(),
+        fasta_path
     ) 
     maps_ambig.columns = ['sequence','pep_start','LeadProt','LeadEntry','all_UniAcc','unique_counts','max_idx']
     
@@ -257,7 +211,7 @@ print(START.isoformat())
 args = parse_cli()
 mapped_ids = map_ionbot_IDs(
     args.peptidoform_ids, 
-    # args.peptides_mappings,
+    args.peptides_mappings,
     args.peptidoform_counts,
     args.fasta
 )
@@ -280,7 +234,7 @@ if total > 0:
     print(f"% Unmodified peptides = {unmod / total:.1%}", '\n')
 
 print("Mapped peptidoforms with counts:", mapped_peptidoforms_counts.shape)
-mapped_peptidoforms_counts.to_csv(f'{TODAY}_Peptidoforms_counts_mapped.csv.gz', compression='gzip', index=False, encoding='utf-8')
+mapped_peptidoforms_counts.to_csv(f'{TODAY}_Peptidoforms_counts_mapped_backup.csv.gz', compression='gzip', index=False, encoding='utf-8')
 
 END = datetime.now()
 print("Done!!")
