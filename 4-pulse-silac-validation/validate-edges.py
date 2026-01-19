@@ -96,7 +96,7 @@ for i in np.arange(0.4, 1, .05):
         # 'Pearson correlation',
           'Degree-preserved random',
           'Fully random',
-        'Jaccard'
+        # 'Jaccard'
              ]:
         validated_edges.append([i, j, count_validated(data, i, j)])
 
@@ -106,4 +106,6 @@ plt.xlabel('Min Abs Correlation')
 plt.ylabel('% Validated Edges')
 plt.ylim(0,1)
 plt.axvline(0.65, color='k', ls='--', lw=.7)
-plt.savefig('20251021-1101-relaxed_carver/validated-edges-v2.png', dpi=300, bbox_inches='tight')
+plt.savefig('20251021-1101-relaxed_carver/validated-edges-v3.png', dpi=300, bbox_inches='tight')
+
+# plt.savefig('20251021-1101-relaxed_carver/Figure-2-psilac.svg', dpi=300, bbox_inches='tight')
