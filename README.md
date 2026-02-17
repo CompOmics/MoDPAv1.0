@@ -1,4 +1,5 @@
 ![Example Image](modpa-logo.png)
+
 # MoDPA: Modification-Dependent Protein Associations
 
 Post-translational modifications (PTMs) are key regulators of protein function and cellular processes; however, the overall principles of PTM co-regulation and crosstalk remain to be fully understood. 
@@ -9,13 +10,14 @@ To overcome the extreme sparsity and heterogeneity of PTM calls across experimen
 
 ### Reproducing the results
 
-To reproduce our publication's results, you will need :
+To reproduce our publication's results, you will need:
 
 1. A peptidoform identifications (IDs) file
 2. A peptidoform counts file
 3. A fasta file to map peptidoforms to proteins
 
-To ensure reproducibility, we recommend running the code in a new Python environment that can be created from the .yml file in the repositiory: `conda env create -f env.yml`
+To ensure reproducibility, we recommend running the code in a new Python environment that can be created from the .yml file in the repositiory: `conda env create -f env.yml`<br>
+(Estimated time: )
 
 #### Preprocessing & PTMs quantification
 
@@ -41,13 +43,12 @@ Provide the list of PTMs of interest as a .csv file with the following columns:
 
 Combine the PTMs of interest into one dataset with `1-quant-pipeline-MoDPA_v2\E_combine-MoDPA-matrices.py`.
 
-#### Train VAE
+#### Train VAE <br>
+***We recommend using GPUs for this task.***
 
 Multiple models can be trained at the same time with `2-VAE-code/New-VAE-gridsearch.py`. The hyperparameters of the models can be specified either within the code file OR in a separate .txt file (if hard-coded, they will be saved in a .txt, in case you need to re-run).
 
 After training, run `2-VAE-code/New-VAE-validation.py` to get an overview of trained models and select the best one. The `Latent-space` of the model will serve as input to Step 3, PTM correlations calculation.
-
-***Using a GPU is recommended for training the VAEs.***
 
 #### Calculate correlations between PTMs
 
