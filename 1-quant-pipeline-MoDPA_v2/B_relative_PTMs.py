@@ -116,13 +116,29 @@ def process_chunk(data: pd.DataFrame, chunk_path: str) -> None:
         (pl.col('ptm_psm_counts') / pl.col('total_site_psm_counts')).alias('relative_psm_counts')
     ])
 
-    rel_counts.write_csv(chunk_path, float_precision=3)
+    if len(rel_counts)>0:
+        rel_counts.write_csv(chunk_path, float_precision=3)
+        return True
+    else:
+        return False
 
 # In[]: main
 def main():
     args = parse_cli() 
     in_path = f"{args.data_folder}/{args.date}_Peptidoforms_counts_mapped.csv.gz"
     tmp_dir_path = f"{args.data_folder}/counts-per-msrun"
+
+    schema = {
+        'file_name':pl.String,
+        'LeadProt':pl.String,
+        'ptm_loc':pl.Int64,
+        'ptm_res':pl.String,
+        'ptm_name':pl.String,
+        'classification':pl.String,
+        'ptm_psm_counts':pl.Int64,
+        'total_site_psm_counts':pl.Int64,
+        'relative_psm_counts':pl.Float64,
+    }
 
     lf = pl.scan_csv(
         in_path,
@@ -143,12 +159,13 @@ def main():
         print(i+1, "/", n_chunks)
         chunk_path = f"{tmp_dir_path}/msrun-{i+1}.csv"
         data = data_chunks.pop()
-        process_chunk(data, chunk_path)
-        chunk_path_list.append(chunk_path)
+        if process_chunk(data, chunk_path):
+            chunk_path_list.append(chunk_path)
+    print('# files with usable data:', len(chunk_path_list))
 
     final_data = []
     for _ in chunk_path_list:
-        final_data.append(pl.read_csv(_))
+        final_data.append(pl.read_csv(_, schema_overrides=schema))
     final_data = pl.concat(final_data)
     final_data = final_data.to_pandas()
     

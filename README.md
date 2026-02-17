@@ -1,3 +1,5 @@
+![Example Image](modpa-logo.png)
+
 # MoDPA: Modification-Dependent Protein Associations
 
 Post-translational modifications (PTMs) are key regulators of protein function and cellular processes; however, the overall principles of PTM co-regulation and crosstalk remain to be fully understood. 
@@ -22,9 +24,11 @@ The scripts inside the `1-quant-pipeline-MoDPA_v2` folder parse the peptidoform 
 
 ###### Example
 
-`python .\A_Pipeline_Sept2025.py ./v0113-partial/20250217_Peptidoforms_IDs_v0113.csv.gz .\v0113-partial\20251003_Peptidoforms_counts_v0113.csv.gz .\Human_2023_01_isoforms.fasta.gz`
+`python ./A_Pipeline_Sept2025.py ./v0113-2025/20250217_Peptidoforms_IDs_v0113.csv.gz ./v0113-2025/20250217_Peptidoforms_counts_v0113.csv.gz Human_2023_01_isoforms.fasta.gz`
 
-`python .\B_relative_PTMs.py . 2025-12-19`
+`python ./B_relative_PTMs.py . 2025-12-19`
+
+Note: This repository only contains the pSILAC dataset. The v0113-2025 dataset is available in Zenodo (https://zenodo.org/records/18310674)
 
 ###### Prepare VAE training data
 
@@ -68,4 +72,4 @@ Downstream analysis of the network can be performed in different ways.
 
 In our publication, we used the clusterMaker Cytoscape plugin to generate 23 clusters of strongly interconnected PTMs (Leiden algorithm; objective_function = modularity; resolution_parameter = 0.5; beta = 0.01; n_iterations = 2). The clustered PTMs can be found in `5-Enrichment-analysis/compassionate_buck-v2/Leiden-0.5/clustered-nodes.csv`. We finally performed a Reactome pathway enrichment analysis on the modified proteins within each cluster (`5-Enrichment-analysis/reactome-pathways-enrichment.py`).
 
------
+------
