@@ -17,7 +17,7 @@ To reproduce our publication's results, you will need:
 3. A fasta file to map peptidoforms to proteins
 
 To ensure reproducibility, we recommend running the code in a new Python environment that can be created from the .yml file in the repositiory: `conda env create -f env.yml`<br>
-(Estimated time: )
+(Estimated time: 5min)
 
 #### Preprocessing & PTMs quantification
 
@@ -43,8 +43,9 @@ Provide the list of PTMs of interest as a .csv file with the following columns:
 
 Combine the PTMs of interest into one dataset with `1-quant-pipeline-MoDPA_v2\E_combine-MoDPA-matrices.py`.
 
-#### Train VAE <br>
-***We recommend using GPUs for this task.***
+#### Train VAE
+
+We recommend using GPUs for this task.
 
 Multiple models can be trained at the same time with `2-VAE-code/New-VAE-gridsearch.py`. The hyperparameters of the models can be specified either within the code file OR in a separate .txt file (if hard-coded, they will be saved in a .txt, in case you need to re-run).
 
