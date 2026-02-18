@@ -1,15 +1,16 @@
 #!/usr/bin/env python
 # coding: utf-8
-import numpy as np
 import pandas as pd
 from tensorflow import keras
 import matplotlib.pyplot as plt
 import seaborn as sns
-import os, json, sys
+import os, json, argparse
 from tqdm import tqdm
 
-# FLD = './_testing_arch_2'
-FLD = sys.argv[1]
+def parse_cli() -> argparse.Namespace:
+    p = argparse.ArgumentParser()
+    p.add_argument('folder', type=str, help="Path to models folder")
+    return p.parse_args() 
 
 # In[2]:
 def evaluate_reconstruction(fld):
@@ -27,8 +28,9 @@ def read_model_params(fld):
 
 
 # In[3]:
+args = parse_cli()
 models = []
-folders = [_ for _ in os.scandir(FLD) if os.path.isdir(_.path)]
+folders = [_ for _ in os.scandir(args.folder) if os.path.isdir(_.path)]
 for m in tqdm(folders):
     x = read_model_params(m)
     x = pd.DataFrame.from_dict(x, orient='index').T
@@ -46,7 +48,7 @@ sns.catplot(data=models, kind='box',
             # notch=True,
             dodge=True, palette='pastel'
            )
-plt.savefig(os.path.join(FLD,'boxplot.png'), dpi=300, bbox_inches='tight')
+plt.savefig(os.path.join(args.folder,'boxplot.png'), dpi=300, bbox_inches='tight')
 
 
 # In[8]:
@@ -55,10 +57,10 @@ sns.catplot(data=models, kind='point',
             # linestyle='--',
             dodge=True, palette='pastel'
            )
-plt.savefig(os.path.join(FLD,'pointplot.png'), dpi=300, bbox_inches='tight')
+plt.savefig(os.path.join(args.folder,'pointplot.png'), dpi=300, bbox_inches='tight')
 
 
 # In[17]:
 models.sort_values('cosine_similarity', ascending=False, inplace=True)
-models.to_csv(os.path.join(FLD,'models_summary.csv.gz'), compression='gzip')
+models.to_csv(os.path.join(args.folder,'models_summary.csv.gz'), compression='gzip')
 print(models.iloc[0,:])

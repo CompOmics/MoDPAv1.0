@@ -28,7 +28,6 @@ random_edges = np.random.choice(all_possible_edges, len(edges), replace=False)
 fully_random = pd.DataFrame(zip(random_edges, edges.Score), columns=['edge','Score'])
 fully_random[['nodeA','nodeB']] = fully_random.edge.str.split("__", expand=True)
 fully_random['distance'] = fully_random.Score.apply(abs)
-fully_random
 
 fully_random[['nodeA','nodeB','Score','distance']].to_csv(
     args.output,

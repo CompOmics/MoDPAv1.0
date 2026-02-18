@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 import concurrent.futures
-import multiprocessing as mp
 import pandas as pd
 import numpy as np
 import scipy, os, time, dcor, math, argparse
@@ -39,7 +38,7 @@ def calculate_correlations_w_pval(i, latent_space=latent):
 if __name__=='__main__':
     # mp.freeze_support()
     
-    batches = batched(range(len(latent)-1), n=1000)
+    batches = batched(range(len(latent)-1), n=500)
 
     for batch_id,batch in enumerate(batches):
         with concurrent.futures.ProcessPoolExecutor() as executor:

@@ -17,7 +17,7 @@ To reproduce our publication's results, you will need:
 3. A fasta file to map peptidoforms to proteins
 
 To ensure reproducibility, we recommend running the code in a new Python environment that can be created from the .yml file in the repositiory: `conda env create -f env.yml`<br>
-(Estimated time: 5min)
+Estimated run time is 1-2 hour(s) for the small pulsed SILAC dataset (~3h on very small laptops).
 
 #### Preprocessing & PTMs quantification
 
@@ -29,11 +29,11 @@ The scripts inside the `1-quant-pipeline-MoDPA_v2` folder parse the peptidoform 
 
 `python ./B_relative_PTMs.py . 2025-12-19`
 
-Note: This repository only contains the pSILAC dataset. The v0113-2025 dataset is available in Zenodo (https://zenodo.org/records/18310674)
+Note: This repository only contains the pulsed SILAC dataset. The v0113-2025 dataset is available in Zenodo (https://zenodo.org/records/18310674)
 
 ###### Prepare VAE training data
 
-Filter the results with `1-quant-pipeline-MoDPA_v2\C_prefilter-relative-PTMs.py` and extract PTM-by-experiment matrices (1 per PTM of interest) using `1-quant-pipeline-MoDPA_v2\D_Get-MoDPA-matrices.py`.<br>
+Filter the results with `1-quant-pipeline-MoDPA_v2/C_prefilter-relative-PTMs.py` and extract PTM-by-experiment matrices (1 per PTM of interest) using `1-quant-pipeline-MoDPA_v2\D_Get-MoDPA-matrices.py`.<br>
 Provide the list of PTMs of interest as a .csv file with the following columns:
 
 |AA|unimod_id|ptm_name|
