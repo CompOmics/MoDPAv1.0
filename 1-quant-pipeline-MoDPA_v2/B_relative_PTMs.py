@@ -5,7 +5,20 @@ import polars as pl
 import numpy as np
 import argparse, os, shutil
 from string import ascii_uppercase
-from datetime import datetime
+import time
+
+def parse_cli() -> argparse.Namespace:
+    p = argparse.ArgumentParser()
+    # p.add_argument("data_folder", type=existing_folder, help="Path to processed folder with the data.")
+    # p.add_argument("date", type=str, help="Date in YYYY-MM-DD format.")
+    p.add_argument("input_path", type=existing_file, help="Path to the input CSV file (***_Peptidoforms_counts_mapped.csv.gz).")
+    return p.parse_args()
+
+def existing_file(path: str) -> str:
+    if not os.path.isfile(path):
+        raise argparse.ArgumentTypeError(f"File not found! --> {path}")
+    else:
+        return path
 
 # In[]: def functions
 def ptm_dictionary(row):
@@ -36,14 +49,11 @@ def zip_modifications(row):
     prot = row['LeadProt']
     return [f'{prot}|{p}|{r}|{m}|{c}' for p,m,r,c in iterator if r in list(ascii_uppercase) and c not in ['ragging','semi_tryptic']]
 
+def process_chunk(data: pd.DataFrame, chunk_path: str) -> bool:
+    if os.path.exists(chunk_path):
+        print(f"Chunk file {chunk_path} already exists. Skipping processing.")
+        return True
 
-def parse_cli() -> argparse.Namespace:
-    p = argparse.ArgumentParser()
-    p.add_argument("data_folder", type=str, help="Path to processed folder with the data.")
-    p.add_argument("date", type=str, help="Date in YYYY-MM-DD format.")
-    return p.parse_args()
-
-def process_chunk(data: pd.DataFrame, chunk_path: str) -> None:
     lf = data.lazy()
 
     # print("Step 1: Filtering...")
@@ -125,9 +135,10 @@ def process_chunk(data: pd.DataFrame, chunk_path: str) -> None:
 # In[]: main
 def main():
     args = parse_cli() 
-    in_path = f"{args.data_folder}/{args.date}_Peptidoforms_counts_mapped.csv.gz"
-    tmp_dir_path = f"{args.data_folder}/counts-per-msrun"
-
+    # in_path = f"{args.data_folder}/{args.date}_Peptidoforms_counts_mapped.csv.gz"
+    in_path = args.input_path
+    out_path = in_path.replace('_Peptidoforms_counts_mapped.csv.gz', '_PTMs_counts_relative.csv.gz')
+    tmp_dir_path = os.path.join(os.path.dirname(in_path), "counts-per-msrun")
     schema = {
         'file_name':pl.String,
         'LeadProt':pl.String,
@@ -139,7 +150,6 @@ def main():
         'total_site_psm_counts':pl.Int64,
         'relative_psm_counts':pl.Float64,
     }
-
     lf = pl.scan_csv(
         in_path,
         encoding='utf8'
@@ -151,9 +161,8 @@ def main():
     )
     data_chunks = lf.collect().partition_by("file_name")
 
-    os.makedirs(tmp_dir_path, exist_ok=False)
+    os.makedirs(tmp_dir_path, exist_ok=True)
     n_chunks = len(data_chunks)
-
     chunk_path_list = []
     for i in range(n_chunks):
         print(i+1, "/", n_chunks)
@@ -171,11 +180,15 @@ def main():
     
     final_data.rename(columns={'LeadProt':'UniAcc'}, inplace=True)
     final_data.to_csv(
-        f"{args.data_folder}/{args.date}_PTMs_counts_relative.csv.gz",
+        # f"{args.data_folder}/{args.date}_PTMs_counts_relative.csv.gz",
+        out_path,
         index=False, 
         compression='gzip',
         encoding='utf-8'
     )
+    print(f"Relative PTM counts saved to: {out_path}")
+
+    # clean tmp folder
     try:
         shutil.rmtree(tmp_dir_path)
     except:
@@ -183,12 +196,7 @@ def main():
 
 
 if __name__ == "__main__":
-    START = datetime.now()
-    print(START.isoformat())
-
+    start = time.perf_counter()
     main()
-    
-    END = datetime.now()
-    print("Done!!")
-    print("Started: ", START.isoformat())
-    print("Finished:", END.isoformat(), '\n')
+    finish = time.perf_counter()
+    print(f'Finished in {round(finish-start, 2)} second(s)')

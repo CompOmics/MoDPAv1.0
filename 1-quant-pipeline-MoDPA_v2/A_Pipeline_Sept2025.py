@@ -8,18 +8,15 @@ from PTMmap import Fasta
 import argparse, re, time
 import pyteomics.parser
 from tqdm import tqdm
-
 from datetime import date, datetime
-TODAY = date.today().isoformat() 
-print('The date is:',TODAY)
-
 
 def parse_cli() -> argparse.Namespace:
     p = argparse.ArgumentParser()
     p.add_argument('peptidoform_ids', type=existing_file, help="Path to 'Peptidoforms_IDs' file")
     p.add_argument('peptidoform_counts', type=existing_file, help="Path to 'peptidoform_counts' file")
     p.add_argument('fasta', type=existing_file, help='Path to FASTA file')
-    p.add_argument("-t", "--threads", type=int, default=16, help="Number of threads to use (Default: 16)")
+    p.add_argument("-p", "--prefix",  type=str, default=date.today().isoformat() , help="Prefix for output files ()Default: today's date)")
+    p.add_argument("-t", "--threads", type=int, default=-1, help="Number of threads to use (Default: all available)")
     return p.parse_args()
 
 def existing_file(path: str) -> str:
@@ -170,10 +167,10 @@ def map_ionbot_IDs(IDs_path, psm_counts_path, fasta_path):
     ) 
     maps_ambig.columns = ['sequence','pep_start','LeadProt','LeadEntry','all_UniAcc']
     
-    print("IDs table size:", ids.shape)
+    print(f"IDs table length: {ids.shape[0]:,}")
     mapped_ids = ids.join(maps_ambig, on='sequence', validate='m:1')
-    print("Mapped_IDs table size:",mapped_ids.shape)
-    print(f"({ ids.shape[0]-mapped_ids.shape[0] } IDs discarded)")
+    print(f"Mapped_IDs table length: {mapped_ids.shape[0]:,}")
+    print(f"({ids.shape[0]-mapped_ids.shape[0]:,} IDs discarded)")
     mapped_ids = mapped_ids.with_columns(
         pl.col('ptm_loc') + pl.col('pep_start') - 1
     )
@@ -203,7 +200,10 @@ def group_IDs_into_peptidoforms(mapped_ids):
     return pd.DataFrame(mapped_ids_grouped, columns=mapped_ids.columns)
 
 def add_psm_counts(mapped_peptidoforms, psm_counts_path):
-    counts  = pd.read_csv(psm_counts_path, usecols=['file_name','peptidoform_id','psm_counts'])
+    counts  = pd.read_csv(psm_counts_path, usecols=['file_name','PXD','peptidoform_id','psm_counts'])
+    # join file name and PXD to create a unique identifier for each file-dataset combination, to avoid issues with identical file names across different datasets
+    counts['file_name'] = counts['PXD'] + '//' + counts['file_name']
+    counts = counts.drop(columns=['PXD'])
     print(counts.shape)
     print(mapped_peptidoforms.shape)
     counts = counts.merge(mapped_peptidoforms, on='peptidoform_id')
@@ -246,38 +246,45 @@ def psm_counts_per_PTM(mapped_peptidoforms_counts):
     print('\n',modcounts.describe(),'\n')
     return modcounts.reset_index()
 
-
 # ---------------
 # MAIN CODE 
 # ---------------
-start = time.perf_counter()
-args = parse_cli()
-os.environ["POLARS_MAX_THREADS"] = f"{args.threads}" # to stop polars from using all available memory
-mapped_ids = map_ionbot_IDs(
-    args.peptidoform_ids, 
-    args.peptidoform_counts,
-    args.fasta
-)
-print(mapped_ids.head())
-mapped_ids = mapped_ids.to_pandas()
-peptidoforms = group_IDs_into_peptidoforms(mapped_ids)
-mapped_peptidoforms_counts = add_psm_counts(peptidoforms, args.peptidoform_counts)
+def main():
+    args = parse_cli()
+    print('The output prefix is:', args.prefix)
+    if args.threads > 0:
+        os.environ["POLARS_MAX_THREADS"] = f"{args.threads}" # to stop polars from using all available memory
+    mapped_ids = map_ionbot_IDs(
+        args.peptidoform_ids, 
+        args.peptidoform_counts,
+        args.fasta
+    )
+    print(mapped_ids.head())
+    mapped_ids = mapped_ids.to_pandas()
+    peptidoforms = group_IDs_into_peptidoforms(mapped_ids)
+    mapped_peptidoforms_counts = add_psm_counts(peptidoforms, args.peptidoform_counts)
 
-print(f"#peptidoforms = {len(set(peptidoforms.peptidoform_id)):,}")
-print("Unique peptidoforms:", peptidoforms.shape)
+    print(f"#peptidoforms = {len(set(peptidoforms.peptidoform_id)):,}")
+    print("Unique peptidoforms:", peptidoforms.shape)
 
-# Safer counting to avoid unpacking errors
-vc = peptidoforms.is_modified.value_counts()
-mod = int(vc.get(True, 0))
-unmod = int(vc.get(False, 0))
-print('_')
-print(vc)
-total = mod + unmod
-if total > 0:
-    print(f"% Unmodified peptides = {unmod / total:.1%}", '\n')
+    # Safer counting to avoid unpacking errors
+    vc = peptidoforms.is_modified.value_counts()
+    mod = int(vc.get(True, 0))
+    unmod = int(vc.get(False, 0))
+    print('_')
+    print(vc)
+    total = mod + unmod
+    if total > 0:
+        print(f"% Unmodified peptides = {unmod / total:.1%}", '\n')
 
-print("Mapped peptidoforms with counts:", mapped_peptidoforms_counts.shape)
-mapped_peptidoforms_counts.to_csv(f'{TODAY}_Peptidoforms_counts_mapped.csv.gz', compression='gzip', index=False, encoding='utf-8')
+    print("Mapped peptidoforms with counts:", mapped_peptidoforms_counts.shape)
+    out_path = f'{args.prefix}_Peptidoforms_counts_mapped.csv.gz'
+    mapped_peptidoforms_counts.to_csv(out_path, compression='gzip', index=False, encoding='utf-8')
+    print(f"Saved mapped peptidoforms with counts to: {out_path}")
 
-finish = time.perf_counter()
-print(f'Finished in {round(finish-start, 2)} second(s)')
+
+if __name__ == "__main__":
+    start = time.perf_counter()
+    main()
+    finish = time.perf_counter()
+    print(f'Finished in {round(finish-start, 2)} second(s)')

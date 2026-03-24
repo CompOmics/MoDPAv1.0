@@ -3,17 +3,31 @@
 import polars as pl
 import pandas as pd
 import numpy as np
-import argparse, re
+import argparse, re, os
 from datetime import datetime
 
 
 def parse_cli() -> argparse.Namespace:
     p = argparse.ArgumentParser()
-    p.add_argument("data_folder", type=str, help="Path to processed folder with the data.")
-    p.add_argument("date", type=str, help="Date in YYYY-MM-DD format.")
-    p.add_argument('--myptms', dest='myptms', type=str, default='./PTMs-of-interest.csv', 
-               help="Path to list of PTMs to analyze. (default: ./PTMs-of-interest.csv)")
+    # p.add_argument("data_folder", type=existing_folder, help="Path to processed folder with the data.")
+    # p.add_argument("date", type=str, help="Date in YYYY-MM-DD format.")
+    p.add_argument('in_path', type=existing_file, help="Path to relative_psm_counts.csv file. (***_PTMs_counts_relative_prefiltered.csv.gz)")
+    p.add_argument('--myptms', dest='myptms', type=existing_file, default='./PTMs-of-interest.csv', 
+                   help="Path to list of PTMs to analyze. (default: ./PTMs-of-interest.csv)")
     return p.parse_args()
+
+def existing_file(path: str) -> str:
+    if not os.path.isfile(path):
+        raise argparse.ArgumentTypeError(f"File not found! --> {path}")
+    else:
+        return path
+
+def existing_folder(path: str) -> str:
+    if not os.path.isdir(path):
+        raise argparse.ArgumentTypeError(f"Folder not found! --> {path}")
+    else:
+        return path
+        
 
 # In[6]:
 def get_MoDPA_matrix_newer(relcounts_, myptms_):
@@ -52,7 +66,7 @@ def main():
     args = parse_cli()
     
     relcounts = pl.read_csv(
-        f"./{args.data_folder}/{args.date}_PTMs_counts_relative_prefiltered.csv.gz", 
+        args.in_path, 
         columns=['file_name','UniAcc','ptm_loc','ptm_res','ptm_name','classification','relative_psm_counts']
     )
     relcounts = relcounts.with_columns(
@@ -79,7 +93,7 @@ def main():
     
     # In[7]:
     for n,mod in enumerate(myptms):
-        savepath = f'{args.data_folder}/MoDPA_Rel_[{mod[1]}]{mod[2]}_{mod[0]}.pkl.gz'
+        savepath = f'{os.path.dirname(args.in_path)}/MoDPA_Rel_[{mod[1]}]{mod[2]}_{mod[0]}.pkl.gz'
         
         relcounts_matrix = get_MoDPA_matrix_newer(relcounts, mod)
         

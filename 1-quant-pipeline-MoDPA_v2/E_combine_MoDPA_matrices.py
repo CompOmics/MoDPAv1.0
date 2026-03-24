@@ -9,13 +9,25 @@ import os, argparse
 
 def parse_cli() -> argparse.Namespace:
     p = argparse.ArgumentParser()
-    p.add_argument("data_folder", type=str, help="Path to processed folder with the data.")
+    p.add_argument("data_folder", type=existing_folder, help="Path to processed folder with the data.")
     p.add_argument("date", type=str, help="Date in YYYY-MM-DD format.")
-    p.add_argument('--myptms', dest='myptms', type=str, default='./PTMs-of-interest.csv', 
+    p.add_argument('--myptms', dest='myptms', type=existing_file, default='./PTMs-of-interest.csv', 
                    help="Path to list of PTMs to analyze. (default: ./PTMs-of-interest.csv)")
     p.add_argument('--std_filter', dest='std_filter', type=float, default=.05,
                    help="Standard deviation filtering cutoff (default: 0.05)")
     return p.parse_args()
+
+def existing_file(path: str) -> str:
+    if not os.path.isfile(path):
+        raise argparse.ArgumentTypeError(f"File not found! --> {path}")
+    else:
+        return path
+
+def existing_folder(path: str) -> str:
+    if not os.path.isdir(path):
+        raise argparse.ArgumentTypeError(f"Folder not found! --> {path}")
+    else:
+        return path
 
 def percent_nonzero(x):
     y = x > 0
