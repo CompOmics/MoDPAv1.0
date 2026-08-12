@@ -12,7 +12,7 @@
 #   bash setup-wsl-gpu.sh setup
 #   bash setup-wsl-gpu.sh check
 # ==============================================================================
-set -euo pipefail
+set -eo pipefail
 
 # ── Resolve the project root (where this script lives) ──────────────────────
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
