@@ -1,0 +1,17 @@
+name: modpa-sens-env
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - pandas
+  - polars
+  - scikit-learn
+  - networkx
+  - python-igraph
+  - leidenalg
+  - pip
