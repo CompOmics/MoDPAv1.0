@@ -4,7 +4,7 @@ import concurrent.futures
 import pandas as pd
 import polars as pl
 import numpy as np
-import scipy, os, time, dcor, math, argparse
+import scipy, os, time, dcor, math, argparse, gzip
 from more_itertools import batched
 from tqdm import tqdm
 from datetime import datetime
@@ -92,11 +92,13 @@ def main():
         combo = combo.sort('pval')
         print(combo)
 
-        combo = combo.to_pandas()
-        combo['adj_pval'] = scipy.stats.false_discovery_control(combo.pval)
+        combo = combo.with_columns(
+            pl.Series('adj_pval', scipy.stats.false_discovery_control(combo['pval'].to_numpy()))
+        )
 
         combined_savepath = os.path.join(model_fld, f"{date_and_time}-{model_fld.split('-')[-1]}-signed-distances.csv.gz")
-        combo[combo.adj_pval < .01].to_csv(combined_savepath, index=False, compression='gzip', encoding='utf8')
+        with gzip.open(combined_savepath, 'wb') as f:
+            combo.filter(pl.col('adj_pval') < .01).write_csv(f)
         print(f"Saved combined signed distances to {combined_savepath}")
 
         finish = time.perf_counter()
