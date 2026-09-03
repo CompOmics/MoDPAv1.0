@@ -2,6 +2,8 @@
 # coding: utf-8
 """Inspect the raw KL divergence carried by each latent dimension of a saved VAE.
 
+*Diagnostic utility, not part of the routine pipeline.*
+
 The script loads a model through ``VAE_bilayer.load_vae()``, evaluates
 ``VAE_bilayer.kl_per_dimension()`` on the supplied dataset, prints the full
 per-dimension KL table and summary statistics, and writes the table to CSV.

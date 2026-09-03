@@ -278,15 +278,15 @@ def build_param_grid(args):
     if args.params_file is None:
         lossfunc = ["cos+KL"]
         # alternatives: "mean_squared_error", "cosine_similarity", "MSE+KL", "cos+KL"
-        hidden_layer = [1024*3]
+        hidden_layer = [5120]
         hidden_2 = [512]
-        latent_dim = [96]
-        reconstruct_loss_weight_exp = [0,1,2,3,4,5,6]
+        latent_dim = [128]
+        reconstruct_loss_weight_exp = [5]
 
         # Number of independent stochastic training runs for selected latent dimensions.
         # Any latent dimension not listed here is trained once.
         replicates_by_latent_dim = {
-            _: 5 for _ in latent_dim
+            _: 3 for _ in latent_dim 
         }
 
         multi_list = []

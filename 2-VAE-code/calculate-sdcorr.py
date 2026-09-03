@@ -93,12 +93,12 @@ def main():
         print(combo)
 
         combo = combo.with_columns(
-            pl.Series('adj_pval', scipy.stats.false_discovery_control(combo['pval'].to_numpy()))
+            pl.Series('qvalue', scipy.stats.false_discovery_control(combo['pval'].to_numpy()))
         )
 
         combined_savepath = os.path.join(model_fld, f"{date_and_time}-{model_fld.split('-')[-1]}-signed-distances.csv.gz")
         with gzip.open(combined_savepath, 'wb') as f:
-            combo.filter(pl.col('adj_pval') < .01).write_csv(f)
+            combo.write_csv(f)
         print(f"Saved combined signed distances to {combined_savepath}")
 
         finish = time.perf_counter()

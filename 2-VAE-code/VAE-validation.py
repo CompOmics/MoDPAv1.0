@@ -253,8 +253,9 @@ def main():
     if skipped:
         print(f"\nSkipped {skipped} folder(s); see warnings above.")
 
-    show = [c for c in ('loss_type', 'latent_dim', 'cos_observed', 'mse_observed',
-                        'kl_total', 'n_active', 'frac_active') if c in models.columns]
+    show = [c for c in ('loss_type', 'hidden_dim1', 'hidden_dim2', 'latent_dim', 
+                        'n_active', 'cos_observed', 'mse_observed',
+                        'kl_total', 'frac_active') if c in models.columns]
     print("\nBest 10 by mean per-sample cosine over observed entries:")
     print(models[show].head(10).to_string())
 
