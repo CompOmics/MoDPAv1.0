@@ -1,0 +1,79 @@
+{
+  "seed": 140206771,
+  "seed_source": "sha256 of the parameter tuple",
+  "model_folder": "20260819-1231-s140206771-funny_keller",
+  "parameter_tuple": [
+    "cos+KL",
+    5120,
+    512,
+    128,
+    5,
+    2
+  ],
+  "parameters": {
+    "loss_type": "cos+KL",
+    "hidden_dim1": 5120,
+    "hidden_dim2": 512,
+    "latent_dim": 128,
+    "rec_weight_exp": 5,
+    "rec_weight": 100000,
+    "replicate_idx": 2
+  },
+  "free_bits": 0.001,
+  "input_file": "/home/enrico/MoDPAv1.0-main/1-quant-pipeline-latest/v0113-2026/MoDPA_matrices_MoDPA-Resubmission/MoDPA-only-phospho-PTMs-thresh10r10c-std0.05.pkl.gz",
+  "input_sha256": "c1759a666c1592a49144dcefaa88ec4dd563b64e513133bc5d58b855d254c97e",
+  "input_shape": [
+    6652,
+    1475
+  ],
+  "train_shape": [
+    6652,
+    1475
+  ],
+  "n_missing": 9487823,
+  "learning_rate": 0.001,
+  "batch_size": 512,
+  "patience": 10,
+  "min_delta": 0.0,
+  "epochs_run": 999,
+  "best_epoch": 995,
+  "stopped_epoch": 0,
+  "restore_best_weights": true,
+  "final_metrics": {
+    "kl_raw": 176.62619877082403,
+    "loss": 1360.5210210458083,
+    "rec_raw": 0.011838948222749843
+  },
+  "weights_sha256": "1a05d8333c00b78b8c0de2dd4b26b9f3e4b6bf308735a12e650b24060c112b9c",
+  "deterministic_ops": true,
+  "environment": {
+    "PYTHONHASHSEED": "0",
+    "CUDA_VISIBLE_DEVICES": "0",
+    "TF_DETERMINISTIC_OPS": "1",
+    "TF_CUDNN_DETERMINISTIC": "1"
+  },
+  "hardware": {
+    "hostname": "fwooper",
+    "gpu_devices": [
+      "NVIDIA L40S"
+    ]
+  },
+  "code": {
+    "git_commit": null,
+    "git_dirty": null,
+    "git_uncommitted": [],
+    "script": "/home/enrico/MoDPAv1.0-main/2-VAE-code/VAE-gridsearch-subprocess.py",
+    "script_sha256": "95ed6fd5012829fa8bf91a5b8403e3cda1f9ba7e9427eb03b360416e48e99eb0",
+    "vae_module": "/home/enrico/MoDPAv1.0-main/2-VAE-code/vae.py",
+    "vae_module_sha256": "ffbdeec9da058087df5221625f1db0d5b4416dc67ca45f19c2e0bb3fc99fbb99"
+  },
+  "versions": {
+    "python": "3.10.19",
+    "tensorflow": "2.21.0",
+    "keras": "3.12.1",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3"
+  },
+  "command": "/home/enrico/MoDPAv1.0-main/2-VAE-code/VAE-gridsearch-subprocess.py ../1-quant-pipeline-latest/v0113-2026/MoDPA_matrices_MoDPA-Resubmission/MoDPA-only-phospho-PTMs-thresh10r10c-std0.05.pkl.gz -f 2026-08-19 -e 10 -b 512 -l 0.001 -d 0.0 --gpu 0 --worker-idx 2 --free-bits 0.001",
+  "timestamp": "2026-08-19T12:31:37"
+}

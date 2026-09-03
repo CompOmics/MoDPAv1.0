@@ -1,0 +1,17 @@
+{
+  "background_frac": 0.5,
+  "cache_version": 3,
+  "cluster_offset": 1,
+  "gene_col": "Gene",
+  "hgnc_complete_set_path": "D:\\MoDPAv1.0-main\\4-validation-vs-shuffled-data\\hgnc_complete_set.txt",
+  "input_path": "D:\\MoDPAv1.0-main\\4-validation-vs-shuffled-data\\20260819-1231-s140206771-funny_keller\\True-data-Leiden-clusters.csv",
+  "input_sha256": "bc48ac14983e0a5c185f6db0b7b50942d949ac945c97202699b65afb08a2300f",
+  "label_col": "LeidenCluster",
+  "max_cluster_difference": 5,
+  "maxsize": 999,
+  "min_n_top": 4,
+  "minsize": 20,
+  "observed_meanrank_path": "D:\\MoDPAv1.0-main\\4-validation-vs-shuffled-data\\20260819-1231-s140206771-funny_keller\\kinase-enrichment\\Combined_meanRank.csv",
+  "seed": 0,
+  "top_n": 12
+}

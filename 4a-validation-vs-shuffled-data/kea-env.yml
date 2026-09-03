@@ -1,0 +1,20 @@
+name: kea
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - ipykernel
+  - numpy
+  - pandas
+  - polars
+  - matplotlib
+  - seaborn
+  - networkx
+  - python-igraph
+  - leidenalg
+  - requests
+  - biopython
+  - pip
+  - pip:
+      - kinase-library==1.7.1
