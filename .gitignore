@@ -2,13 +2,9 @@
 #v0113-2025
 #v0113-partial
 
-# Ignore all Jupyter notebooks
-#*.ipynb
-
-# Except this one
-#!1-quant-pipeline-latest/quant-pipeline-notebook.ipynb
-
 *.gz
+!*.fasta.gz
+
 ipynb_checkpoints/
 ionbot-dev/
 
