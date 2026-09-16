@@ -1,0 +1,29 @@
+# Python 3.10 (3.10.19 is the version pinned in ../env.yml)
+# Version floors only. Replace with the output of `pip freeze` before archiving,
+# so that the released environment is exactly reproducible.
+#
+# This file covers the sensitivity analysis only. ../env.yml holds the full
+# environment, including the GPU-side dependencies of the model itself.
+#
+# Not installable from PyPI, and therefore not listed below:
+#   modpa_network_utilities.py  -- repository root, imported through sys.path
+
+# Used directly by the notebook.
+polars>=1.0
+pandas>=2.2
+matplotlib>=3.8
+seaborn>=0.13
+scipy>=1.13              # pearsonr, spearmanr; mannwhitneyu in topology_compare.py
+jupyterlab>=4.2
+
+# Used by modpa_network_utilities.py and topology_compare.py.
+numpy>=1.26
+networkx>=3.3
+igraph>=0.11
+leidenalg>=0.10
+scikit-learn>=1.5        # ARI, NMI, AMI in partition_stability
+
+# Optional. No current cell needs it: the notebook writes CSV and SVG/PNG only.
+# Required if a cell is changed to call polars.DataFrame.to_pandas() or
+# write_parquet(), including the commented example in the topology section.
+# pyarrow>=16.0
