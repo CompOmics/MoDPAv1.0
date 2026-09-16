@@ -77,7 +77,8 @@ at the latent dimensionalities 32, 64, 96, 124, 128 (five runs: the reference an
 replicates), 132, 160, 192, 256 and 512. `REPLICATE_RUNS` therefore holds four labels and
 `COMPARISON_RUNS` nine.
 
-The model outputs are available at `TODO: Zenodo DOI or ProteomeXchange accession`.
+The model outputs are in `../MoDPA_models.tar.gz`, which is part of the Zenodo release of this
+repository and is not tracked in git. See the data availability section of the root README.
 
 ## Installation
 
