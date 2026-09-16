@@ -1,0 +1,1491 @@
+stId,name,FDR,entities_found,entities_tot,reactions_found,reactions_tot,token,cluster,keep_specific,keep_general
+R-HSA-168276,NS1 Mediated Effects on Host Pathways,0.0012751691026002,7,48,2,8,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,False
+R-HSA-159231,Transport of Mature mRNA Derived from an Intronless Transcript,0.0020091955076245,6,46,3,3,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,False
+R-HSA-159234,Transport of Mature mRNAs Derived from Intronless Transcripts,0.0020091955076245,6,47,9,9,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,False,False
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,0.0020091955076245,14,317,46,52,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,False,False
+R-HSA-168325,Viral Messenger RNA Synthesis,0.0020091955076245,7,69,3,6,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,False
+R-HSA-2980766,Nuclear Envelope Breakdown,0.0020091955076245,7,65,5,13,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,False,False
+R-HSA-194315,Signaling by Rho GTPases,0.0020091955076245,22,708,52,203,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,False,False
+R-HSA-1169408,ISG15 antiviral mechanism,0.0020091955076245,8,83,2,16,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,True
+R-HSA-4615885,SUMOylation of DNA replication proteins,0.0022533945695132,6,50,2,8,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,True
+R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",0.0022533945695132,22,724,52,212,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,False,True
+R-HSA-9013106,RHOC GTPase cycle,0.0027929337633448,7,79,3,6,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,False
+R-HSA-8953854,Metabolism of RNA,0.0032139223142104,24,863,98,244,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,False,True
+R-HSA-5619107,Defective TPR may confer susceptibility towards thyroid papillary carcinoma (TPC),0.0039192897215196,5,36,1,1,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,True
+R-HSA-1855196,IP3 and IP4 transport between cytosol and nucleus,0.0039192897215196,5,37,3,3,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,True
+R-HSA-1855229,IP6 and IP7 transport between cytosol and nucleus,0.0039192897215196,5,37,2,2,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,True
+R-HSA-159227,Transport of the SLBP independent Mature mRNA,0.0039405632749165,5,39,3,3,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,False
+R-HSA-1855170,IPs transport between nucleus and cytosol,0.0039405632749165,5,40,4,4,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,True
+R-HSA-9012999,RHO GTPase cycle,0.0039405632749165,16,460,35,91,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,False,False
+R-HSA-170822,Regulation of Glucokinase by Glucokinase Regulatory Protein,0.0039405632749165,5,40,1,5,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,True
+R-HSA-159230,Transport of the SLBP Dependant Mature mRNA,0.0039405632749165,5,40,3,3,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,False
+R-HSA-4085377,SUMOylation of SUMOylation proteins,0.0039405632749165,5,39,2,5,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,True
+R-HSA-168255,Influenza Infection,0.0039405632749165,10,200,9,61,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,False,True
+R-HSA-194441,Metabolism of non-coding RNA,0.0040518657868667,6,67,6,6,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,False,False
+R-HSA-191859,snRNP Assembly,0.0040518657868667,6,67,6,6,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,False
+R-HSA-3301854,Nuclear Pore Complex (NPC) Disassembly,0.0040518657868667,5,42,2,2,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,False
+R-HSA-180746,Nuclear import of Rev protein,0.0040518657868667,5,41,2,7,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,False
+R-HSA-3232142,SUMOylation of ubiquitinylation proteins,0.0043708067376013,5,43,1,3,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,True
+R-HSA-180910,Vpr-mediated nuclear import of PICs,0.0046297979974538,5,44,1,2,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,False
+R-HSA-68875,Mitotic Prophase,0.0046297979974538,8,134,7,34,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,False,True
+R-HSA-165054,Rev-mediated nuclear export of HIV RNA,0.004669163913701,5,45,2,10,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,False
+R-HSA-176033,Interactions of Vpr with host cellular proteins,0.0052603254901466,5,47,1,4,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,False,True
+R-HSA-177243,Interactions of Rev with host cellular proteins,0.0052603254901466,5,47,4,16,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,False,True
+R-HSA-9013026,RHOB GTPase cycle,0.0054773128401286,6,75,3,6,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,False
+R-HSA-168271,Transport of Ribonucleoproteins into the Host Nucleus,0.005550114754921,5,48,1,4,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,False
+R-HSA-9839923,Dengue Virus Infection,0.0061110462338658,14,411,11,142,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,True
+R-HSA-4570464,SUMOylation of RNA binding proteins,0.0066774609032842,5,51,1,4,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,True
+R-HSA-3108214,SUMOylation of DNA damage response and repair proteins,0.0075065180808991,6,81,5,24,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,True
+R-HSA-168333,NEP/NS2 Interacts with the Cellular Export Machinery,0.0075695623440363,5,53,1,2,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,False
+R-HSA-75153,Apoptotic execution phase,0.0078242980276103,5,54,8,57,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,True
+R-HSA-168274,Export of Viral Ribonucleoproteins from Nucleus,0.0078242980276103,5,54,1,5,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,False,False
+R-HSA-8980692,RHOA GTPase cycle,0.0079041537700991,8,154,3,6,MjAyNjA5MTMxMzA0NDFfMjMwOTY%3D,0,True,False
+R-HSA-3108232,SUMO E3 ligases SUMOylate target proteins,0.0008108862753952,10,184,30,132,MjAyNjA5MTMxMzA0NDlfMjMwOTc%3D,1,False,False
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,0.0008108862753952,13,317,44,52,MjAyNjA5MTMxMzA0NDlfMjMwOTc%3D,1,False,True
+R-HSA-2990846,SUMOylation,0.000817049365034,10,193,30,141,MjAyNjA5MTMxMzA0NDlfMjMwOTc%3D,1,False,True
+R-HSA-72163,mRNA Splicing - Major Pathway,0.0014332979903369,10,213,10,11,MjAyNjA5MTMxMzA0NDlfMjMwOTc%3D,1,True,False
+R-HSA-4839726,Chromatin organization,0.0017134022086549,13,389,36,150,MjAyNjA5MTMxMzA0NDlfMjMwOTc%3D,1,False,True
+R-HSA-72172,mRNA Splicing,0.0017134022086549,10,224,15,16,MjAyNjA5MTMxMzA0NDlfMjMwOTc%3D,1,False,False
+R-HSA-9932444,ATP-dependent chromatin remodelers,0.0026433003774833,9,196,29,65,MjAyNjA5MTMxMzA0NDlfMjMwOTc%3D,1,False,False
+R-HSA-3108214,SUMOylation of DNA damage response and repair proteins,0.0036383464657573,6,81,9,24,MjAyNjA5MTMxMzA0NDlfMjMwOTc%3D,1,True,False
+R-HSA-9937848,CHD chromatin remodelers,0.0038627165112169,8,165,22,44,MjAyNjA5MTMxMzA0NDlfMjMwOTc%3D,1,True,False
+R-HSA-75955,RNA Polymerase II Transcription Elongation,0.006825175476071,5,61,8,8,MjAyNjA5MTMxMzA0NDlfMjMwOTc%3D,1,False,True
+R-HSA-112382,Formation of RNA Pol II elongation complex ,0.006825175476071,5,60,2,2,MjAyNjA5MTMxMzA0NDlfMjMwOTc%3D,1,True,False
+R-HSA-9839923,Dengue Virus Infection,6.307430133745129e-10,25,411,15,142,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-9918481,Dengue Virus-Host Interactions,3.053415298381878e-09,20,273,7,59,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-8953854,Metabolism of RNA,8.414738572604108e-09,33,863,70,244,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,True
+R-HSA-156842,Eukaryotic Translation Elongation,1.3214731531263624e-08,13,102,8,9,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-9824446,Viral Infection Pathways,1.4400018955029736e-08,42,1407,75,899,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-72187,mRNA 3'-end processing,2.6405530428874613e-08,15,164,14,21,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-9770562,mRNA Polyadenylation,2.794061870758924e-08,14,139,13,20,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-114608,Platelet degranulation ,3.2140146100090305e-08,14,142,4,11,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-76005,Response to elevated platelet cytosolic Ca2+,5.2623984281297e-08,14,149,4,14,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-72163,mRNA Splicing - Major Pathway,6.370036587100003e-08,16,213,11,11,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-8953897,Cellular responses to stimuli,8.641360760286433e-08,36,1166,86,613,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,True
+R-HSA-72172,mRNA Splicing,1.078845209834256e-07,16,224,16,16,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-5663205,Infectious disease,1.479485796096469e-07,48,1965,103,1227,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-156902,Peptide chain elongation,4.0159044978338443e-07,11,97,5,5,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-376176,Signaling by ROBO receptors,5.713307027477299e-07,15,222,9,60,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-9675108,Nervous system development,5.713307027477299e-07,24,603,39,322,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-1643685,Disease,1.2626117251723912e-06,61,3093,198,2176,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,True
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,1.4216008379364098e-06,17,317,44,52,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-2262752,Cellular responses to stress,2.050672481601623e-06,31,1039,67,521,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-9692914,SARS-CoV-1-host interactions,3.333446401576623e-06,11,124,8,50,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-9948299,Ribosome-associated quality control,3.364896225988012e-06,12,155,20,20,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-9954714,PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA,4.057765312648343e-06,10,100,3,3,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-975956,Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC),4.266880464953715e-06,10,101,1,1,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-9954716,ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA,5.829906070564661e-06,10,105,4,4,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-72764,Eukaryotic Translation Termination,5.941237072870642e-06,10,106,3,5,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-72689,Formation of a pool of free 40S subunits,5.941237072870642e-06,10,106,2,2,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-9010553,Regulation of expression of SLITs and ROBOs,6.946099753268875e-06,12,170,6,20,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-9735869,SARS-CoV-1 modulates host translation machinery,8.65664885196793e-06,7,41,2,3,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-2408557,Selenocysteine synthesis,8.65664885196793e-06,10,112,2,7,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-422475,Axon guidance,8.867240215315597e-06,21,566,36,295,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-192823,Viral mRNA Translation,9.625349049802168e-06,10,114,2,2,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-9633012,Response of EIF2AK4 (GCN2) to amino acid deficiency,9.89686053209926e-06,10,115,4,16,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-76002,"Platelet activation, signaling and aggregation",9.89686053209926e-06,15,294,32,119,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-1799339,SRP-dependent cotranslational protein targeting to membrane,1.0816681388803318e-05,10,117,5,5,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-72706,GTP hydrolysis and joining of the 60S ribosomal subunit,1.316074411761292e-05,10,120,3,3,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-156827,L13a-mediated translational silencing of Ceruloplasmin expression,1.316074411761292e-05,10,120,2,3,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-927802,Nonsense-Mediated Decay (NMD),1.652280066632983e-05,10,124,5,6,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-975957,Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC),1.652280066632983e-05,10,124,4,5,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-194315,Signaling by Rho GTPases,1.7193101123247345e-05,23,708,58,203,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",2.3343947975762447e-05,23,724,58,212,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,True
+R-HSA-72737,Cap-dependent Translation Initiation,2.3343947975762447e-05,10,130,10,18,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-72613,Eukaryotic Translation Initiation,2.3343947975762447e-05,10,130,12,21,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-195258,RHO GTPase Effectors,2.697385599126356e-05,15,325,31,113,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-1445148,Translocation of SLC2A4 (GLUT4) to the plasma membrane,4.543432869097419e-05,8,81,6,15,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-109582,Hemostasis,5.16399717653826e-05,24,821,55,366,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,True
+R-HSA-6791226,Major pathway of rRNA processing in the nucleolus and cytosol,8.307604778357014e-05,11,189,6,7,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-977225,Amyloid fiber formation,8.307604778357014e-05,8,89,10,33,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-9613829,Chaperone Mediated Autophagy,9.203316132888606e-05,5,23,16,19,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-9678108,SARS-CoV-1 Infection,0.0001263854657029,11,199,9,161,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-1169410,Antimicrobial mechanism of IFN-stimulated genes,0.0001282238720701,13,284,6,103,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-168255,Influenza Infection,0.0001282238720701,11,200,3,61,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-8868773,rRNA processing in the nucleus and cytosol,0.0001739618026067,11,207,7,15,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-9646399,Aggrephagy,0.0001844250915057,6,47,13,15,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-168273,Influenza Viral RNA Transcription and Replication,0.0002107612133217,10,173,2,14,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-9711097,Cellular response to starvation,0.0002440595903618,10,176,4,28,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-2408522,Selenoamino acid metabolism,0.0003244632795573,10,182,2,33,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,True
+R-HSA-450531,Regulation of mRNA stability by proteins that bind AU-rich elements,0.0003349794920902,7,80,13,26,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-72695,"Formation of the ternary complex, and subsequently, the 43S complex",0.0003626037351103,6,54,1,3,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-72649,Translation initiation complex formation,0.0007374652502327,6,62,2,2,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-9754678,SARS-CoV-2 modulates host translation machinery,0.0007374652502327,6,62,1,6,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-72766,Translation,0.0008115431316058,15,448,48,126,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-6802957,Oncogenic MAPK signaling,0.000818136757609,7,93,37,46,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-72702,Ribosomal scanning and start codon recognition,0.0008290929004172,6,64,2,2,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-72312,rRNA processing,0.0008385632416286,11,252,7,22,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-9663891,Selective autophagy,0.000944954597049,7,97,21,56,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-72662,"Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S",0.000944954597049,6,66,2,6,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-9970672,FXIIa activates plasma kallikrein-kinin system,0.0011177062738969,5,42,13,18,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-2028269,Signaling by Hippo,0.0012230903871923,4,22,15,30,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,True
+R-HSA-450408,AUF1 (hnRNP D0) binds and destabilizes mRNA,0.0012473165662534,5,43,3,4,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-5653656,Vesicle-mediated transport,0.0013261110528917,21,833,71,254,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,True
+R-HSA-109581,Apoptosis,0.0013261110528917,9,180,11,142,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-6802952,Signaling by BRAF and RAF1 fusions,0.0014977069387273,6,73,5,5,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-9954709,Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide,0.0015078392160521,7,106,13,13,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-1266738,Developmental Biology,0.0015078392160521,38,2061,118,996,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,True
+R-HSA-168256,Immune System,0.0015078392160521,50,3033,205,1895,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,True
+R-HSA-3371497,HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand,0.0017372336688195,6,76,9,22,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-9656223,Signaling by RAF1 mutants,0.0019996600830085,5,49,6,7,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-5602498,MyD88 deficiency (TLR2/4),0.0020245695293956,4,26,2,2,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-3371453,Regulation of HSF1-mediated heat shock response,0.0021110013962886,7,113,8,14,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-5625740,RHO GTPases activate PKNs,0.0021389171387748,6,79,9,20,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-5603041,IRAK4 deficiency (TLR2/4),0.0021695913251821,4,27,1,1,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-913531,Interferon Signaling,0.0022731084271079,15,507,9,157,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-9705683,SARS-CoV-2-host interactions,0.0025894831023709,10,247,5,68,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-9649948,Signaling downstream of RAS mutants,0.0026779002129706,5,54,7,7,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-6802955,Paradoxical activation of RAF signaling by kinase inactive BRAF,0.0026779002129706,5,54,6,7,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-6802946,Signaling by moderate kinase activity BRAF mutants,0.0026779002129706,5,54,6,7,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-6802949,Signaling by RAS mutants,0.0026779002129706,5,54,7,9,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-168249,Innate Immune System,0.0028667843164926,28,1387,123,782,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-2995410,Nuclear Envelope (NE) Reassembly,0.0032566582434712,6,88,2,24,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-9833482,PKR-mediated signaling,0.0032566582434712,6,88,3,40,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-392499,Metabolism of proteins,0.0040968045007443,41,2427,226,928,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,True
+R-HSA-8939236,RUNX1 regulates transcription of genes involved in differentiation of HSCs,0.0041168803392772,6,92,10,15,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,True
+R-HSA-199991,Membrane Trafficking,0.0041796741863912,17,669,66,219,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-9684482,IFIT antiviral response,0.0041796741863912,6,93,1,17,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-9612973,Autophagy,0.0041877266628228,8,174,39,117,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,True
+R-HSA-9619483,Activation of AMPK downstream of NMDARs,0.0043751488682675,4,34,2,3,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,True
+R-HSA-3371556,Cellular response to heat stress,0.0048107959951235,7,135,13,29,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-9615710,Late endosomal microautophagy,0.004875569868863,4,35,3,3,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-5357801,Programmed Cell Death,0.0049774667421969,9,225,18,194,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,True
+R-HSA-1236974,ER-Phagosome pathway,0.0052525777248657,6,98,2,11,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-5626467,RHO GTPases activate IQGAPs,0.0054155208578697,4,36,3,5,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-69481,G2/M Checkpoints,0.005883354528372,7,142,4,24,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,True
+R-HSA-75035,Chk1/Chk2(Cds1) mediated inactivation of Cyclin B:Cdk1 complex,0.006906605603093,3,17,1,5,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-8852276,The role of GTSE1 in G2/M progression after G2 checkpoint,0.007197823774242,5,70,4,10,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,True
+R-HSA-68886,M Phase,0.0074457162220586,12,403,26,96,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,True
+R-HSA-5686938,Regulation of TLR by endogenous ligand,0.0079721029210144,4,41,2,13,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-9909649,Regulation of PD-L1(CD274) transcription,0.0092079891345442,5,74,8,18,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-6798695,Neutrophil degranulation,0.0093012767710558,13,478,7,10,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-6802948,Signaling by high-kinase activity BRAF mutants,0.0093012767710558,4,44,4,6,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-111447,Activation of BAD and translocation to mitochondria ,0.0093012767710558,3,19,2,5,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-8876725,Protein methylation,0.0093012767710558,3,19,3,9,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-9755779,SARS-CoV-2 targets host intracellular signalling and regulatory pathways,0.0093012767710558,3,19,1,5,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-9735871,SARS-CoV-1 targets host intracellular signalling and regulatory pathways,0.0093012767710558,3,19,1,7,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-1632852,Macroautophagy,0.0098096217373011,7,158,21,96,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,False,False
+R-HSA-354194,GRB2:SOS provides linkage to MAPK signaling for Integrins ,0.0099044008656528,3,20,2,2,MjAyNjA5MTMxMzA0NTZfMjMwOTg%3D,2,True,False
+R-HSA-2980766,Nuclear Envelope Breakdown,3.178216797294908e-06,9,65,5,13,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-68875,Mitotic Prophase,6.819823084946997e-05,10,134,6,34,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,7.177939758917784e-05,14,317,44,52,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-194315,Signaling by Rho GTPases,7.177939758917784e-05,21,708,40,203,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",7.29176818103916e-05,21,724,40,212,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,True
+R-HSA-9012999,RHO GTPase cycle,0.0001354136552402,16,460,32,91,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-68886,M Phase,0.0001354136552402,15,403,30,96,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-3232142,SUMOylation of ubiquitinylation proteins,0.0001493427201264,6,43,2,3,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-180910,Vpr-mediated nuclear import of PICs,0.000151361877184,6,44,2,2,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-1640170,Cell Cycle,0.0001624688953061,20,729,88,474,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,True
+R-HSA-176033,Interactions of Vpr with host cellular proteins,0.0001805708913517,6,47,2,4,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,True
+R-HSA-3108214,SUMOylation of DNA damage response and repair proteins,0.0003117173380757,7,81,8,24,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-8953854,Metabolism of RNA,0.0004321466085588,21,863,72,244,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,True
+R-HSA-5619107,Defective TPR may confer susceptibility towards thyroid papillary carcinoma (TPC),0.0006080445266958,5,36,1,1,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,True
+R-HSA-1855196,IP3 and IP4 transport between cytosol and nucleus,0.0006080445266958,5,37,3,3,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,True
+R-HSA-1855229,IP6 and IP7 transport between cytosol and nucleus,0.0006080445266958,5,37,2,2,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,True
+R-HSA-4551638,SUMOylation of chromatin organization proteins,0.0006080445266958,6,62,6,15,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-111465,Apoptotic cleavage of cellular proteins,0.0006486788701103,5,38,7,38,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-159230,Transport of the SLBP Dependant Mature mRNA,0.0006486788701103,5,40,3,3,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-159227,Transport of the SLBP independent Mature mRNA,0.0006486788701103,5,39,3,3,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-4085377,SUMOylation of SUMOylation proteins,0.0006486788701103,5,39,2,5,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-1855170,IPs transport between nucleus and cytosol,0.0006486788701103,5,40,4,4,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,True
+R-HSA-170822,Regulation of Glucokinase by Glucokinase Regulatory Protein,0.0006486788701103,5,40,1,5,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-3108232,SUMO E3 ligases SUMOylate target proteins,0.0006754170331654,9,184,44,132,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-180746,Nuclear import of Rev protein,0.0006770303108527,5,41,2,7,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-3301854,Nuclear Pore Complex (NPC) Disassembly,0.0007160250293107,5,42,2,2,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-69278,"Cell Cycle, Mitotic",0.0007160250293107,16,587,60,367,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-2990846,SUMOylation,0.0008310949005981,9,193,44,141,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,True
+R-HSA-165054,Rev-mediated nuclear export of HIV RNA,0.0008483527997646,5,45,2,10,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-4419969,Depolymerization of the Nuclear Lamina,0.0008959002367903,4,23,2,6,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-159231,Transport of Mature mRNA Derived from an Intronless Transcript,0.0008959002367903,5,46,3,3,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-159234,Transport of Mature mRNAs Derived from Intronless Transcripts,0.0009415202893607,5,47,9,9,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-177243,Interactions of Rev with host cellular proteins,0.0009415202893607,5,47,4,16,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,True
+R-HSA-168271,Transport of Ribonucleoproteins into the Host Nucleus,0.0009844920486534,5,48,1,4,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,True
+R-HSA-168276,NS1 Mediated Effects on Host Pathways,0.0009844920486534,5,48,1,8,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,True
+R-HSA-159236,Transport of Mature mRNA derived from an Intron-Containing Transcript,0.0010851208757521,6,81,4,4,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-4615885,SUMOylation of DNA replication proteins,0.0011254526353788,5,50,2,8,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-4570464,SUMOylation of RNA binding proteins,0.0011618422748309,5,51,1,4,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-168333,NEP/NS2 Interacts with the Cellular Export Machinery,0.0013029996323826,5,53,1,2,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-2995383,Initiation of Nuclear Envelope (NE) Reformation,0.0013029996323826,4,27,1,7,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-168274,Export of Viral Ribonucleoproteins from Nucleus,0.0014212912703326,5,54,1,5,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,True
+R-HSA-75153,Apoptotic execution phase,0.0014212912703326,5,54,7,57,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,True
+R-HSA-72202,Transport of Mature Transcript to Cytoplasm,0.0015831826275187,6,90,13,13,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-68882,Mitotic Anaphase,0.0022995489217394,9,236,10,32,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-2555396,Mitotic Metaphase and Anaphase,0.0023723648124516,9,237,10,33,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-191859,snRNP Assembly,0.0033259994689091,5,67,2,6,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-194441,Metabolism of non-coding RNA,0.0033259994689091,5,67,2,6,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-352238,Breakdown of the nuclear lamina,0.0037475233273336,2,3,2,3,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-168325,Viral Messenger RNA Synthesis,0.0037475233273336,5,69,2,6,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,True
+R-HSA-6784531,tRNA processing in the nucleus,0.0037475233273336,5,70,1,7,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-8980692,RHOA GTPase cycle,0.0037899408933479,7,154,3,6,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-70171,Glycolysis,0.0041505032986179,6,111,2,23,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-72163,mRNA Splicing - Major Pathway,0.0046277765561966,8,213,10,11,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-68877,Mitotic Prometaphase,0.0046277765561966,8,212,12,25,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-72172,mRNA Splicing,0.0064226975193721,8,224,15,16,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-9035034,RHOF GTPase cycle,0.0067654800224443,4,46,1,3,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,False
+R-HSA-1169408,ISG15 antiviral mechanism,0.0073948944137881,5,83,1,16,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,True,True
+R-HSA-2995410,Nuclear Envelope (NE) Reassembly,0.0087172900487031,5,88,7,24,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,False
+R-HSA-70326,Glucose metabolism,0.0087172900487031,6,131,2,40,MjAyNjA5MTMxMzA1MDRfMjMwOTk%3D,3,False,True
+R-HSA-1643685,Disease,3.941291737419306e-14,74,3093,258,2176,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-5663205,Infectious disease,3.941291737419306e-14,63,1965,130,1227,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-9824446,Viral Infection Pathways,3.941291737419306e-14,56,1407,94,899,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-9839923,Dengue Virus Infection,5.906386491005833e-14,28,411,23,142,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-2262752,Cellular responses to stress,7.09432512735475e-14,42,1039,103,521,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-8953897,Cellular responses to stimuli,1.1790568521519162e-13,44,1166,116,613,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-156842,Eukaryotic Translation Elongation,6.750155989720952e-13,16,102,8,9,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-392499,Metabolism of proteins,1.4913625889789728e-12,62,2427,259,928,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-168255,Influenza Infection,9.275247236928408e-12,19,200,8,61,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-156827,L13a-mediated translational silencing of Ceruloplasmin expression,6.902522997620508e-11,15,120,2,3,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-72706,GTP hydrolysis and joining of the 60S ribosomal subunit,6.902522997620508e-11,15,120,3,3,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-156902,Peptide chain elongation,6.902522997620508e-11,14,97,5,5,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-8953854,Metabolism of RNA,6.902522997620508e-11,34,863,72,244,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-72737,Cap-dependent Translation Initiation,1.6582801798392666e-10,15,130,14,18,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-72613,Eukaryotic Translation Initiation,1.6582801798392666e-10,15,130,16,21,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-72689,Formation of a pool of free 40S subunits,1.6582801798392666e-10,14,106,2,2,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9633012,Response of EIF2AK4 (GCN2) to amino acid deficiency,4.2743053541016707e-10,14,115,6,16,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9663891,Selective autophagy,7.29561078216534e-10,13,97,32,56,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-9918481,Dengue Virus-Host Interactions,9.166774006530432e-10,19,273,10,59,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9954714,PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA,9.508073217645574e-10,13,100,3,3,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-975956,Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC),1.0127676475235603e-09,13,101,1,1,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9954716,ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA,1.5604371128574712e-09,13,105,4,4,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-72764,Eukaryotic Translation Termination,1.6781227518691821e-09,13,106,3,5,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-2408557,Selenocysteine synthesis,3.130750325652798e-09,13,112,2,7,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-192823,Viral mRNA Translation,3.7022365173555727e-09,13,114,2,2,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-1799339,SRP-dependent cotranslational protein targeting to membrane,4.946378751036207e-09,13,117,5,5,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-168273,Influenza Viral RNA Transcription and Replication,5.063254038262244e-09,15,173,4,14,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-422475,Axon guidance,5.063254038262244e-09,25,566,21,295,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-927802,Nonsense-Mediated Decay (NMD),8.5006385264208e-09,13,124,5,6,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-975957,Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC),8.5006385264208e-09,13,124,4,5,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9948299,Ribosome-associated quality control,1.1137220479184862e-08,14,155,20,20,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-6791226,Major pathway of rRNA processing in the nucleolus and cytosol,1.4227048872328396e-08,15,189,7,7,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9675108,Nervous system development,1.5605074565883115e-08,25,603,21,322,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-9954709,Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide,1.6088176013617783e-08,12,106,13,13,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9646399,Aggrephagy,2.6847881029468113e-08,9,47,13,15,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-5653656,Vesicle-mediated transport,2.6847881029468113e-08,29,833,115,254,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-9612973,Autophagy,3.980124230196225e-08,14,174,49,117,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-8868773,rRNA processing in the nucleus and cytosol,4.0955626889882524e-08,15,207,9,15,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-9711097,Cellular response to starvation,4.4328528847614734e-08,14,176,6,28,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-2408522,Selenoamino acid metabolism,6.507182637172093e-08,14,182,3,33,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-1632852,Macroautophagy,1.1243958297768586e-07,13,158,32,96,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-6798695,Neutrophil degranulation,1.2756555256565605e-07,21,478,6,10,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-72766,Translation,2.2535623234176683e-07,20,448,61,126,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-9770562,mRNA Polyadenylation,2.373150037593419e-07,12,139,16,20,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9010553,Regulation of expression of SLITs and ROBOs,2.373150037593419e-07,13,170,5,20,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9833482,PKR-mediated signaling,3.3240436625447956e-07,10,88,6,40,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9918487,Dengue Virus Genome Translation and Replication,3.7099694716324905e-07,11,116,11,64,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-389960,Formation of tubulin folding intermediates by CCT/TriC,4.1072325740465487e-07,7,30,2,2,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-72312,rRNA processing,4.1072325740465487e-07,15,252,9,22,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-376176,Signaling by ROBO receptors,6.171480496641735e-07,14,222,6,60,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-194315,Signaling by Rho GTPases,1.0397919147919765e-06,24,708,44,203,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-72187,mRNA 3'-end processing,1.230741777380473e-06,12,164,17,21,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",1.4906401092362742e-06,24,724,44,212,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-389958,Cooperation of Prefoldin and TriC/CCT  in actin and tubulin folding,1.4906401092362742e-06,7,37,6,6,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-168256,Immune System,2.0844180660395395e-06,56,3033,258,1895,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-1169410,Antimicrobial mechanism of IFN-stimulated genes,1.0717794649894863e-05,14,284,8,103,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-3371497,HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand,1.3277269094169597e-05,8,76,22,22,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9837999,Mitochondrial protein degradation,1.334979233957867e-05,9,104,8,20,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-6811434,COPI-dependent Golgi-to-ER retrograde traffic,1.5904487969731207e-05,9,107,9,11,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-6807878,COPI-mediated anterograde transport,1.5904487969731207e-05,9,107,10,12,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-114608,Platelet degranulation ,1.8892529588754314e-05,10,142,4,11,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-1445148,Translocation of SLC2A4 (GLUT4) to the plasma membrane,1.8892529588754314e-05,8,81,4,15,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9706574,RHOBTB GTPase Cycle,2.2224957929140032e-05,6,36,3,4,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-76005,Response to elevated platelet cytosolic Ca2+,2.7608269411061315e-05,10,149,4,14,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-190840,Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane,3.900505442366864e-05,5,22,1,2,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9613829,Chaperone Mediated Autophagy,4.532695306092016e-05,5,23,15,19,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-190872,Transport of connexons to the plasma membrane,4.532695306092016e-05,5,23,1,3,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-9013418,RHOBTB2 GTPase cycle,5.565609115576464e-05,5,24,2,2,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-6802948,Signaling by high-kinase activity BRAF mutants,6.0969876854333194e-05,6,44,4,6,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-199977,ER to Golgi Anterograde Transport,6.0969876854333194e-05,10,165,26,39,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-380320,Recruitment of NuMA to mitotic centrosomes,6.167429725656426e-05,8,97,2,2,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-389977,Post-chaperonin tubulin folding pathway,6.323143278885723e-05,5,25,9,9,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-199991,Membrane Trafficking,6.980755840801933e-05,20,669,102,219,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-5602498,MyD88 deficiency (TLR2/4),7.09014814456177e-05,5,26,2,2,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-8852276,The role of GTSE1 in G2/M progression after G2 checkpoint,7.09014814456177e-05,7,70,5,10,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-2173782,Binding and Uptake of Ligands by Scavenger Receptors,7.855251639465877e-05,10,172,13,35,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-72163,mRNA Splicing - Major Pathway,8.114617995791384e-05,11,213,11,11,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-5603041,IRAK4 deficiency (TLR2/4),8.49861644864891e-05,5,27,1,1,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-68886,M Phase,8.749070781477464e-05,15,403,32,96,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-2132295,MHC class II antigen presentation,8.876848981609342e-05,9,137,10,26,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-5674135,MAP2K and MAPK activation,9.593898661108824e-05,6,49,8,12,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,True
+R-HSA-72172,mRNA Splicing,0.00011943286828186572,11,224,16,16,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-5357801,Programmed Cell Death,0.0001244385968468542,11,225,23,194,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,0.00012489513378843853,13,317,36,52,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-190828,Gap junction trafficking,0.00013392548734536547,6,52,7,20,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-8856688,Golgi-to-ER retrograde transport,0.00013801348283026815,9,148,11,18,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-450531,Regulation of mRNA stability by proteins that bind AU-rich elements,0.00013801348283026815,7,80,7,26,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-168249,Innate Immune System,0.00013916974242422775,30,1387,143,782,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-195258,RHO GTPase Effectors,0.00014852584871616337,13,325,28,113,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-6802946,Signaling by moderate kinase activity BRAF mutants,0.00015162432524162828,6,54,4,7,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9649948,Signaling downstream of RAS mutants,0.00015162432524162828,6,54,4,7,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-6802955,Paradoxical activation of RAF signaling by kinase inactive BRAF,0.00015162432524162828,6,54,4,7,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-6802949,Signaling by RAS mutants,0.00015162432524162828,6,54,4,9,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-437239,Recycling pathway of L1,0.00016798052117761308,6,55,7,14,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9936686,Aggregated β-amyloid interacts with fibrinogen,0.0001776258492837135,3,5,1,2,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-157858,Gap junction trafficking and regulation,0.00018633455147076816,6,57,7,24,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-9619483,Activation of AMPK downstream of NMDARs,0.00019641852747609434,5,34,1,3,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,True
+R-HSA-5626467,RHO GTPases activate IQGAPs,0.0002575086144507299,5,36,1,5,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-69275,G2/M Transition,0.00026917360010703106,10,205,23,88,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-453274,Mitotic G2-G2/M phases,0.00029196167420031394,10,207,23,90,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-1280218,Adaptive Immune System,0.0003175343432859634,27,1237,82,361,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-9668328,Sealing of the nuclear envelope (NE) by ESCRT-III,0.00037570218654359167,5,39,1,7,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-354194,GRB2:SOS provides linkage to MAPK signaling for Integrins ,0.00038159977028373593,4,20,2,2,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-390466,Chaperonin-mediated protein folding,0.00038159977028373593,7,96,16,19,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-1236974,ER-Phagosome pathway,0.00039374790413859717,7,98,4,11,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-1500931,Cell-Cell communication,0.00039961647449826554,13,365,24,208,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-5686938,Regulation of TLR by endogenous ligand,0.00042773981328003696,5,41,6,13,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-190861,Gap junction assembly,0.00042773981328003696,5,41,3,16,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-948021,Transport to the Golgi and subsequent modification,0.00043595119388051273,10,220,26,60,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-391251,Protein folding,0.0005051058525770147,7,102,25,28,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-1268020,Mitochondrial protein import,0.0005208556416159693,6,70,10,14,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-372708,p130Cas linkage to MAPK signaling for integrins,0.0005506616893019567,4,22,3,3,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-597592,Post-translational protein modification,0.0005741188906025485,32,1676,154,605,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-446203,Asparagine N-linked glycosylation,0.0005741188906025485,14,438,33,146,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-446728,Cell junction organization,0.0005741188906025485,12,327,23,185,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-6802952,Signaling by BRAF and RAF1 fusions,0.0005820554935773714,6,73,4,5,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-1852241,Organelle biogenesis and maintenance,0.0006380490732329491,13,387,26,119,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-5602358,Diseases associated with the TLR signaling cascade,0.0007196193333358636,5,47,3,14,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-913531,Interferon Signaling,0.0007356808540555093,15,507,10,157,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-70171,Glycolysis,0.0007568938622455335,7,111,6,23,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9918432,Maturation of DENV proteins,0.0007775202646671531,6,77,7,41,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9656223,Signaling by RAF1 mutants,0.0008731735044911204,5,49,4,7,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9609736,Assembly and cell surface presentation of NMDA receptors,0.0008731735044911204,5,49,2,23,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,True
+R-HSA-5620920,Cargo trafficking to the periciliary membrane,0.0008931050771172622,6,79,8,29,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-76002,"Platelet activation, signaling and aggregation",0.0009097283460235417,11,294,28,119,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-1280215,Cytokine Signaling in Immune system,0.0009899164569446839,25,1193,46,823,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-72695,"Formation of the ternary complex, and subsequently, the 43S complex",0.0011963933343985822,5,54,3,3,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-1236975,Antigen processing-Cross presentation,0.0011963933343985822,7,120,4,25,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-75153,Apoptotic execution phase,0.0011963933343985822,5,54,7,57,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-5260271,Diseases of Immune System,0.0011963933343985822,5,53,3,21,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-9975921,Assembly of the 9+0 primary cilium,0.0012136830730268278,9,209,22,50,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-389957,Prefoldin mediated transfer of substrate  to CCT/TriC,0.001229247071357853,4,29,2,2,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-8955332,Carboxyterminal post-translational modifications of tubulin,0.0013015948779687703,5,55,6,6,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-68877,Mitotic Prometaphase,0.0013476416563514837,9,212,9,25,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-2995410,Nuclear Envelope (NE) Reassembly,0.0013939349744087615,6,88,5,24,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-70263,Gluconeogenesis,0.0014137099665636477,5,56,5,17,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9759476,Regulation of Homotypic Cell-Cell Adhesion,0.0014936966349873293,9,215,17,125,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-6811442,Intra-Golgi and retrograde Golgi-to-ER traffic,0.0017087110677458384,9,219,11,48,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-373760,L1CAM interactions,0.001728222704249549,7,130,8,54,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-70326,Glucose metabolism,0.001809428470590957,7,131,11,40,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-109582,Hemostasis,0.0018201651903033689,19,821,39,366,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-6802957,Oncogenic MAPK signaling,0.0018694039066797785,6,93,24,46,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-140342,Apoptosis induced DNA fragmentation,0.001880740955809701,3,13,3,12,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-72649,Translation initiation complex formation,0.002001079230380176,5,62,2,2,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-1266738,Developmental Biology,0.002001079230380176,35,2061,82,996,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-9645723,Diseases of programmed cell death,0.002001079230380176,6,97,4,37,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-3371556,Cellular response to heat stress,0.002001079230380176,7,135,17,29,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-109581,Apoptosis,0.002001079230380176,8,180,11,142,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-5205685,PINK1-PRKN Mediated Mitophagy,0.002001079230380176,4,34,12,16,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-6811436,COPI-independent Golgi-to-ER retrograde traffic,0.002072515381853046,5,63,2,7,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9615710,Late endosomal microautophagy,0.0021406537159760486,4,35,3,3,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-72702,Ribosomal scanning and start codon recognition,0.0022256535548041967,5,64,2,2,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-3299685,Detoxification of Reactive Oxygen Species,0.0022256535548041967,5,64,5,34,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9636667,Manipulation of host energy metabolism,0.0023036451207749664,2,3,2,2,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9711123,Cellular response to chemical stress,0.00251076054064292,10,288,25,173,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-72662,"Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S",0.0025574348256705015,5,66,2,6,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-9979719,Processing of antigen in germinal center B cells,0.0026044383463561527,6,102,1,4,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-69278,"Cell Cycle, Mitotic",0.0026252982674113134,15,587,78,367,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-983169,Class I MHC mediated antigen processing & presentation,0.002675517848548914,12,403,22,52,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-983189,Kinesins,0.0029252240702595245,5,68,2,14,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9769733,Fibrin formation,0.0029444672700758012,3,16,6,7,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9764265,Regulation of CDH1 Expression and Function,0.0029647248037110163,8,192,13,92,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9764274,Regulation of Expression and Function of Type I Classical Cadherins,0.0029647248037110163,8,192,13,92,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-354192,Integrin signaling,0.0032062625319020377,4,39,20,24,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-5675482,Regulation of necroptotic cell death,0.0032062625319020377,4,39,10,21,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-5663220,RHO GTPases Activate Formins,0.003324199101937264,7,149,11,27,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-1428517,Aerobic respiration and respiratory electron transport,0.00383924179476991,11,361,16,117,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,True
+R-HSA-5205647,Mitophagy,0.003860241560491584,4,41,12,23,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-446353,Cell-extracellular matrix interactions,0.0040256159048418505,3,19,3,10,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-8876725,Protein methylation,0.0040256159048418505,3,19,3,9,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-5218859,Regulated Necrosis,0.0040256159048418505,5,76,12,53,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-5617833,Cilium Assembly,0.0040256159048418505,9,256,22,83,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-180897,Vpr-mediated induction of apoptosis by mitochondrial outer membrane permeabilization,0.0040256159048418505,2,4,1,2,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-450408,AUF1 (hnRNP D0) binds and destabilizes mRNA,0.0040256159048418505,4,43,4,4,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-5213460,RIPK1-mediated regulated necrosis,0.0045356041168076455,4,45,11,29,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-5625740,RHO GTPases activate PKNs,0.004753644709113991,5,79,10,20,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-418990,Adherens junctions interactions,0.004984821253401495,9,267,20,164,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-9648025,EML4 and NUDC in mitotic spindle formation,0.0052356430984729085,6,121,2,5,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-8852135,Protein ubiquitination,0.0059071272944555275,5,83,29,32,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9692914,SARS-CoV-1-host interactions,0.005927991442328806,6,124,7,50,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-9609507,Protein localization,0.00613215087129082,7,171,22,53,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-9020591,Interleukin-12 signaling,0.006225260803994215,5,84,6,56,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-5628897,TP53 Regulates Metabolic Genes,0.00695777197816716,6,128,6,34,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,True
+R-HSA-1640170,Cell Cycle,0.007041599426647616,16,729,107,474,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-71291,Metabolism of amino acids and derivatives,0.007197996075434254,15,661,4,302,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,True
+R-HSA-9637690,Response of Mtb to phagocytosis,0.007690154921075054,4,52,6,30,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-9013422,RHOBTB1 GTPase cycle,0.007841647422982545,3,24,1,2,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-977225,Amyloid fiber formation,0.00800934671148612,5,89,8,33,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-76009,Platelet Aggregation (Plug Formation),0.008239586263686927,4,53,20,27,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-166058,MyD88:MAL(TIRAP) cascade initiated on plasma membrane,0.008430867628964611,6,133,30,76,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-168188,Toll Like Receptor TLR6:TLR2 Cascade,0.008430867628964611,6,133,30,78,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-2467813,Separation of Sister Chromatids,0.008718158454918412,7,182,4,8,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-3000471,Scavenging by Class B Receptors,0.008803144983114408,3,25,1,7,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-2500257,Resolution of Sister Chromatid Cohesion,0.009082162685567496,6,135,4,13,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-68882,Mitotic Anaphase,0.009144105828984839,8,236,9,32,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-2565942,Regulation of PLK1 Activity at G2/M Transition,0.009245396781483173,5,92,5,12,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,True,False
+R-HSA-2555396,Mitotic Metaphase and Anaphase,0.00938560430996882,8,237,9,33,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-168179,Toll Like Receptor TLR1:TLR2 Cascade,0.00942178032899088,6,136,30,78,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-181438,Toll Like Receptor 2 (TLR2) Cascade,0.00942178032899088,6,136,30,80,MjAyNjA5MTMxMzA1MjlfMjMxMDA%3D,4,False,False
+R-HSA-8953854,Metabolism of RNA,3.059504253144496e-05,20,863,63,244,MjAyNjA5MTMxMzA1MzZfMjMxMDE%3D,5,False,True
+R-HSA-72163,mRNA Splicing - Major Pathway,0.000976499243982687,9,213,11,11,MjAyNjA5MTMxMzA1MzZfMjMxMDE%3D,5,True,False
+R-HSA-72172,mRNA Splicing,0.000976499243982687,9,224,16,16,MjAyNjA5MTMxMzA1MzZfMjMxMDE%3D,5,False,False
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,0.0017491658987314196,10,317,36,52,MjAyNjA5MTMxMzA1MzZfMjMxMDE%3D,5,False,False
+R-HSA-6790901,rRNA modification in the nucleus and cytosol,0.006229772625022667,5,71,3,8,MjAyNjA5MTMxMzA1MzZfMjMxMDE%3D,5,True,False
+R-HSA-9824446,Viral Infection Pathways,0.008242636526070157,20,1407,34,899,MjAyNjA5MTMxMzA1MzZfMjMxMDE%3D,5,True,True
+R-HSA-112382,Formation of RNA Pol II elongation complex ,0.00608905104137436,5,60,2,2,MjAyNjA5MTMxMzA1NDRfMjMxMDI%3D,6,True,False
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,0.00608905104137436,10,317,35,52,MjAyNjA5MTMxMzA1NDRfMjMxMDI%3D,6,True,True
+R-HSA-75955,RNA Polymerase II Transcription Elongation,0.00608905104137436,5,61,5,8,MjAyNjA5MTMxMzA1NDRfMjMxMDI%3D,6,False,True
+R-HSA-4839726,Chromatin organization,0.00608905104137436,11,389,14,150,MjAyNjA5MTMxMzA1NDRfMjMxMDI%3D,6,True,True
+R-HSA-9013418,RHOBTB2 GTPase cycle,0.00020863073243271302,5,24,2,2,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,True,False
+R-HSA-9706574,RHOBTB GTPase Cycle,0.0005674168675784408,5,36,3,4,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,False,False
+R-HSA-8953854,Metabolism of RNA,0.0005674168675784408,18,863,62,244,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,False,True
+R-HSA-69278,"Cell Cycle, Mitotic",0.0013759086858808889,14,587,53,367,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,False,False
+R-HSA-3371556,Cellular response to heat stress,0.0014935403097027233,7,135,24,29,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,True,True
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,0.0014935403097027233,10,317,39,52,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,False,False
+R-HSA-5627123,RHO GTPases activate PAKs,0.0014935403097027233,4,27,11,15,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,True,False
+R-HSA-68875,Mitotic Prophase,0.0014935403097027233,7,134,8,34,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,False,False
+R-HSA-68886,M Phase,0.0015547554962083154,11,403,33,96,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,False,False
+R-HSA-1640170,Cell Cycle,0.0015547554962083154,15,729,68,474,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,False,True
+R-HSA-9918481,Dengue Virus-Host Interactions,0.0018508642986476698,9,273,5,59,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,False,True
+R-HSA-2980766,Nuclear Envelope Breakdown,0.002089419970418782,5,65,5,13,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,True,False
+R-HSA-194315,Signaling by Rho GTPases,0.0031842089587753586,14,708,38,203,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,False,False
+R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",0.00339038065284214,14,724,38,212,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,False,True
+R-HSA-9920588,Dengue virus activates/modulates innate and adaptive immune responses,0.00339038065284214,4,40,4,23,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,True,False
+R-HSA-9930044,Nuclear RNA decay,0.00339038065284214,4,39,10,15,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,True,False
+R-HSA-180746,Nuclear import of Rev protein,0.003492517053137467,4,41,3,7,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,True,False
+R-HSA-165054,Rev-mediated nuclear export of HIV RNA,0.004479112688580034,4,45,3,10,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,True,False
+R-HSA-177243,Interactions of Rev with host cellular proteins,0.004890570873516964,4,47,5,16,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,False,True
+R-HSA-399954,Sema3A PAK dependent Axon repulsion,0.005208736972555528,3,19,5,6,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,True,True
+R-HSA-4570464,SUMOylation of RNA binding proteins,0.006125480313388332,4,51,1,4,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,True,True
+R-HSA-75153,Apoptotic execution phase,0.007264573289640142,4,54,7,57,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,True,True
+R-HSA-9012999,RHO GTPase cycle,0.008367618395459853,10,460,21,91,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,False,False
+R-HSA-9013422,RHOBTB1 GTPase cycle,0.008367618395459853,3,24,1,2,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,True,False
+R-HSA-9705671,SARS-CoV-2 activates/modulates innate and adaptive immune responses,0.008367618395459853,6,159,7,48,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,True,True
+R-HSA-72187,mRNA 3'-end processing,0.009057044834187122,6,164,15,21,MjAyNjA5MTMxMzA1NTFfMjMxMDM%3D,7,True,False
+R-HSA-9770562,mRNA Polyadenylation,0.0025526483848761217,8,139,16,20,MjAyNjA5MTMxMzA1NTlfMjMxMDQ%3D,8,True,False
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,0.0025526483848761217,11,317,41,52,MjAyNjA5MTMxMzA1NTlfMjMxMDQ%3D,8,False,False
+R-HSA-72187,mRNA 3'-end processing,0.0029125318542213563,8,164,17,21,MjAyNjA5MTMxMzA1NTlfMjMxMDQ%3D,8,False,False
+R-HSA-8953854,Metabolism of RNA,0.007169939452380092,17,863,78,244,MjAyNjA5MTMxMzA1NTlfMjMxMDQ%3D,8,False,True
+R-HSA-2559586,DNA Damage/Telomere Stress Induced Senescence,7.526868017748711e-11,11,70,2,18,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-2559583,Cellular Senescence,6.77951339511651e-09,13,199,11,90,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-2262752,Cellular responses to stress,6.77951339511651e-09,25,1039,42,521,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-8953897,Cellular responses to stimuli,7.23391613277613e-09,26,1166,45,613,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-109582,Hemostasis,9.20432519091463e-09,22,821,56,366,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-195258,RHO GTPase Effectors,1.1860390625173522e-07,14,325,32,113,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-114608,Platelet degranulation ,3.410858206986944e-07,10,142,5,11,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9764274,Regulation of Expression and Function of Type I Classical Cadherins,3.410858206986944e-07,11,192,11,92,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9764265,Regulation of CDH1 Expression and Function,3.410858206986944e-07,11,192,11,92,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-76005,Response to elevated platelet cytosolic Ca2+,3.8144778335968965e-07,10,149,5,14,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9670095,Inhibition of DNA recombination at telomere,4.0228344655446335e-07,7,47,3,4,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-5663205,Infectious disease,4.470055527949768e-07,30,1965,127,1227,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-140342,Apoptosis induced DNA fragmentation,5.693238755988261e-07,5,13,2,12,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9759476,Regulation of Homotypic Cell-Cell Adhesion,6.984602403115048e-07,11,215,11,125,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-2299718,Condensation of Prophase Chromosomes,7.585100527673916e-07,7,54,8,10,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-977225,Amyloid fiber formation,1.0243017598554616e-06,8,89,8,33,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-171306,Packaging Of Telomere Ends,1.0743962564063736e-06,6,33,2,2,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-912446,Meiotic recombination,1.08917570473821e-06,7,59,4,10,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-5334118,DNA methylation,1.1284848283610316e-06,6,35,7,7,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-5250924,B-WICH complex positively regulates rRNA expression,1.1284848283610316e-06,7,61,2,3,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-73728,RNA Polymerase I Promoter Opening,1.1284848283610316e-06,6,35,1,3,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-76002,"Platelet activation, signaling and aggregation",1.1284848283610316e-06,12,294,33,119,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-2559584,Formation of Senescence-Associated Heterochromatin Foci (SAHF),1.138775435616246e-06,5,17,1,2,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-1643685,Disease,1.138775435616246e-06,37,3093,187,2176,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-168249,Innate Immune System,1.1473723091626198e-06,24,1387,134,782,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9645723,Diseases of programmed cell death,1.1473723091626198e-06,8,97,3,37,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-110330,Recognition and association of DNA glycosylase with site containing an affected purine,1.4823671312669262e-06,6,38,2,10,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9764725,Negative Regulation of CDH1 Gene Transcription,1.6385524104212124e-06,7,68,5,42,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-194315,Signaling by Rho GTPases,1.6385524104212124e-06,17,708,37,203,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-68616,Assembly of the ORC complex at the origin of replication,1.6385524104212124e-06,6,39,2,11,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-201722,Formation of the beta-catenin:TCF transactivating complex,1.6385524104212124e-06,7,68,2,13,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9845323,Regulation of endogenous retroelements by Piwi-interacting RNAs (piRNAs),1.6385524104212124e-06,7,68,2,2,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9843970,Regulation of endogenous retroelements by the Human Silencing Hub (HUSH) complex,1.8491320279423462e-06,6,41,5,8,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-110328,Recognition and association of DNA glycosylase with site containing an affected pyrimidine,1.8491320279423462e-06,6,41,1,21,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",1.938445156168811e-06,17,724,37,212,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-446728,Cell junction organization,1.938445156168811e-06,12,327,17,185,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9970672,FXIIa activates plasma kallikrein-kinin system,1.9764362420016113e-06,6,42,2,18,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-1280218,Adaptive Immune System,2.0864964209721393e-06,22,1237,72,361,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-418990,Adherens junctions interactions,2.0864964209721393e-06,11,267,16,164,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-5653656,Vesicle-mediated transport,2.293357228899673e-06,18,833,60,254,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-110331,Cleavage of the damaged purine,2.293357228899673e-06,6,44,2,9,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-427359,SIRT1 negatively regulates rRNA expression,2.293357228899673e-06,6,44,3,5,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-73927,Depurination,2.500533650362513e-06,6,45,4,19,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-212300,PRC2 methylates histones and DNA,2.7127414498062663e-06,6,46,4,4,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-5578749,Transcriptional regulation by small RNAs,2.7127414498062663e-06,6,46,1,5,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-5250913,Positive epigenetic regulation of rRNA expression,2.8389406663276162e-06,7,79,4,7,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-427389,ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression,2.8389406663276162e-06,6,47,2,4,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9764560,Regulation of CDH1 Gene Transcription,2.8389406663276162e-06,7,78,5,56,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-5625740,RHO GTPases activate PKNs,2.8389406663276162e-06,7,79,9,20,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-5625886,Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3,3.1438199035171976e-06,6,48,8,11,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9821002,Chromatin modifications during the maternal to zygotic transition (MZT),3.1438199035171976e-06,6,48,11,12,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-2173782,Binding and Uptake of Ligands by Scavenger Receptors,3.5344620510358027e-06,9,172,12,35,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-110329,Cleavage of the damaged pyrimidine ,3.775408004225156e-06,6,50,1,20,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-73928,Depyrimidination,3.775408004225156e-06,6,50,2,41,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9710421,Defective pyroptosis,3.999896762030275e-06,6,51,1,3,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-1500931,Cell-Cell communication,4.087194085067303e-06,12,365,17,208,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-421270,Cell-cell junction organization,4.679044760980133e-06,11,300,16,169,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-75153,Apoptotic execution phase,5.243049962189161e-06,6,54,5,57,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-2559582,Senescence-Associated Secretory Phenotype (SASP),5.7025555122436344e-06,7,90,3,22,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-68875,Mitotic Prophase,5.846232633999193e-06,8,134,9,34,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-8939236,RUNX1 regulates transcription of genes involved in differentiation of HSCs,6.598966413307039e-06,7,92,5,15,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-1500620,Meiosis,6.6467242443302155e-06,7,93,8,16,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9821993,Replacement of protamines by nucleosomes in the male pronucleus,6.889184079872379e-06,5,30,2,6,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-1221632,Meiotic synapsis,9.276053356988001e-06,6,61,4,6,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9940465,ChAHP complex assembly,9.276053356988001e-06,5,32,1,4,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-73772,RNA Polymerase I Promoter Escape,1.0116999307752117e-05,6,62,1,2,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-168256,Immune System,1.0116999307752117e-05,34,3033,227,1895,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-9824446,Viral Infection Pathways,1.0116999307752117e-05,22,1407,87,899,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-73929,"Base-Excision Repair, AP Site Formation",1.0116999307752117e-05,6,62,6,64,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-3214815,HDACs deacetylate histones,1.037191552522021e-05,6,63,4,5,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9839923,Dengue Virus Infection,1.0849290095760189e-05,12,411,9,142,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-68867,Assembly of the pre-replicative complex,1.1321060504276836e-05,7,103,4,23,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9940951,Interaction of NuRD complexes with transcription factors,1.1355432113391295e-05,6,64,8,11,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-5626467,RHO GTPases activate IQGAPs,1.3401763316434057e-05,5,36,3,5,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-157579,Telomere Maintenance,1.4279246706383475e-05,7,108,5,34,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-5693565,Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks,1.4847329012912525e-05,6,68,30,41,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-3214847,HATs acetylate histones,1.6109341969716695e-05,7,110,10,15,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9616222,Transcriptional regulation of granulopoiesis,1.7530729971682035e-05,6,70,1,27,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9842860,Regulation of endogenous retroelements,1.92204381264105e-05,7,113,14,17,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-2559580,Oxidative Stress Induced Senescence,1.92204381264105e-05,7,113,6,40,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9937850,NuRD complex assembly,2.208248773882815e-05,6,74,10,21,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9909649,Regulation of PD-L1(CD274) transcription,2.208248773882815e-05,6,74,7,18,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9943962,"CHD6, CHD7, CHD8, CHD9 subfamily",2.3841524435463946e-05,6,75,1,14,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-8936459,RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function,2.5713240497271528e-05,6,76,20,33,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9843940,Regulation of endogenous retroelements by KRAB-ZFP proteins,2.7106159825596166e-05,6,78,7,7,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9943411,CHD1 and CHD2 subfamily,2.7106159825596166e-05,6,78,5,5,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9943965,"CHD3, CHD4, CHD5 subfamily",2.7106159825596166e-05,6,78,11,25,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-69002,DNA Replication Pre-Initiation,2.7106159825596166e-05,7,121,4,32,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-427413,NoRC negatively regulates rRNA expression,2.9145527143947803e-05,6,79,3,7,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-1445148,Translocation of SLC2A4 (GLUT4) to the plasma membrane,3.3599872432121813e-05,6,81,3,15,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-3000171,Non-integrin membrane-ECM interactions,3.8593525032437626e-05,6,83,5,33,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-195721,Signaling by WNT,4.103982587544408e-05,10,320,26,157,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-211000,Gene Silencing by RNA,4.417515245158654e-05,6,85,1,40,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-68886,M Phase,4.720804145152968e-05,11,403,24,96,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-5250941,Negative epigenetic regulation of rRNA expression,4.838730057732388e-05,6,88,6,12,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-73886,Chromosome Maintenance,4.838730057732388e-05,7,135,8,38,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-73864,RNA Polymerase I Transcription,4.838730057732388e-05,6,87,2,14,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-9816359,Maternal to zygotic transition (MZT),5.0513667840590415e-05,7,137,19,46,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-5693607,Processing of DNA double-strand break ends,5.1580431142284056e-05,6,89,2,17,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-774815,Nucleosome assembly,6.512848468931409e-05,5,53,3,4,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-606279,Deposition of new CENPA-containing nucleosomes at the centromere,6.512848468931409e-05,5,53,3,4,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-201681,TCF dependent signaling in response to WNT,7.20154571386411e-05,8,204,15,71,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-1474165,Reproduction,7.611975558374784e-05,7,146,8,44,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-5693571,Nonhomologous End-Joining (NHEJ),8.478858946647794e-05,5,56,4,13,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-73884,Base Excision Repair,9.398423418216506e-05,6,99,6,107,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-1912408,Pre-NOTCH Transcription and Translation,9.943838409287586e-05,6,100,3,37,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9609690,HCMV Early Events,0.00010497154441579948,8,215,7,12,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-70171,Glycolysis,0.00015840023366209266,6,111,5,23,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-392499,Metabolism of proteins,0.00017389505542109163,27,2427,197,928,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-5693606,DNA Double Strand Break Response,0.00018373000616112023,6,114,32,53,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-69306,DNA Replication,0.0001854622039836329,7,171,8,73,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-5619507,Activation of HOX genes during differentiation,0.0002023584069554829,6,116,31,43,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-5617472,Activation of anterior HOX genes in hindbrain development during early embryogenesis,0.0002023584069554829,6,116,31,43,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-430116,GP1b-IX-V activation signalling,0.0002536033564082274,3,12,7,9,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-109581,Apoptosis,0.000256366665199792,7,180,7,142,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-1912422,Pre-NOTCH Expression and Processing,0.0003059405266290227,6,125,3,47,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-5693567,HDR through Homologous Recombination (HRR) or Single Strand Annealing (SSA),0.00033390504506236596,6,127,3,50,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9909648,Regulation of PD-L1(CD274) expression,0.00037192560316512413,7,191,16,56,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-390522,Striated Muscle Contraction,0.0003823930884592208,4,40,4,4,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9932444,ATP-dependent chromatin remodelers,0.0003823930884592208,7,196,24,65,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-70326,Glucose metabolism,0.0003823930884592208,6,131,9,40,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-5693538,Homology Directed Repair,0.0003823930884592208,6,133,3,58,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-69473,G2/M DNA damage checkpoint,0.0004018631582177745,5,82,2,12,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9609646,HCMV Infection,0.0004066679648341287,8,270,8,31,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9918481,Dengue Virus-Host Interactions,0.00043903551451573986,8,273,4,59,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9841922,MLL4 and MLL3 complexes regulate expression of PPARG target genes in adipogenesis and hepatic steatosis,0.0004793417668763622,6,139,33,37,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9851695,Epigenetic regulation of adipogenesis genes by MLL3 and MLL4 complexes,0.0004793417668763622,6,139,33,37,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9818564,Epigenetic regulation of gene expression by MLL3 and MLL4 complexes,0.0004793417668763622,6,139,33,40,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-216083,Integrin cell surface interactions,0.0005021747323082915,5,86,7,55,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-69481,G2/M Checkpoints,0.0005385486592376365,6,142,3,24,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9646399,Aggrephagy,0.0006499584301608019,4,47,13,15,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-422475,Axon guidance,0.0007292896826502915,11,566,18,295,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9845622,Defective VWF binding to collagen type I ,0.0007466218504555977,2,3,1,1,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-389948,Co-inhibition by PD-1,0.0007597616583986389,7,219,16,61,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-3000480,Scavenging by Class A Receptors,0.0007621592711688496,4,49,3,10,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9656223,Signaling by RAF1 mutants,0.0007621592711688496,4,49,5,7,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9018519,Estrogen-dependent gene expression,0.0007955126585841299,6,153,14,66,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9664417,Leishmania phagocytosis,0.0007955126585841299,6,157,17,27,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-5357801,Programmed Cell Death,0.0007955126585841299,7,225,14,194,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-446353,Cell-extracellular matrix interactions,0.0007955126585841299,3,19,1,10,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9664422,FCGR3A-mediated phagocytosis,0.0007955126585841299,6,157,17,27,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9664407,Parasite infection,0.0007955126585841299,6,157,17,27,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-190828,Gap junction trafficking,0.0008193704099979104,4,52,7,20,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-2029482,Regulation of actin dynamics for phagocytic cup formation,0.0008232005471140447,6,158,11,24,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-69278,"Cell Cycle, Mitotic",0.0008590283305280888,11,587,56,367,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-6802955,Paradoxical activation of RAF signaling by kinase inactive BRAF,0.0009458255521248571,4,54,5,7,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9649948,Signaling downstream of RAS mutants,0.0009458255521248571,4,54,5,7,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-6802946,Signaling by moderate kinase activity BRAF mutants,0.0009458255521248571,4,54,5,7,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-6802949,Signaling by RAS mutants,0.0009458255521248571,4,54,5,9,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-1566977,Fibronectin matrix formation,0.0009873792574175422,3,21,1,4,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-437239,Recycling pathway of L1,0.0010140785313466072,4,55,5,14,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9937848,CHD chromatin remodelers,0.0010391215794931519,6,165,17,44,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9675108,Nervous system development,0.0010840618315735018,11,603,18,322,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-70263,Gluconeogenesis,0.0010858202842809472,4,56,4,17,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9845619,Enhanced cleavage of VWF variant by ADAMTS13,0.001134079359714102,2,4,1,1,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9845621,Defective VWF cleavage by ADAMTS13 variant,0.001134079359714102,2,4,1,1,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-157858,Gap junction trafficking and regulation,0.0011611557094284297,4,57,7,24,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9917777,Epigenetic regulation by WDR5-containing histone modifying complexes,0.0012578458589820318,6,171,33,67,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9613829,Chaperone Mediated Autophagy,0.0012880594451416538,3,23,9,19,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-8957275,Post-translational protein phosphorylation,0.001289338637440407,5,109,1,1,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-8878171,Transcriptional regulation by RUNX1,0.0013220090160481757,7,246,25,132,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-9610379,HCMV Late Events,0.0013357924920354147,6,175,1,19,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-445355,Smooth Muscle Contraction,0.0013357924920354147,4,61,8,16,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-3247509,Chromatin modifying enzymes,0.0013357924920354147,7,254,28,85,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9918487,Dengue Virus Genome Translation and Replication,0.001428022063197365,5,116,5,64,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-8939211,ESR-mediated signaling,0.001433289232450341,7,257,15,114,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-1266738,Developmental Biology,0.0015023185700002717,22,2061,81,996,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-157118,Signaling by NOTCH,0.0015364370376108605,7,260,15,165,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-9764561,Regulation of CDH1 Function,0.0015883692982082698,4,65,6,16,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-5627123,RHO GTPases activate PAKs,0.0017120584725738297,3,27,6,15,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-1474244,Extracellular matrix organization,0.0017224759407835633,8,351,68,330,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-5689880,Ub-specific processing proteases,0.0019360000145135503,6,192,35,40,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-983231,Factors involved in megakaryocyte development and platelet production,0.0020442844403462113,6,194,6,43,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-2029480,Fcgamma receptor (FCGR) dependent phagocytosis,0.002100173637495928,6,195,22,42,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-3000170,Syndecan interactions,0.0021064500509426765,3,29,1,15,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-5688426,Deubiquitination,0.002145519901360915,7,275,55,77,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-381426,Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs),0.0021539403129033907,5,127,1,14,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-388841,Regulation of T cell activation by CD28 family,0.0021921373343536388,7,276,16,91,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-6802952,Signaling by BRAF and RAF1 fusions,0.0024529559773783793,4,73,5,5,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-5689901,Metalloprotease DUBs,0.002800297467329682,3,32,5,6,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-8874081,MET activates PTK2 signaling,0.002800297467329682,3,32,1,5,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9671793,Diseases of hemostasis,0.002800297467329682,3,32,6,23,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-71387,Metabolism of carbohydrates and carbohydrate derivatives,0.002859749204552897,9,477,17,244,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-9845620,Enhanced binding of GP1BA variant to VWF multimer:collagen ,0.002866668419618801,2,7,1,1,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9846298,Defective binding of VWF variant to GPIb:IX:V,0.002866668419618801,2,7,1,1,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-6798695,Neutrophil degranulation,0.0029026819495669987,9,478,4,10,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9925563,Developmental Lineage of Pancreatic Ductal Cells,0.002991685134393629,4,77,2,2,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-5693532,DNA Double-Strand Break Repair,0.0030911578171322063,6,210,39,124,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9619483,Activation of AMPK downstream of NMDARs,0.0033352152286370007,3,34,2,3,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,True
+R-HSA-4839726,Chromatin organization,0.00337561606021608,8,389,52,150,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-9824443,Parasitic Infection Pathways,0.0034023882020202123,7,301,25,95,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9658195,Leishmania infection,0.0034023882020202123,7,301,25,95,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-389958,Cooperation of Prefoldin and TriC/CCT  in actin and tubulin folding,0.0034023882020202123,3,37,6,6,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-5689603,UCH proteinases,0.0034023882020202123,4,84,5,11,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9615710,Late endosomal microautophagy,0.0034023882020202123,3,35,3,3,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9823587,Defects of platelet adhesion to exposed collagen,0.0034023882020202123,2,8,5,5,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9913351,Formation of the dystrophin-glycoprotein complex (DGC),0.0034023882020202123,3,37,2,11,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-5663220,RHO GTPases Activate Formins,0.003522251878782079,5,149,9,27,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-1640170,Cell Cycle,0.003542270463396502,11,729,80,474,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-9938026,Immunoglobulin maturation,0.0035564138339876372,8,406,13,40,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-9938027,Affinity selection of immunoglobulins,0.0035564138339876372,8,406,13,40,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9958825,Activation of STAT3 by cadherin engagement,0.0037585474690966514,4,87,7,33,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-6806834,Signaling by MET,0.003919807893129956,4,88,4,51,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-73894,DNA Repair,0.0040284888426098675,8,414,105,350,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-397014,Muscle contraction,0.004128886073497373,6,232,16,53,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-901042,Calnexin/calreticulin cycle,0.004253662097638333,3,40,5,12,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-597592,Post-translational protein modification,0.0045534834762661625,18,1676,121,605,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-6802957,Oncogenic MAPK signaling,0.0047998108947884255,4,93,29,46,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-70268,Pyruvate metabolism,0.005389575344033393,4,96,5,31,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,True
+R-HSA-6802948,Signaling by high-kinase activity BRAF mutants,0.005582358691874401,3,44,4,6,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-8948216,Collagen chain trimerization,0.005582358691874401,3,44,2,28,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-196025,Formation of annular gap junctions,0.0055913398577023266,2,11,2,2,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9663891,Selective autophagy,0.005596923507830809,4,97,16,56,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-1236974,ER-Phagosome pathway,0.005809780874100223,4,98,7,11,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9981148,Developmental Lineage of Pancreatic Endocrine Mid Progenitor Cells,0.005950688111413971,3,45,1,2,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-8875878,MET promotes cell motility,0.005950688111413971,3,45,1,12,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-212165,Epigenetic regulation of gene expression,0.006385162598486538,7,345,68,118,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-975956,Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC),0.006482181262840836,4,101,1,1,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,True
+R-HSA-2025928,Calcineurin activates NFAT,0.006632985399854796,2,12,2,3,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-190873,Gap junction degradation,0.006632985399854796,2,12,4,4,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-156842,Eukaryotic Translation Elongation,0.006717847892602435,4,102,5,9,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-202733,Cell surface interactions at the vascular wall,0.006926541127346031,6,257,4,65,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-9612973,Autophagy,0.0069554755468379525,5,174,27,117,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,True
+R-HSA-983705,Signaling by the B Cell Receptor (BCR),0.00730874330875908,5,176,19,45,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-5674135,MAP2K and MAPK activation,0.0075753152158579695,3,49,8,12,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,True
+R-HSA-2168880,Scavenging of heme from plasma,0.007720228101084192,4,106,6,12,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-3214858,RMTs methylate histone arginines,0.008958552615577986,3,52,8,22,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-76009,Platelet Aggregation (Plug Formation),0.009452089547434372,3,53,16,27,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,True,False
+R-HSA-532668,N-glycan trimming in the ER and Calnexin/Calreticulin cycle,0.009962175960915864,3,54,7,17,MjAyNjA5MTMxMzA2MDZfMjMxMDU%3D,9,False,False
+R-HSA-72163,mRNA Splicing - Major Pathway,0.0012527595478084574,9,213,11,11,MjAyNjA5MTMxMzA2MTRfMjMxMDY%3D,10,True,False
+R-HSA-72172,mRNA Splicing,0.0012527595478084574,9,224,16,16,MjAyNjA5MTMxMzA2MTRfMjMxMDY%3D,10,False,False
+R-HSA-9770562,mRNA Polyadenylation,0.0017007320006008353,7,139,13,20,MjAyNjA5MTMxMzA2MTRfMjMxMDY%3D,10,True,False
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,0.0017007320006008353,10,317,33,52,MjAyNjA5MTMxMzA2MTRfMjMxMDY%3D,10,False,False
+R-HSA-8953854,Metabolism of RNA,0.0017007320006008353,16,863,45,244,MjAyNjA5MTMxMzA2MTRfMjMxMDY%3D,10,False,True
+R-HSA-9918481,Dengue Virus-Host Interactions,0.0017007320006008353,9,273,5,59,MjAyNjA5MTMxMzA2MTRfMjMxMDY%3D,10,True,False
+R-HSA-9839923,Dengue Virus Infection,0.0017007320006008353,11,411,8,142,MjAyNjA5MTMxMzA2MTRfMjMxMDY%3D,10,False,True
+R-HSA-9006821,Alternative Lengthening of Telomeres (ALT),0.002469174726660084,2,2,2,2,MjAyNjA5MTMxMzA2MTRfMjMxMDY%3D,10,False,False
+R-HSA-9670621,Defective Inhibition of DNA Recombination at Telomere,0.002469174726660084,2,2,2,2,MjAyNjA5MTMxMzA2MTRfMjMxMDY%3D,10,False,False
+R-HSA-9673013,Diseases of Telomere Maintenance,0.002469174726660084,2,2,2,2,MjAyNjA5MTMxMzA2MTRfMjMxMDY%3D,10,False,True
+R-HSA-9670613,Defective Inhibition of DNA Recombination at Telomere Due to DAXX Mutations,0.002469174726660084,2,2,1,1,MjAyNjA5MTMxMzA2MTRfMjMxMDY%3D,10,True,False
+R-HSA-9670615,Defective Inhibition of DNA Recombination at Telomere Due to ATRX Mutations,0.002469174726660084,2,2,1,1,MjAyNjA5MTMxMzA2MTRfMjMxMDY%3D,10,True,False
+R-HSA-72187,mRNA 3'-end processing,0.002469174726660084,7,164,14,21,MjAyNjA5MTMxMzA2MTRfMjMxMDY%3D,10,False,False
+R-HSA-111465,Apoptotic cleavage of cellular proteins,0.002472422328484214,4,38,6,38,MjAyNjA5MTMxMzA2MTRfMjMxMDY%3D,10,True,False
+R-HSA-75153,Apoptotic execution phase,0.008929763813815939,4,54,6,57,MjAyNjA5MTMxMzA2MTRfMjMxMDY%3D,10,False,True
+R-HSA-72172,mRNA Splicing,8.759202940744615e-05,10,224,15,16,MjAyNjA5MTMxMzA2MjFfMjMxMDc%3D,11,False,False
+R-HSA-72163,mRNA Splicing - Major Pathway,8.759202940744615e-05,10,213,10,11,MjAyNjA5MTMxMzA2MjFfMjMxMDc%3D,11,True,False
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,0.00012748608044288456,11,317,33,52,MjAyNjA5MTMxMzA2MjFfMjMxMDc%3D,11,False,False
+R-HSA-9770562,mRNA Polyadenylation,0.00012748608044288456,8,139,13,20,MjAyNjA5MTMxMzA2MjFfMjMxMDc%3D,11,True,False
+R-HSA-8953854,Metabolism of RNA,0.0002431899483119615,17,863,55,244,MjAyNjA5MTMxMzA2MjFfMjMxMDc%3D,11,False,True
+R-HSA-72187,mRNA 3'-end processing,0.0002490966211006196,8,164,14,21,MjAyNjA5MTMxMzA2MjFfMjMxMDc%3D,11,False,False
+R-HSA-68875,Mitotic Prophase,0.00645814116514809,6,134,10,34,MjAyNjA5MTMxMzA2MjFfMjMxMDc%3D,11,True,False
+R-HSA-1640170,Cell Cycle,0.007614129957525861,13,729,64,474,MjAyNjA5MTMxMzA2MjFfMjMxMDc%3D,11,False,True
+R-HSA-194315,Signaling by Rho GTPases,1.460799037289462e-09,23,708,60,203,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",1.460799037289462e-09,23,724,60,212,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,4.738776038237802e-09,21,634,234,759,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-1500931,Cell-Cell communication,2.396719256392288e-08,16,365,22,208,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,True
+R-HSA-76002,"Platelet activation, signaling and aggregation",1.1024458845820817e-07,14,294,31,119,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9675108,Nervous system development,4.266738671265813e-07,18,603,69,322,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-422475,Axon guidance,9.8043374807677e-07,17,566,68,295,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9009391,Extra-nuclear estrogen signaling,1.2085643683601432e-06,9,112,11,39,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-5684996,MAPK1/MAPK3 signaling,1.4716725621477522e-06,13,316,31,82,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-4420097,VEGFA-VEGFR2 Pathway,3.412562754712134e-06,9,130,34,79,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-109582,Hemostasis,4.593626506399495e-06,19,821,43,366,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,True
+R-HSA-194138,Signaling by VEGF,5.671556640662878e-06,9,141,34,86,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-5683057,MAPK family signaling cascades,5.716291189838962e-06,13,367,32,122,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-5663213,RHO GTPases Activate WASPs and WAVEs,6.340309739893968e-06,6,41,10,10,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-5673001,RAF/MAP kinase cascade,6.340309739893968e-06,12,309,24,75,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9012999,RHO GTPase cycle,8.850638070434513e-06,14,460,29,91,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-195258,RHO GTPase Effectors,9.20989884956036e-06,12,325,31,113,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-373753,Nephrin family interactions,1.3757479592868549e-05,5,25,4,13,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-162582,Signal Transduction,1.392199221528223e-05,37,3056,430,2589,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,True
+R-HSA-5357801,Programmed Cell Death,1.6859967552074195e-05,10,225,13,194,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,True
+R-HSA-373760,L1CAM interactions,2.1791296474282795e-05,8,130,12,54,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-75153,Apoptotic execution phase,2.1791296474282795e-05,6,54,8,57,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-109581,Apoptosis,2.2457886839744035e-05,9,180,11,142,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-74749,Signal attenuation,3.111787132770161e-05,4,13,6,7,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,3.527386408130884e-05,14,536,189,516,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-2029480,Fcgamma receptor (FCGR) dependent phagocytosis,3.756395689169523e-05,9,195,17,42,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-1250196,SHC1 events in ERBB2 signaling,5.267290650967649e-05,5,36,6,6,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-449147,Signaling by Interleukins,5.267290650967649e-05,15,646,46,505,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9842663,Signaling by LTK,5.87788372607978e-05,4,16,4,10,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-1227986,Signaling by ERBB2,5.8808138556520895e-05,6,68,30,46,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-166520,Signaling by NTRKs,9.465840364741851e-05,8,166,31,164,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9725370,Signaling by ALK fusions and activated point mutants,9.882670886918188e-05,7,119,33,63,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-1280215,Cytokine Signaling in Immune system,9.882670886918188e-05,20,1193,71,823,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9700206,Signaling by ALK in cancer,9.882670886918188e-05,7,119,34,71,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9613829,Chaperone Mediated Autophagy,0.00020327268911435326,4,23,17,19,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,True
+R-HSA-6798695,Neutrophil degranulation,0.00022969516565307657,12,478,8,10,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-8939211,ESR-mediated signaling,0.00024018638122369484,9,257,18,114,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9842640,Signaling by LTK in cancer,0.00039990993349015014,3,9,2,4,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-982772,Growth hormone receptor signaling,0.00042113920779252023,4,29,4,28,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9634638,Estrogen-dependent nuclear events downstream of ESR-membrane signaling,0.00042113920779252023,4,29,3,12,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-2029482,Regulation of actin dynamics for phagocytic cup formation,0.0005106856263010773,7,158,14,24,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-450341,Activation of the AP-1 family of transcription factors,0.0006518247621993822,3,12,2,5,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9730414,MITF-M-regulated melanocyte development,0.0006518247621993822,8,233,12,150,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-168249,Innate Immune System,0.0006518247621993822,20,1387,78,782,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-375165,NCAM signaling for neurite out-growth,0.0006535925249284702,5,70,8,23,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9006927,Signaling by Non-Receptor Tyrosine Kinases,0.000655032757539975,5,71,22,53,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-8848021,Signaling by PTK6,0.000655032757539975,5,71,22,53,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-2428924,IGF1R signaling cascade,0.00069660890108314,5,72,11,17,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-74751,Insulin receptor signalling cascade,0.00069660890108314,5,72,18,25,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-2404192,Signaling by Type 1 Insulin-like Growth Factor 1 Receptor (IGF1R),0.00069660890108314,5,73,11,19,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-1266738,Developmental Biology,0.0007737811844052978,25,2061,91,996,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,True
+R-HSA-5668599,RHO GTPases Activate NADPH Oxidases,0.0007979428947919587,4,38,3,14,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-111465,Apoptotic cleavage of cellular proteins,0.0007979428947919587,4,38,6,38,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9013424,RHOV GTPase cycle,0.0008187382183313385,4,39,1,2,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-446728,Cell junction organization,0.0008764392749907035,9,327,16,185,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9839923,Dengue Virus Infection,0.0009424264916045866,10,411,12,142,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-1643685,Disease,0.0010553301806059956,32,3093,250,2176,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,True
+R-HSA-187687,Signalling to ERKs,0.0010878946087931052,4,42,13,32,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9696264,RND3 GTPase cycle,0.0010988443307708984,4,43,1,2,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9696273,RND1 GTPase cycle,0.0010988443307708984,4,43,1,2,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-2428933,SHC-related events triggered by IGF1R,0.0011410212961924238,3,16,5,5,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9696270,RND2 GTPase cycle,0.0011997978355093863,4,44,1,2,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9013420,RHOU GTPase cycle,0.0011997978355093863,4,44,1,4,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-6811558,"PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",0.001213370366420552,6,137,4,7,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-162658,Golgi Cisternae Pericentriolar Stack Reorganization,0.0012497244295324172,3,17,2,6,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,True
+R-HSA-9918481,Dengue Virus-Host Interactions,0.0012537896087712053,8,273,6,59,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-201556,Signaling by ALK,0.0013031993355105964,4,46,5,42,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-5654738,Signaling by FGFR2,0.0013086419188845788,5,88,9,46,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-199418,Negative regulation of the PI3K/AKT network,0.0013738551871034232,6,145,4,10,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-451927,Interleukin-2 family signaling,0.0013738551871034232,4,47,14,59,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-187037,Signaling by NTRK1 (TRKA),0.0013738551871034232,6,143,23,102,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9013404,RAC2 GTPase cycle,0.0014611592098734416,5,92,2,10,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-512988,"Interleukin-3, Interleukin-5 and GM-CSF signaling",0.0016270878845192627,4,50,15,38,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-5654743,Signaling by FGFR4,0.0017540755981626521,4,51,6,41,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-8849471,"PTK6 Regulates RHO GTPases, RAS GTPase and MAP kinases",0.0018286631900499284,3,20,12,13,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9664407,Parasite infection,0.0018934362379905423,6,157,14,27,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9664417,Leishmania phagocytosis,0.0018934362379905423,6,157,14,27,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9664422,FCGR3A-mediated phagocytosis,0.0018934362379905423,6,157,14,27,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-5654741,Signaling by FGFR3,0.0018934362379905423,4,53,6,43,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-5663205,Infectious disease,0.0018934362379905423,23,1965,58,1227,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9013423,RAC3 GTPase cycle,0.0019297238515655346,5,100,2,6,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-421270,Cell-cell junction organization,0.0019416194165755574,8,300,14,169,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9006931,Signaling by Nuclear Receptors,0.0019752852815932975,9,383,18,195,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-74752,Signaling by Insulin receptor,0.002112861643236208,5,102,18,34,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-2682334,EPH-Ephrin signaling,0.002112861643236208,5,102,24,56,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-5637810,Constitutive Signaling by EGFRvIII,0.002173712216889112,3,22,18,18,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-5637812,Signaling by EGFRvIII in Cancer,0.002173712216889112,3,22,18,18,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9665348,Signaling by ERBB2 ECD mutants,0.00219932500757114,3,23,15,15,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9725371,Nuclear events stimulated by ALK signaling in cancer,0.00219932500757114,4,56,12,32,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-881907,Gastrin-CREB signalling pathway via PKC and MAPK,0.0024892264997875557,3,24,4,9,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-190236,Signaling by FGFR,0.0025419527615149207,5,109,24,142,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-5637815,Signaling by Ligand-Responsive EGFR Variants in Cancer,0.002747953955787086,3,26,23,23,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-1236382,Constitutive Signaling by Ligand-Responsive EGFR Cancer Variants,0.002747953955787086,3,26,23,23,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-198753,ERK/MAPK targets,0.002747953955787086,3,26,6,7,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-445144,Signal transduction by L1,0.002747953955787086,3,25,3,11,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-70171,Glycolysis,0.002747953955787086,5,111,4,23,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-5654736,Signaling by FGFR1,0.0028885665213140843,4,64,6,48,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9662361,Sensory processing of sound by outer hair cells of the cochlea,0.0028885665213140843,4,64,1,8,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-112409,RAF-independent MAPK1/3 activation,0.0034057724184094473,3,28,12,12,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9652169,Signaling by MAP2K mutants,0.003495847631962423,2,6,1,1,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-912526,Interleukin receptor SHC signaling,0.0037693123987107002,3,29,6,6,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9013149,RAC1 GTPase cycle,0.004133348643507451,6,191,2,6,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9665686,Signaling by ERBB2 TMD/JMD mutants,0.004156797602564044,3,30,13,13,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9764274,Regulation of Expression and Function of Type I Classical Cadherins,0.004246875822156881,6,192,9,92,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9764265,Regulation of CDH1 Expression and Function,0.004246875822156881,6,192,9,92,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-1643713,Signaling by EGFR in Cancer,0.004290948587154286,3,32,42,42,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-70326,Glucose metabolism,0.004361552815821845,5,131,7,40,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,True
+R-HSA-2559583,Cellular Senescence,0.004380857986913567,6,199,19,90,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,True
+R-HSA-445095,Interaction between L1 and Ankyrins,0.0046878453073244675,3,33,2,4,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9662360,Sensory processing of sound by inner hair cells of the cochlea,0.004689900399786007,4,76,1,7,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-168256,Immune System,0.004817068837930538,29,3033,187,1895,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,True
+R-HSA-5674499,Negative feedback regulation of MAPK pathway,0.005013536116458828,2,8,3,3,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-2424491,DAP12 signaling,0.005013536116458828,3,36,17,17,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-1227990,Signaling by ERBB2 in Cancer,0.005013536116458828,3,36,60,62,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9664565,Signaling by ERBB2 KD Mutants,0.005013536116458828,3,35,15,17,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9706574,RHOBTB GTPase Cycle,0.005013536116458828,3,36,3,4,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-450282,MAPK targets/ Nuclear events mediated by MAP kinases,0.005013536116458828,3,35,8,16,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-450531,Regulation of mRNA stability by proteins that bind AU-rich elements,0.005013536116458828,4,80,5,26,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,True
+R-HSA-9759476,Regulation of Homotypic Cell-Cell Adhesion,0.005426018892343842,6,215,9,125,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9658195,Leishmania infection,0.005999503848180265,7,301,15,95,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-9824443,Parasitic Infection Pathways,0.005999503848180265,7,301,15,95,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-354192,Integrin signaling,0.006301155982153528,3,39,11,24,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9659379,Sensory processing of sound,0.006419296784837547,4,87,2,13,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,True
+R-HSA-9833482,PKR-mediated signaling,0.006692469978451521,4,88,5,40,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-9732724,IFNG signaling activates MAPKs,0.006840430653460294,2,10,1,3,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-913531,Interferon Signaling,0.008011332948650862,9,507,15,157,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,False,False
+R-HSA-444257,RSK activation,0.008248228336686925,2,11,1,4,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,True
+R-HSA-8853659,RET signaling,0.008316807617003152,3,43,9,24,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-114604,GPVI-mediated activation cascade,0.008316807617003152,3,43,6,25,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-6802948,Signaling by high-kinase activity BRAF mutants,0.008876494103104982,3,44,4,6,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-8856828,Clathrin-mediated endocytosis,0.008996351480839437,5,161,16,35,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,True
+R-HSA-70268,Pyruvate metabolism,0.00917723371463175,4,96,5,31,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,True
+R-HSA-9663891,Selective autophagy,0.009527112264524629,4,97,11,56,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,True
+R-HSA-264870,Caspase-mediated cleavage of cytoskeletal proteins,0.00978205845806046,2,12,4,10,MjAyNjA5MTMxMzA2MjlfMjMxMDg%3D,12,True,False
+R-HSA-8953854,Metabolism of RNA,0.004885015014041705,13,863,42,244,MjAyNjA5MTMxMzA2MzZfMjMxMDk%3D,13,True,True
+R-HSA-8856828,Clathrin-mediated endocytosis,0.007600007471791681,5,161,20,35,MjAyNjA5MTMxMzA2NDNfMjMxMTA%3D,14,True,True
+R-HSA-9662360,Sensory processing of sound by inner hair cells of the cochlea,0.007600007471791681,4,76,2,7,MjAyNjA5MTMxMzA2NDNfMjMxMTA%3D,14,True,False
+R-HSA-9659379,Sensory processing of sound,0.007600007471791681,4,87,3,13,MjAyNjA5MTMxMzA2NDNfMjMxMTA%3D,14,False,True
+R-HSA-112310,Neurotransmitter release cycle,0.008617016740863015,4,99,7,37,MjAyNjA5MTMxMzA2NDNfMjMxMTA%3D,14,True,True
+R-HSA-5223345,Miscellaneous transport and binding events,0.008617016740863015,3,40,2,18,MjAyNjA5MTMxMzA2NDNfMjMxMTA%3D,14,True,True
+R-HSA-9012999,RHO GTPase cycle,0.00048254634418753994,13,460,29,91,MjAyNjA5MTMxMzA2NTFfMjMxMTE%3D,15,False,False
+R-HSA-9013148,CDC42 GTPase cycle,0.0005788299349376302,8,159,2,6,MjAyNjA5MTMxMzA2NTFfMjMxMTE%3D,15,True,False
+R-HSA-194315,Signaling by Rho GTPases,0.0007441298556614129,15,708,58,203,MjAyNjA5MTMxMzA2NTFfMjMxMTE%3D,15,False,False
+R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",0.0007441298556614129,15,724,58,212,MjAyNjA5MTMxMzA2NTFfMjMxMTE%3D,15,False,True
+R-HSA-9013409,RHOJ GTPase cycle,0.0017544985437769611,5,59,1,3,MjAyNjA5MTMxMzA2NTFfMjMxMTE%3D,15,True,False
+R-HSA-9013407,RHOH GTPase cycle,0.004630516330083045,4,38,1,3,MjAyNjA5MTMxMzA2NTFfMjMxMTE%3D,15,True,False
+R-HSA-4420097,VEGFA-VEGFR2 Pathway,0.005203616827764712,6,130,15,79,MjAyNjA5MTMxMzA2NTFfMjMxMTE%3D,15,False,False
+R-HSA-194138,Signaling by VEGF,0.007092012166992845,6,141,15,86,MjAyNjA5MTMxMzA2NTFfMjMxMTE%3D,15,False,True
+R-HSA-5218920,VEGFR2 mediated vascular permeability,0.007460865368325464,4,48,4,15,MjAyNjA5MTMxMzA2NTFfMjMxMTE%3D,15,True,False
+R-HSA-2173782,Binding and Uptake of Ligands by Scavenger Receptors,3.595310271720109e-09,11,172,12,35,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-109582,Hemostasis,3.595310271720109e-09,19,821,52,366,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,True
+R-HSA-216083,Integrin cell surface interactions,9.904043751784997e-08,8,86,7,55,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-5653656,Vesicle-mediated transport,1.4916866108993787e-07,17,833,55,254,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,True
+R-HSA-1474244,Extracellular matrix organization,1.8874421026104926e-07,12,351,74,330,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,True
+R-HSA-1650814,Collagen biosynthesis and modifying enzymes,6.688733598103624e-07,7,76,26,51,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-8948216,Collagen chain trimerization,7.134954438381413e-07,6,44,4,28,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-3000171,Non-integrin membrane-ECM interactions,9.054126346441649e-07,7,83,5,33,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-1474290,Collagen formation,3.340421327213683e-06,7,104,42,77,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-1280218,Adaptive Immune System,3.340421327213683e-06,18,1237,34,361,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-2022090,Assembly of collagen fibrils and other multimeric structures,5.387959678415655e-06,6,67,16,26,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-1442490,Collagen degradation,5.826352612592345e-06,6,69,11,34,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-3000178,ECM proteoglycans,1.1018971575738057e-05,6,79,8,23,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-168256,Immune System,1.1018971575738057e-05,27,3033,119,1895,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,True
+R-HSA-114608,Platelet degranulation ,1.8038017293831032e-05,7,142,4,11,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9646399,Aggrephagy,1.8096843760084802e-05,5,47,6,15,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-76002,"Platelet activation, signaling and aggregation",1.8096843760084802e-05,9,294,32,119,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-3000480,Scavenging by Class A Receptors,1.9881292343537638e-05,5,49,3,10,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-76005,Response to elevated platelet cytosolic Ca2+,1.9881292343537638e-05,7,149,4,14,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-1566977,Fibronectin matrix formation,2.078882233291779e-05,4,21,1,4,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9938026,Immunoglobulin maturation,2.078882233291779e-05,10,406,6,40,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-9938027,Affinity selection of immunoglobulins,2.078882233291779e-05,10,406,6,40,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-8953897,Cellular responses to stimuli,2.078882233291779e-05,16,1166,34,613,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,True
+R-HSA-2262752,Cellular responses to stress,2.481611198978939e-05,15,1039,23,521,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-8957275,Post-translational protein phosphorylation,3.7839108691484213e-05,6,109,1,1,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-202733,Cell surface interactions at the vascular wall,4.665892617217171e-05,8,257,4,65,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-5663205,Infectious disease,5.4670083305619066e-05,20,1965,75,1227,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-389957,Prefoldin mediated transfer of substrate  to CCT/TriC,5.4670083305619066e-05,4,29,2,2,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-3000170,Syndecan interactions,5.4670083305619066e-05,4,29,1,15,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-8874081,MET activates PTK2 signaling,7.097973889980125e-05,4,32,1,5,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9671793,Diseases of hemostasis,7.097973889980125e-05,4,32,6,23,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-381426,Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs),7.13417182263143e-05,6,127,1,14,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-1643685,Disease,0.00010136762060897198,25,3093,115,2176,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,True
+R-HSA-9925563,Developmental Lineage of Pancreatic Ductal Cells,0.00010136762060897198,5,77,2,2,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-5626467,RHO GTPases activate IQGAPs,0.00010505772377800149,4,36,2,5,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,True
+R-HSA-389958,Cooperation of Prefoldin and TriC/CCT  in actin and tubulin folding,0.00010858054833395858,4,37,6,6,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-168249,Innate Immune System,0.00011960962721346835,16,1387,73,782,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-1474228,Degradation of the extracellular matrix,0.0001466834437912068,6,148,11,105,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-9664407,Parasite infection,0.00017905372063464764,6,157,17,27,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-9664422,FCGR3A-mediated phagocytosis,0.00017905372063464764,6,157,17,27,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9664417,Leishmania phagocytosis,0.00017905372063464764,6,157,17,27,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-2029482,Regulation of actin dynamics for phagocytic cup formation,0.00017905372063464764,6,158,11,24,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-419037,NCAM1 interactions,0.00018054677355272553,4,44,1,10,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9981148,Developmental Lineage of Pancreatic Endocrine Mid Progenitor Cells,0.0001822919879301832,4,45,1,2,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-8875878,MET promotes cell motility,0.0001822919879301832,4,45,1,12,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-422475,Axon guidance,0.0001822919879301832,10,566,12,295,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-173623,Classical antibody-mediated complement activation,0.0002055838877823568,5,97,2,2,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9663891,Selective autophagy,0.0002055838877823568,5,97,6,56,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-2029481,FCGR activation,0.0002507475248076929,5,103,6,6,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9612973,Autophagy,0.0002507475248076929,6,174,17,117,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,True
+R-HSA-9675108,Nervous system development,0.0002810571209875823,10,603,12,322,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-2168880,Scavenging of heme from plasma,0.0002817761972411237,5,106,6,12,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-190828,Gap junction trafficking,0.00028245065288645677,4,52,7,20,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-76009,Platelet Aggregation (Plug Formation),0.0003040503535075567,4,53,16,27,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-437239,Recycling pathway of L1,0.00035084769882043343,4,55,5,14,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-157858,Gap junction trafficking and regulation,0.0003579652480052431,4,57,7,24,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-9845622,Defective VWF binding to collagen type I ,0.00040222306117509987,2,3,1,1,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-166786,Creation of C4 and C2 activators,0.0004152461398145846,5,118,2,8,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-2029480,Fcgamma receptor (FCGR) dependent phagocytosis,0.00041825439733855774,6,195,22,42,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-190840,Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane,0.0004939666720620295,3,22,1,2,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-190872,Transport of connexons to the plasma membrane,0.0005127785957991238,3,23,1,3,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-166663,Initial triggering of complement,0.0005127785957991238,5,127,4,21,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-2029485,Role of phospholipids in phagocytosis,0.0005926898856788432,5,131,5,12,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9845619,Enhanced cleavage of VWF variant by ADAMTS13,0.0006243224986899332,2,4,1,1,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9845621,Defective VWF cleavage by ADAMTS13 variant,0.0006243224986899332,2,4,1,1,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-389977,Post-chaperonin tubulin folding pathway,0.0006297079831905084,3,25,9,9,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-375165,NCAM signaling for neurite out-growth,0.0006896320540519252,4,70,1,23,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-186797,Signaling by PDGF,0.0006896320540519252,4,70,1,31,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-5690714,CD22 mediated BCR regulation,0.0007153545814115869,4,72,3,4,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9664323,FCGR3A-mediated IL10 synthesis,0.0007153545814115869,5,141,9,20,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-977606,Regulation of Complement cascade,0.0007153545814115869,5,139,3,44,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9936686,Aggregated β-amyloid interacts with fibrinogen,0.0008343320534054399,2,5,1,2,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-389960,Formation of tubulin folding intermediates by CCT/TriC,0.0009215969844587057,3,30,2,2,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-1445148,Translocation of SLC2A4 (GLUT4) to the plasma membrane,0.0010310406304012698,4,81,3,15,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-5358351,Signaling by Hedgehog,0.0011080306256083805,5,155,7,82,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,True
+R-HSA-9824446,Viral Infection Pathways,0.0011335896838395865,14,1407,49,899,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-198933,Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell,0.0011828676205187794,6,249,3,44,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-1632852,Macroautophagy,0.0012101832269229007,5,158,6,96,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-9619483,Activation of AMPK downstream of NMDARs,0.0013288014545085325,3,34,1,3,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,True
+R-HSA-9845620,Enhanced binding of GP1BA variant to VWF multimer:collagen ,0.0013568374078237744,2,7,1,1,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9846298,Defective binding of VWF variant to GPIb:IX:V,0.0013568374078237744,2,7,1,1,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-166658,Complement cascade,0.0013568374078237744,5,163,7,75,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-6806834,Signaling by MET,0.0013568374078237744,4,88,1,51,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,0.0013568374078237744,9,634,9,759,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,True
+R-HSA-9820448,Developmental Cell Lineages of the Exocrine Pancreas,0.001410333068306846,5,170,2,10,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-9913351,Formation of the dystrophin-glycoprotein complex (DGC),0.0014168800111802327,3,37,2,11,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-390466,Chaperonin-mediated protein folding,0.001632926071245544,4,96,6,19,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-9668328,Sealing of the nuclear envelope (NE) by ESCRT-III,0.0016513768483555902,3,39,1,7,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,True
+R-HSA-983705,Signaling by the B Cell Receptor (BCR),0.0016519181779195424,5,176,15,45,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-9823587,Defects of platelet adhesion to exposed collagen,0.001768353356011998,2,8,5,5,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-190861,Gap junction assembly,0.0019095405771402119,3,41,3,16,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-391251,Protein folding,0.0020501106907588884,4,102,15,28,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-983695,Antigen activates B Cell Receptor (BCR) leading to generation of second messengers,0.0021263835086499094,4,103,11,26,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-6802948,Signaling by high-kinase activity BRAF mutants,0.0021726395920182995,3,44,4,6,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9824443,Parasitic Infection Pathways,0.0021726395920182995,6,301,22,95,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-9658195,Leishmania infection,0.0021726395920182995,6,301,22,95,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-9664433,Leishmania parasite growth and survival,0.0021726395920182995,5,192,9,40,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-9662851,Anti-inflammatory response favouring Leishmania parasite infection,0.0021726395920182995,5,192,9,40,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-983231,Factors involved in megakaryocyte development and platelet production,0.0021726395920182995,5,194,4,43,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-1280215,Cytokine Signaling in Immune system,0.0021726395920182995,12,1193,12,823,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-5674135,MAP2K and MAPK activation,0.0025583513331870478,3,49,8,12,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,True
+R-HSA-9656223,Signaling by RAF1 mutants,0.0025583513331870478,3,49,4,7,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9609736,Assembly and cell surface presentation of NMDA receptors,0.0025583513331870478,3,49,2,23,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,True
+R-HSA-9918487,Dengue Virus Genome Translation and Replication,0.002649291498157069,4,116,4,64,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-430116,GP1b-IX-V activation signalling,0.0031555356810004653,2,12,7,9,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-6802946,Signaling by moderate kinase activity BRAF mutants,0.003383549781151629,3,54,4,7,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9649948,Signaling downstream of RAS mutants,0.003383549781151629,3,54,4,7,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-6802955,Paradoxical activation of RAF signaling by kinase inactive BRAF,0.003383549781151629,3,54,4,7,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-6802949,Signaling by RAS mutants,0.003383549781151629,3,54,4,9,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-75153,Apoptotic execution phase,0.003383549781151629,3,54,5,57,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,True
+R-HSA-8955332,Carboxyterminal post-translational modifications of tubulin,0.003566511222911295,3,55,6,6,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-140342,Apoptosis induced DNA fragmentation,0.0036953512887780704,2,13,2,12,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-5620924,Intraflagellar transport,0.003755640081307021,3,56,6,12,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,True
+R-HSA-373760,L1CAM interactions,0.004035671341340308,4,130,7,54,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-9734767,Developmental Cell Lineages,0.004041602842796088,6,340,5,26,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-397014,Muscle contraction,0.004559648154113027,5,232,9,53,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,True
+R-HSA-9769733,Fibrin formation,0.004698551294535558,2,16,6,7,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-75892,Platelet Adhesion to exposed collagen,0.004698551294535558,2,17,6,8,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-2559584,Formation of Senescence-Associated Heterochromatin Foci (SAHF),0.004698551294535558,2,17,1,2,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-381183,ATF6 (ATF6-alpha) activates chaperone genes,0.004698551294535558,2,15,2,5,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-445355,Smooth Muscle Contraction,0.004698551294535558,3,61,5,16,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-6811436,COPI-independent Golgi-to-ER retrograde traffic,0.004698551294535558,3,63,2,7,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-2214320,Anchoring fibril formation,0.004698551294535558,2,15,1,4,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-381033,ATF6 (ATF6-alpha) activates chaperones,0.004698551294535558,2,17,2,10,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-9764561,Regulation of CDH1 Function,0.004698551294535558,3,65,3,16,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,True
+R-HSA-983189,Kinesins,0.00490105719961198,3,68,2,14,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-5663220,RHO GTPases Activate Formins,0.004981986823893725,4,149,9,27,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,True
+R-HSA-8852276,The role of GTSE1 in G2/M progression after G2 checkpoint,0.005320950242550193,3,70,3,10,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,True
+R-HSA-446353,Cell-extracellular matrix interactions,0.005843762356580906,2,19,2,10,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,True
+R-HSA-6802952,Signaling by BRAF and RAF1 fusions,0.005991873797853153,3,73,4,5,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-392499,Metabolism of proteins,0.006227875259590565,17,2427,98,928,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,True
+R-HSA-354194,GRB2:SOS provides linkage to MAPK signaling for Integrins ,0.006461082218763958,2,20,2,2,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-3371497,HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand,0.006713283313111051,3,76,1,22,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-199977,ER to Golgi Anterograde Transport,0.007199647861932834,4,165,13,39,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-5620920,Cargo trafficking to the periciliary membrane,0.007486463640390961,3,79,2,29,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,True
+R-HSA-9679191,Potential therapeutics for SARS,0.0076802312224392155,4,168,1,36,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-372708,p130Cas linkage to MAPK signaling for integrins,0.007784149177287425,2,22,3,3,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-1169410,Antimicrobial mechanism of IFN-stimulated genes,0.008234855842561006,5,284,3,103,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9613829,Chaperone Mediated Autophagy,0.008489498613388435,2,23,9,19,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-1266738,Developmental Biology,0.008529164130866351,15,2061,22,996,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,True
+R-HSA-9711123,Cellular response to chemical stress,0.008741964525395995,5,288,12,173,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9020591,Interleukin-12 signaling,0.008893469627915929,3,84,4,56,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-2243919,Crosslinking of collagen fibrils,0.009223795188279427,2,24,11,13,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,False
+R-HSA-9958825,Activation of STAT3 by cadherin engagement,0.009810595985718429,3,87,5,33,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,True,True
+R-HSA-9679506,SARS-CoV Infections,0.009993534874496612,7,580,6,404,MjAyNjA5MTMxMzA2NThfMjMxMTI%3D,16,False,False
+R-HSA-162588,Budding and maturation of HIV virion,0.002962566579911563,4,37,2,4,MjAyNjA5MTMxMzA3MDZfMjMxMTM%3D,17,True,True
+R-HSA-140342,Apoptosis induced DNA fragmentation,0.002962566579911563,3,13,2,12,MjAyNjA5MTMxMzA3MDZfMjMxMTM%3D,17,True,False
+R-HSA-2559584,Formation of Senescence-Associated Heterochromatin Foci (SAHF),0.004383000563343509,3,17,1,2,MjAyNjA5MTMxMzA3MDZfMjMxMTM%3D,17,True,True
+R-HSA-75153,Apoptotic execution phase,0.004457913355769838,4,54,3,57,MjAyNjA5MTMxMzA3MDZfMjMxMTM%3D,17,False,True
+R-HSA-194315,Signaling by Rho GTPases,0.004822002173859197,11,708,29,203,MjAyNjA5MTMxMzA3MTNfMjMxMTQ%3D,18,True,False
+R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",0.004822002173859197,11,724,29,212,MjAyNjA5MTMxMzA3MTNfMjMxMTQ%3D,18,False,True
+R-HSA-9824446,Viral Infection Pathways,6.086460224707935e-10,31,1407,78,899,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-5663205,Infectious disease,2.497569928650023e-09,35,1965,89,1227,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-1643685,Disease,6.350044490233131e-09,43,3093,246,2176,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-8953897,Cellular responses to stimuli,1.5403356035115223e-08,26,1166,72,613,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-2262752,Cellular responses to stress,2.3810478622099396e-07,23,1039,58,521,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-9954709,Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide,6.321819195909129e-07,9,106,11,13,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9948299,Ribosome-associated quality control,9.566249503656366e-07,10,155,18,20,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-8953854,Metabolism of RNA,1.043273652356902e-06,20,863,48,244,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,1.1499133145687068e-06,16,536,145,516,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-9010553,Regulation of expression of SLITs and ROBOs,1.5803541243419872e-06,10,170,3,20,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9839923,Dengue Virus Infection,1.704758695986186e-06,14,411,9,142,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-72187,mRNA 3'-end processing,1.1653275528544782e-05,9,164,14,21,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-422475,Axon guidance,1.1653275528544782e-05,15,566,16,295,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-376176,Signaling by ROBO receptors,1.309142142902342e-05,10,222,3,60,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-927802,Nonsense-Mediated Decay (NMD),1.4169600134117388e-05,8,124,6,6,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-975957,Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC),1.4169600134117388e-05,8,124,5,5,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9675108,Nervous system development,1.8914032529959712e-05,15,603,16,322,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-72766,Translation,2.1232057305420327e-05,13,448,50,126,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-9770562,mRNA Polyadenylation,2.8107592039638973e-05,8,139,13,20,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-156842,Eukaryotic Translation Elongation,4.30444329063695e-05,7,102,6,9,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-69275,G2/M Transition,4.470911858500681e-05,9,205,22,88,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-453274,Mitotic G2-G2/M phases,4.715152097611863e-05,9,207,22,90,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-9633012,Response of EIF2AK4 (GCN2) to amino acid deficiency,8.299468607964045e-05,7,115,5,16,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9020591,Interleukin-12 signaling,0.0001740914763399548,6,84,7,56,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-2565942,Regulation of PLK1 Activity at G2/M Transition,0.0002823554961739472,6,92,5,12,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-168255,Influenza Infection,0.00028325152790098507,8,200,4,61,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-6802957,Oncogenic MAPK signaling,0.00028325152790098507,6,93,34,46,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-156902,Peptide chain elongation,0.00031099937481193773,6,97,4,5,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9918481,Dengue Virus-Host Interactions,0.00031099937481193773,9,273,3,59,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-447115,Interleukin-12 family signaling,0.00031099937481193773,6,96,8,114,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-5627123,RHO GTPases activate PAKs,0.00032781647639912315,4,27,5,15,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-1236974,ER-Phagosome pathway,0.00032781647639912315,6,98,5,11,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-72163,mRNA Splicing - Major Pathway,0.0003321931477701101,8,213,10,11,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-975956,Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC),0.0003321931477701101,6,101,1,1,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9954714,PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA,0.0003321931477701101,6,100,3,3,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-5358346,Hedgehog ligand biogenesis,0.0003328175121871668,5,59,6,15,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9954716,ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA,0.00039469663706159785,6,105,4,4,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-72689,Formation of a pool of free 40S subunits,0.00039719356376555215,6,106,2,2,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-72764,Eukaryotic Translation Termination,0.00039719356376555215,6,106,3,5,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-72172,mRNA Splicing,0.00041004673003053327,8,224,15,16,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-2408557,Selenocysteine synthesis,0.0005137406431621194,6,112,2,7,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-192823,Viral mRNA Translation,0.0005383628678407026,6,114,2,2,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-1852241,Organelle biogenesis and maintenance,0.0005548982198524399,10,387,16,119,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,0.0005555802000343224,9,317,34,52,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-5684996,MAPK1/MAPK3 signaling,0.0005555802000343224,9,316,21,82,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-8852276,The role of GTSE1 in G2/M progression after G2 checkpoint,0.0005555802000343224,5,70,4,10,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-1236975,Antigen processing-Cross presentation,0.0005555802000343224,6,120,7,25,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-5673001,RAF/MAP kinase cascade,0.0005555802000343224,9,309,21,75,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-380284,Loss of proteins required for interphase microtubule organization from the centrosome,0.0005555802000343224,5,71,3,3,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-380259,Loss of Nlp from mitotic centrosomes,0.0005555802000343224,5,71,2,2,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-1799339,SRP-dependent cotranslational protein targeting to membrane,0.0005555802000343224,6,117,5,5,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-156827,L13a-mediated translational silencing of Ceruloplasmin expression,0.0005555802000343224,6,120,2,3,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-72706,GTP hydrolysis and joining of the 60S ribosomal subunit,0.0005555802000343224,6,120,3,3,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-168273,Influenza Viral RNA Transcription and Replication,0.0005555802000343224,7,173,3,14,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-9711097,Cellular response to starvation,0.0005555802000343224,7,176,5,28,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-8950505,Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation,0.0005555802000343224,5,73,5,36,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-8854518,AURKA Activation by TPX2,0.0005923281970781069,5,74,2,2,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-1168372,Downstream signaling events of B Cell Receptor (BCR),0.0007585137307175582,5,78,3,15,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-6791226,Major pathway of rRNA processing in the nucleolus and cytosol,0.0007592749355340711,7,189,6,7,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-72613,Eukaryotic Translation Initiation,0.0007592749355340711,6,130,12,21,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-72737,Cap-dependent Translation Initiation,0.0007592749355340711,6,130,10,18,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-194315,Signaling by Rho GTPases,0.0007973794509861243,13,708,22,203,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-5673000,RAF activation,0.0008255189859464052,4,41,5,12,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-380270,Recruitment of mitotic centrosome proteins and complexes,0.0008405181733294187,5,81,3,3,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-380287,Centrosome maturation,0.0008695512122920412,5,83,6,6,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",0.000921800013959917,13,724,22,212,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-114608,Platelet degranulation ,0.0011340880562755729,6,142,4,11,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-8868773,rRNA processing in the nucleus and cytosol,0.0011634395939918996,7,207,7,15,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-9975921,Assembly of the 9+0 primary cilium,0.0011951452274531205,7,209,14,50,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-449147,Signaling by Interleukins,0.0011951452274531205,12,646,12,505,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-5683057,MAPK family signaling cascades,0.0012241369077490294,9,367,22,122,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-9636667,Manipulation of host energy metabolism,0.001263019476184235,2,3,2,2,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-5362768,Hh mutants are degraded by ERAD,0.0012771545901968384,4,48,4,6,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9711123,Cellular response to chemical stress,0.0012953453008124338,8,288,11,173,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-76005,Response to elevated platelet cytosolic Ca2+,0.0013488564814564397,6,149,4,14,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-5387390,Hh mutants abrogate ligand secretion,0.0014626098735626147,4,51,4,7,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-8876725,Protein methylation,0.0014626098735626147,3,19,3,9,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-380320,Recruitment of NuMA to mitotic centrosomes,0.0014942034721976416,5,97,2,2,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-5620912,Anchoring of the basal body to the plasma membrane,0.0016354193343040002,5,99,8,9,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-6802955,Paradoxical activation of RAF signaling by kinase inactive BRAF,0.0016354193343040002,4,54,6,7,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-6802946,Signaling by moderate kinase activity BRAF mutants,0.0016354193343040002,4,54,6,7,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9649948,Signaling downstream of RAS mutants,0.0016354193343040002,4,54,6,7,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-6802949,Signaling by RAS mutants,0.0016354193343040002,4,54,6,9,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-5678895,Defective CFTR causes cystic fibrosis,0.0016354193343040002,4,53,4,8,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-6798695,Neutrophil degranulation,0.0016354193343040002,10,478,3,10,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-168249,Innate Immune System,0.0017074347588407202,18,1387,48,782,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-70263,Gluconeogenesis,0.0018769371632321175,4,56,4,17,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-5625900,RHO GTPases activate CIT,0.002153854973127811,3,23,1,6,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-195258,RHO GTPase Effectors,0.0023950153819863873,8,325,15,113,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-9931269,AMPK-induced ERAD and lysosome mediated degradation of PD-L1(CD274),0.002435522511270216,4,60,4,5,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-5627117,RHO GTPases Activate ROCKs,0.0024382080367272296,3,24,3,7,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-70171,Glycolysis,0.002496094930678483,5,111,5,23,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9936686,Aggregated β-amyloid interacts with fibrinogen,0.0025346786652020725,2,5,1,2,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-445355,Smooth Muscle Contraction,0.0025346786652020725,4,61,8,16,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,True
+R-HSA-72312,rRNA processing,0.0025586733214977286,7,252,7,22,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-392499,Metabolism of proteins,0.0026624823876604253,25,2427,135,928,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-5617833,Cilium Assembly,0.002810706171015198,7,256,14,83,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-2467813,Separation of Sister Chromatids,0.0028519007653535766,6,182,3,8,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-2408522,Selenoamino acid metabolism,0.0028519007653535766,6,182,2,33,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-9764561,Regulation of CDH1 Function,0.0029248565173576324,4,65,4,16,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,True
+R-HSA-6803529,FGFR2 alternative splicing,0.003391393645963525,3,28,4,4,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9692914,SARS-CoV-1-host interactions,0.0036660845776745887,5,124,5,50,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-6802952,Signaling by BRAF and RAF1 fusions,0.003981727469982821,4,73,5,5,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-373755,Semaphorin interactions,0.003981727469982821,4,71,4,41,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9678108,SARS-CoV-1 Infection,0.003981727469982821,6,199,6,161,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-69620,Cell Cycle Checkpoints,0.004004580346305242,7,278,8,63,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-70326,Glucose metabolism,0.004105883055641968,5,131,9,40,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-9734009,Defective Intrinsic Pathway for Apoptosis,0.004769642694469889,3,33,3,24,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-195253,Degradation of beta-catenin by the destruction complex,0.005047366008369969,4,78,12,23,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-162909,Host Interactions of HIV factors,0.005180839640270829,5,138,9,54,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-5625740,RHO GTPases activate PKNs,0.00529080050948616,4,79,3,20,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-168256,Immune System,0.0055440695166956155,28,3033,106,1895,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-211733,Regulation of activated PAK-2p34 by proteasome mediated degradation,0.006467909381240311,3,37,1,2,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-350562,Regulation of ornithine decarboxylase (ODC),0.006467909381240311,3,38,1,3,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9958825,Activation of STAT3 by cadherin engagement,0.006467909381240311,4,87,6,33,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,True
+R-HSA-5619084,ABC transporter disorders,0.006467909381240311,4,86,4,23,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-4086400,PCP/CE pathway,0.006467909381240311,4,86,4,24,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9909396,Circadian clock,0.006467909381240311,5,148,5,78,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-5357801,Programmed Cell Death,0.006467909381240311,6,225,7,194,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-1280215,Cytokine Signaling in Immune system,0.006467909381240311,15,1193,20,823,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-68886,M Phase,0.006484400161032022,8,403,14,96,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-5654738,Signaling by FGFR2,0.006744443902592101,4,88,11,46,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-3858494,Beta-catenin independent WNT signaling,0.007010132910172828,5,153,10,51,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-180534,Vpu mediated degradation of CD4,0.007096360524516232,3,40,1,5,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-5358351,Signaling by Hedgehog,0.0074214958395362185,5,155,12,82,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-349425,Autodegradation of the E3 ubiquitin ligase COP1,0.007614071402822775,3,41,1,5,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-75815,Ubiquitin-dependent degradation of Cyclin D,0.007614071402822775,3,41,1,5,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,True
+R-HSA-381119,Unfolded Protein Response (UPR),0.007633752762822521,5,156,9,99,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-195721,Signaling by WNT,0.007747351748250919,7,320,31,157,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-180585,Vif-mediated degradation of APOBEC3G,0.007756632043416367,3,43,1,4,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-2555396,Mitotic Metaphase and Anaphase,0.007756632043416367,6,237,5,33,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-1280218,Adaptive Immune System,0.007756632043416367,15,1237,42,361,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-169911,Regulation of Apoptosis,0.007756632043416367,3,42,1,5,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-9909615,Regulation of PD-L1(CD274) Post-translational modification,0.007756632043416367,4,94,6,25,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-9762114,GSK3B and BTRC:CUL1-mediated-degradation of NFE2L2,0.007756632043416367,3,44,1,4,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-68882,Mitotic Anaphase,0.007756632043416367,6,236,5,32,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-174113,SCF-beta-TrCP mediated degradation of Emi1,0.007756632043416367,3,42,1,3,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,True
+R-HSA-450408,AUF1 (hnRNP D0) binds and destabilizes mRNA,0.007756632043416367,3,43,1,4,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-4641258,Degradation of DVL,0.007756632043416367,3,44,2,7,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9974237,Negative Regulation of DNA Double Strand Break Response,0.007756632043416367,3,44,1,3,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,True
+R-HSA-3371511,HSF1 activation,0.007756632043416367,3,43,4,7,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-8854050,FBXL7 down-regulates AURKA during mitotic entry and in early mitosis,0.007756632043416367,3,42,2,6,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-4641257,Degradation of AXIN,0.007756632043416367,3,44,2,8,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9663891,Selective autophagy,0.008014707487398187,4,97,19,56,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-162906,HIV Infection,0.00874773580070265,6,248,42,160,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-69541,Stabilization of p53,0.008798548107050719,3,46,1,15,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-1236978,Cross-presentation of soluble exogenous antigens (endosomes),0.008798548107050719,3,46,2,7,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9929356,GSK3B-mediated proteasomal degradation of PD-L1(CD274),0.008798548107050719,3,46,1,7,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-2025928,Calcineurin activates NFAT,0.00891570141755893,2,12,2,3,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9700645,ALK mutants bind TKIs,0.00891570141755893,2,12,1,1,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9604323,Negative regulation of NOTCH4 signaling,0.009350670908260805,3,47,1,6,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,True
+R-HSA-9646399,Aggrephagy,0.009350670908260805,3,47,7,15,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-8941858,Regulation of RUNX3 expression and activity,0.009350670908260805,3,47,1,9,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,True
+R-HSA-9929491,SPOP-mediated proteasomal degradation of PD-L1(CD274),0.009923958214301254,3,48,1,6,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-5676590,NIK-->noncanonical NF-kB signaling,0.009923958214301254,3,48,1,9,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-5610780,Degradation of GLI1 by the proteasome,0.00994747047891531,3,49,2,6,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-8957275,Post-translational protein phosphorylation,0.00994747047891531,4,109,1,1,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9932298,Degradation of CRY and PER proteins,0.00994747047891531,3,49,3,9,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9656223,Signaling by RAF1 mutants,0.00994747047891531,3,49,5,7,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9907900,Proteasome assembly,0.00994747047891531,3,52,30,40,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-71291,Metabolism of amino acids and derivatives,0.00994747047891531,10,661,4,302,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-109581,Apoptosis,0.00994747047891531,5,180,5,142,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-190236,Signaling by FGFR,0.00994747047891531,4,109,11,142,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,True
+R-HSA-983705,Signaling by the B Cell Receptor (BCR),0.00994747047891531,5,176,4,45,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,False,False
+R-HSA-5607764,CLEC7A (Dectin-1) signaling,0.00994747047891531,4,107,6,45,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-187577,SCF(Skp2)-mediated degradation of p27/p21,0.00994747047891531,3,52,1,7,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,True
+R-HSA-5610783,Degradation of GLI2 by the proteasome,0.00994747047891531,3,49,1,5,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-5610785,GLI3 is processed to GLI3R by the proteasome,0.00994747047891531,3,49,1,5,MjAyNjA5MTMxMzA3MjBfMjMxMTU%3D,19,True,False
+R-HSA-9824446,Viral Infection Pathways,2.6692426047247864e-11,33,1407,50,899,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-2262752,Cellular responses to stress,3.3058871196089967e-09,26,1039,70,521,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-5663205,Infectious disease,3.3058871196089967e-09,35,1965,73,1227,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-8953897,Cellular responses to stimuli,4.081132765065831e-09,27,1166,81,613,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,True
+R-HSA-9839923,Dengue Virus Infection,6.4114415998517416e-09,17,411,12,142,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-9837999,Mitochondrial protein degradation,4.975091751902028e-07,9,104,6,20,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-392499,Metabolism of proteins,4.975091751902028e-07,35,2427,150,928,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,True
+R-HSA-3371497,HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand,7.275356037617087e-07,8,76,22,22,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-1643685,Disease,1.3341098495933679e-06,39,3093,156,2176,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,True
+R-HSA-6798695,Neutrophil degranulation,1.99480863460888e-06,15,478,6,10,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-422475,Axon guidance,2.4662545079490172e-06,16,566,12,295,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-3371556,Cellular response to heat stress,2.67953099242213e-06,9,135,15,29,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-9675108,Nervous system development,4.953070991575714e-06,16,603,12,322,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,True
+R-HSA-168255,Influenza Infection,5.164524759848632e-06,10,200,5,61,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-9954709,Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide,5.164524759848632e-06,8,106,11,13,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-9948299,Ribosome-associated quality control,6.299506501439289e-06,9,155,18,20,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-9918487,Dengue Virus Genome Translation and Replication,8.555953191602406e-06,8,116,5,64,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-8953854,Metabolism of RNA,1.74689497622893e-05,18,863,48,244,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,True
+R-HSA-447115,Interleukin-12 family signaling,3.1470535286182155e-05,7,96,13,114,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-8852276,The role of GTSE1 in G2/M progression after G2 checkpoint,7.514939998287673e-05,6,70,5,10,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-9010553,Regulation of expression of SLITs and ROBOs,0.00011070089471632016,8,170,3,20,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-72706,GTP hydrolysis and joining of the 60S ribosomal subunit,0.00011070089471632016,7,120,3,3,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-156827,L13a-mediated translational silencing of Ceruloplasmin expression,0.00011070089471632016,7,120,3,3,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-168273,Influenza Viral RNA Transcription and Replication,0.00011130932865377474,8,173,4,14,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-168256,Immune System,0.00011130932865377474,34,3033,141,1895,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,True
+R-HSA-72766,Translation,0.00011130932865377474,12,448,49,126,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-3371568,Attenuation phase,0.0001439238115832353,5,47,4,5,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-72737,Cap-dependent Translation Initiation,0.0001439238115832353,7,130,13,18,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-9020591,Interleukin-12 signaling,0.0001439238115832353,6,84,7,56,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-72613,Eukaryotic Translation Initiation,0.0001439238115832353,7,130,16,21,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-168249,Innate Immune System,0.0001598626890866317,21,1387,59,782,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-6791226,Major pathway of rRNA processing in the nucleolus and cytosol,0.0001598626890866317,8,189,6,7,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-72312,rRNA processing,0.00016235929783281478,9,252,8,22,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-1280215,Cytokine Signaling in Immune system,0.0002205822015151071,19,1193,28,823,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-156902,Peptide chain elongation,0.0002642320403056786,6,97,4,5,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-9918481,Dengue Virus-Host Interactions,0.00026499375209210196,9,273,5,59,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-8868773,rRNA processing in the nucleus and cytosol,0.00026499375209210196,8,207,7,15,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-9954714,PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA,0.0002924950223606171,6,100,3,3,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-3371571,HSF1-dependent transactivation,0.0002924950223606171,5,59,5,8,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-975956,Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC),0.00029741348606582285,6,101,1,1,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-156842,Eukaryotic Translation Elongation,0.00029741348606582285,6,102,4,9,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-389957,Prefoldin mediated transfer of substrate  to CCT/TriC,0.00031100282040741334,4,29,2,2,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-72689,Formation of a pool of free 40S subunits,0.00032510753359082933,6,106,2,2,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-72764,Eukaryotic Translation Termination,0.00032510753359082933,6,106,3,5,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-389960,Formation of tubulin folding intermediates by CCT/TriC,0.00032510753359082933,4,30,2,2,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-9954716,ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA,0.00032510753359082933,6,105,4,4,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-376176,Signaling by ROBO receptors,0.00034372584099329195,8,222,3,60,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-2408557,Selenocysteine synthesis,0.0004118356012894342,6,112,2,7,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-70171,Glycolysis,0.0004118356012894342,6,111,5,23,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-192823,Viral mRNA Translation,0.00045419379075450905,6,114,2,2,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-9633012,Response of EIF2AK4 (GCN2) to amino acid deficiency,0.0004766476009809839,6,115,4,16,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-373755,Semaphorin interactions,0.000507617924934145,5,71,4,41,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-1799339,SRP-dependent cotranslational protein targeting to membrane,0.000507617924934145,6,117,5,5,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-8950505,Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation,0.0005785141488483525,5,73,5,36,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-389958,Cooperation of Prefoldin and TriC/CCT  in actin and tubulin folding,0.000610483241758164,4,37,6,6,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-975957,Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC),0.0006185599742134507,6,124,4,5,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-927802,Nonsense-Mediated Decay (NMD),0.0006185599742134507,6,124,5,6,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-9918432,Maturation of DENV proteins,0.0006859646571673039,5,77,3,41,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-70326,Glucose metabolism,0.0008353620232974812,6,131,9,40,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,True
+R-HSA-3000484,Scavenging by Class F Receptors,0.0010648107222275272,3,16,2,2,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,True
+R-HSA-1428517,Aerobic respiration and respiratory electron transport,0.0013022579076954477,9,361,19,117,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,True
+R-HSA-9646399,Aggrephagy,0.0013022579076954477,4,47,6,15,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-8876725,Protein methylation,0.001616113381194051,3,19,3,9,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-399954,Sema3A PAK dependent Axon repulsion,0.001616113381194051,3,19,3,6,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-9663891,Selective autophagy,0.0018386665538876468,5,97,11,56,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-5358351,Signaling by Hedgehog,0.0019022298565875007,6,155,14,82,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,True
+R-HSA-1852241,Organelle biogenesis and maintenance,0.0019838138103844827,9,387,22,119,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,True
+R-HSA-70263,Gluconeogenesis,0.0022853627255525755,4,56,4,17,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-9613829,Chaperone Mediated Autophagy,0.002567178858596808,3,23,15,19,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-5358346,Hedgehog ligand biogenesis,0.0027826064417291185,4,59,6,15,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-195258,RHO GTPase Effectors,0.002854013150382695,8,325,19,113,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-9013418,RHOBTB2 GTPase cycle,0.002854013150382695,3,24,2,2,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-5627117,RHO GTPases Activate ROCKs,0.002854013150382695,3,24,3,7,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-194315,Signaling by Rho GTPases,0.002854013150382695,12,708,23,203,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-9612973,Autophagy,0.002879151162217819,6,174,28,117,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,True
+R-HSA-3371453,Regulation of HSF1-mediated heat shock response,0.003024081901350728,5,113,7,14,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-9711097,Cellular response to starvation,0.00305810023903752,6,176,4,28,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",0.0034879910781929757,12,724,23,212,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,True
+R-HSA-2408522,Selenoamino acid metabolism,0.0036477611538264787,6,182,2,33,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-5627123,RHO GTPases activate PAKs,0.003681850975945644,3,27,5,15,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-449147,Signaling by Interleukins,0.004972200532977422,11,646,16,505,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-168316,Assembly of Viral Components at the Budding Site,0.005174360947132861,2,7,1,17,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-71291,Metabolism of amino acids and derivatives,0.005339644369147578,11,661,8,302,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,True
+R-HSA-8949613,Cristae formation,0.005842036554233765,3,33,2,2,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-1169410,Antimicrobial mechanism of IFN-stimulated genes,0.005982309491521676,7,284,6,103,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-69275,G2/M Transition,0.006021227731451084,6,205,19,88,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-453274,Mitotic G2-G2/M phases,0.006329893780760543,6,207,19,90,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-5625740,RHO GTPases activate PKNs,0.0064135681107480025,4,79,10,20,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-72163,mRNA Splicing - Major Pathway,0.0064135681107480025,6,213,11,11,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-5693532,DNA Double-Strand Break Repair,0.0064135681107480025,6,210,48,124,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,True
+R-HSA-1445148,Translocation of SLC2A4 (GLUT4) to the plasma membrane,0.0064135681107480025,4,81,4,15,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,True
+R-HSA-5620920,Cargo trafficking to the periciliary membrane,0.0064135681107480025,4,79,3,29,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-69481,G2/M Checkpoints,0.006551045050259718,5,142,6,24,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-9706574,RHOBTB GTPase Cycle,0.006562098321728715,3,36,3,4,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-69278,"Cell Cycle, Mitotic",0.006976099084794685,10,587,65,367,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-72172,mRNA Splicing,0.008290715923026437,6,224,11,16,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-9833482,PKR-mediated signaling,0.008596104532944904,4,88,3,40,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-2995410,Nuclear Envelope (NE) Reassembly,0.008596104532944904,4,88,2,24,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-9820952,Respiratory Syncytial Virus Infection Pathway,0.008819790382163406,5,154,7,101,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-983170,"Antigen Presentation: Folding, assembly and peptide loading of class I MHC",0.008819790382163406,3,40,6,16,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-9018519,Estrogen-dependent gene expression,0.008819790382163406,5,153,16,66,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,True
+R-HSA-5336415,Uptake and function of diphtheria toxin,0.008819790382163406,2,10,1,5,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-1640170,Cell Cycle,0.008819790382163406,11,729,87,474,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,True
+R-HSA-68886,M Phase,0.008819790382163406,8,403,25,96,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-913531,Interferon Signaling,0.008819790382163406,9,507,9,157,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-2029482,Regulation of actin dynamics for phagocytic cup formation,0.008974676568340723,5,158,9,24,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-1632852,Macroautophagy,0.008974676568340723,5,158,11,96,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-68882,Mitotic Anaphase,0.009249794324522664,6,236,5,32,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-3371511,HSF1 activation,0.009336492855247291,3,43,3,7,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-450408,AUF1 (hnRNP D0) binds and destabilizes mRNA,0.009336492855247291,3,43,3,4,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,True,False
+R-HSA-2555396,Mitotic Metaphase and Anaphase,0.009448423786776683,6,237,5,33,MjAyNjA5MTMxMzA3MjhfMjMxMTc%3D,20,False,False
+R-HSA-8953854,Metabolism of RNA,0.0001858833671386506,13,863,50,244,MjAyNjA5MTMxMzA3MzVfMjMxMTg%3D,21,False,True
+R-HSA-9839923,Dengue Virus Infection,0.003329418057711475,8,411,6,142,MjAyNjA5MTMxMzA3MzVfMjMxMTg%3D,21,False,True
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,0.0035399736742869337,7,317,35,52,MjAyNjA5MTMxMzA3MzVfMjMxMTg%3D,21,False,False
+R-HSA-72187,mRNA 3'-end processing,0.008515737644922972,5,164,16,21,MjAyNjA5MTMxMzA3MzVfMjMxMTg%3D,21,True,False
+R-HSA-9918481,Dengue Virus-Host Interactions,0.008515737644922972,6,273,3,59,MjAyNjA5MTMxMzA3MzVfMjMxMTg%3D,21,True,False
+R-HSA-75153,Apoptotic execution phase,0.001740148365268479,5,54,6,57,MjAyNjA5MTMxMzA3NDNfMjMxMTk%3D,22,False,False
+R-HSA-9918481,Dengue Virus-Host Interactions,0.003626992669325313,8,273,7,59,MjAyNjA5MTMxMzA3NDNfMjMxMTk%3D,22,True,True
+R-HSA-111465,Apoptotic cleavage of cellular proteins,0.003626992669325313,4,38,4,38,MjAyNjA5MTMxMzA3NDNfMjMxMTk%3D,22,True,False
+R-HSA-9656223,Signaling by RAF1 mutants,0.005292393948697738,4,49,5,7,MjAyNjA5MTMxMzA3NDNfMjMxMTk%3D,22,True,True
+R-HSA-6802946,Signaling by moderate kinase activity BRAF mutants,0.005292393948697738,4,54,5,7,MjAyNjA5MTMxMzA3NDNfMjMxMTk%3D,22,True,True
+R-HSA-6802955,Paradoxical activation of RAF signaling by kinase inactive BRAF,0.005292393948697738,4,54,5,7,MjAyNjA5MTMxMzA3NDNfMjMxMTk%3D,22,True,True
+R-HSA-9649948,Signaling downstream of RAS mutants,0.005292393948697738,4,54,5,7,MjAyNjA5MTMxMzA3NDNfMjMxMTk%3D,22,True,False
+R-HSA-6802949,Signaling by RAS mutants,0.005292393948697738,4,54,5,9,MjAyNjA5MTMxMzA3NDNfMjMxMTk%3D,22,False,True
+R-HSA-109581,Apoptosis,0.0059843010731188695,6,180,7,142,MjAyNjA5MTMxMzA3NDNfMjMxMTk%3D,22,False,True
+R-HSA-180910,Vpr-mediated nuclear import of PICs,0.0009996313824770509,4,44,2,2,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-264870,Caspase-mediated cleavage of cytoskeletal proteins,0.0009996313824770509,3,12,5,10,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-176033,Interactions of Vpr with host cellular proteins,0.0009996313824770509,4,47,2,4,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,False,False
+R-HSA-111465,Apoptotic cleavage of cellular proteins,0.0009996313824770509,4,38,6,38,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,False,False
+R-HSA-4615885,SUMOylation of DNA replication proteins,0.0010136735401639063,4,50,3,8,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-75153,Apoptotic execution phase,0.001143045817155075,4,54,6,57,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,False,False
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,0.002005754680096561,7,317,35,52,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,False,False
+R-HSA-3371453,Regulation of HSF1-mediated heat shock response,0.00409703790532534,4,113,3,14,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-8953854,Metabolism of RNA,0.00409703790532534,10,863,46,244,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,False,True
+R-HSA-168276,NS1 Mediated Effects on Host Pathways,0.00409703790532534,3,48,1,8,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,True
+R-HSA-3108232,SUMO E3 ligases SUMOylate target proteins,0.00409703790532534,5,184,15,132,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,False,False
+R-HSA-2990846,SUMOylation,0.00409703790532534,5,193,15,141,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,False,True
+R-HSA-168271,Transport of Ribonucleoproteins into the Host Nucleus,0.00409703790532534,3,48,1,4,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,True
+R-HSA-177243,Interactions of Rev with host cellular proteins,0.00409703790532534,3,47,4,16,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,False,False
+R-HSA-170822,Regulation of Glucokinase by Glucokinase Regulatory Protein,0.00409703790532534,3,40,1,5,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,True
+R-HSA-165054,Rev-mediated nuclear export of HIV RNA,0.00409703790532534,3,45,2,10,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-159231,Transport of Mature mRNA Derived from an Intronless Transcript,0.00409703790532534,3,46,3,3,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-5619107,Defective TPR may confer susceptibility towards thyroid papillary carcinoma (TPC),0.00409703790532534,3,36,1,1,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,True
+R-HSA-1855196,IP3 and IP4 transport between cytosol and nucleus,0.00409703790532534,3,37,3,3,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,True
+R-HSA-1855229,IP6 and IP7 transport between cytosol and nucleus,0.00409703790532534,3,37,2,2,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,True
+R-HSA-159227,Transport of the SLBP independent Mature mRNA,0.00409703790532534,3,39,3,3,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-1855170,IPs transport between nucleus and cytosol,0.00409703790532534,3,40,4,4,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,True
+R-HSA-159230,Transport of the SLBP Dependant Mature mRNA,0.00409703790532534,3,40,3,3,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-3301854,Nuclear Pore Complex (NPC) Disassembly,0.00409703790532534,3,42,2,2,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-180746,Nuclear import of Rev protein,0.00409703790532534,3,41,2,7,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-159234,Transport of Mature mRNAs Derived from Intronless Transcripts,0.00409703790532534,3,47,9,9,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,False,False
+R-HSA-4085377,SUMOylation of SUMOylation proteins,0.00409703790532534,3,39,2,5,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-3232142,SUMOylation of ubiquitinylation proteins,0.00409703790532534,3,43,1,3,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-168333,NEP/NS2 Interacts with the Cellular Export Machinery,0.004849919328278496,3,53,1,2,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-4570464,SUMOylation of RNA binding proteins,0.004849919328278496,3,51,1,4,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-168274,Export of Viral Ribonucleoproteins from Nucleus,0.005118598929061413,3,54,1,5,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,False,True
+R-HSA-5357801,Programmed Cell Death,0.005135921309036284,5,225,8,194,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,False,True
+R-HSA-162909,Host Interactions of HIV factors,0.006139090094405497,4,138,7,54,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,False,True
+R-HSA-3371556,Cellular response to heat stress,0.006139090094405497,4,135,3,29,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,False,True
+R-HSA-4551638,SUMOylation of chromatin organization proteins,0.006662844842028726,3,62,2,15,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-2980766,Nuclear Envelope Breakdown,0.007628098856273802,3,65,2,13,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,False,True
+R-HSA-194441,Metabolism of non-coding RNA,0.007754138472383598,3,67,2,6,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,False,False
+R-HSA-191859,snRNP Assembly,0.007754138472383598,3,67,2,6,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-168325,Viral Messenger RNA Synthesis,0.007754138472383598,3,69,2,6,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,True
+R-HSA-6784531,tRNA processing in the nucleus,0.008078762628014768,3,70,1,7,MjAyNjA5MTMxMzA3NTBfMjMxMjA%3D,23,True,False
+R-HSA-9839923,Dengue Virus Infection,6.478162496437179e-07,14,411,14,142,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-9824446,Viral Infection Pathways,7.872563596578175e-07,23,1407,65,899,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-2262752,Cellular responses to stress,3.6306582716916225e-06,19,1039,128,521,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-9918487,Dengue Virus Genome Translation and Replication,5.309196692948603e-06,8,116,7,64,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-5663205,Infectious disease,7.73708305545906e-06,25,1965,100,1227,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-8953897,Cellular responses to stimuli,1.136579357841061e-05,19,1166,128,613,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,True
+R-HSA-422475,Axon guidance,0.00027997521646339063,12,566,22,295,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-9613829,Chaperone Mediated Autophagy,0.0002964648356633681,4,23,15,19,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-75153,Apoptotic execution phase,0.0002964648356633681,5,54,7,57,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-9837999,Mitochondrial protein degradation,0.00034477197916515934,6,104,8,20,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-9675108,Nervous system development,0.00034477197916515934,12,603,22,322,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-1643685,Disease,0.000440512123009551,28,3093,222,2176,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,True
+R-HSA-373755,Semaphorin interactions,0.0007051206422108436,5,71,4,41,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-2559586,DNA Damage/Telomere Stress Induced Senescence,0.0007051206422108436,5,70,2,18,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-9918481,Dengue Virus-Host Interactions,0.0008137063010392742,8,273,6,59,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-9918432,Maturation of DENV proteins,0.0008512995618669139,5,77,4,41,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-168255,Influenza Infection,0.0008512995618669139,7,200,5,61,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-194315,Signaling by Rho GTPases,0.0010329223020502099,12,708,33,203,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-140342,Apoptosis induced DNA fragmentation,0.0010897999739791775,3,13,3,12,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",0.0011488071309406767,12,724,33,212,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,True
+R-HSA-381183,ATF6 (ATF6-alpha) activates chaperone genes,0.001444880706209739,3,15,3,5,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-5357801,Programmed Cell Death,0.001444880706209739,7,225,18,194,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,True
+R-HSA-447115,Interleukin-12 family signaling,0.0016284621816693434,5,96,11,114,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-9646399,Aggrephagy,0.0016284621816693434,4,47,13,15,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-2029482,Regulation of actin dynamics for phagocytic cup formation,0.0016284621816693434,6,158,14,24,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-195258,RHO GTPase Effectors,0.0016284621816693434,8,325,29,113,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-2559584,Formation of Senescence-Associated Heterochromatin Foci (SAHF),0.0016368536571924608,3,17,1,2,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-381033,ATF6 (ATF6-alpha) activates chaperones,0.0016368536571924608,3,17,4,10,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-399954,Sema3A PAK dependent Axon repulsion,0.002209277811667243,3,19,3,6,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-109581,Apoptosis,0.0026358223853131246,6,180,9,142,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-392499,Metabolism of proteins,0.0028461506559231964,22,2427,187,928,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,True
+R-HSA-9764265,Regulation of CDH1 Expression and Function,0.003290800741153177,6,192,11,92,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-9662361,Sensory processing of sound by outer hair cells of the cochlea,0.003290800741153177,4,64,1,8,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-72702,Ribosomal scanning and start codon recognition,0.003290800741153177,4,64,2,2,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-72706,GTP hydrolysis and joining of the 60S ribosomal subunit,0.003290800741153177,5,120,3,3,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-5627117,RHO GTPases Activate ROCKs,0.003290800741153177,3,24,3,7,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-180897,Vpr-mediated induction of apoptosis by mitochondrial outer membrane permeabilization,0.003290800741153177,2,4,1,2,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-2029480,Fcgamma receptor (FCGR) dependent phagocytosis,0.003290800741153177,6,195,25,42,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-9764274,Regulation of Expression and Function of Type I Classical Cadherins,0.003290800741153177,6,192,11,92,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-2559583,Cellular Senescence,0.003440751658612129,6,199,11,90,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-72737,Cap-dependent Translation Initiation,0.004048895954082532,5,130,14,18,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-72613,Eukaryotic Translation Initiation,0.004048895954082532,5,130,16,21,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-8852276,The role of GTSE1 in G2/M progression after G2 checkpoint,0.004093272333441256,4,70,5,10,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,True
+R-HSA-1280215,Cytokine Signaling in Immune system,0.00432276876921478,14,1193,43,823,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-9759476,Regulation of Homotypic Cell-Cell Adhesion,0.00458625441136884,6,215,11,125,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-9662360,Sensory processing of sound by inner hair cells of the cochlea,0.00531355661435684,4,76,1,7,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-114608,Platelet degranulation ,0.00531355661435684,5,142,3,11,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-1266738,Developmental Biology,0.0054795642767218045,19,2061,127,996,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,True
+R-HSA-5625740,RHO GTPases activate PKNs,0.0056235341144939,4,79,9,20,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-76005,Response to elevated platelet cytosolic Ca2+,0.006078582215233275,5,149,3,14,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,True
+R-HSA-168256,Immune System,0.006078582215233275,24,3033,234,1895,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,True
+R-HSA-9020591,Interleukin-12 signaling,0.006614151046182126,4,84,5,56,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-168316,Assembly of Viral Components at the Budding Site,0.006614151046182126,2,7,1,17,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-9018519,Estrogen-dependent gene expression,0.006614151046182126,5,153,16,66,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,True
+R-HSA-9659379,Sensory processing of sound,0.007271488789085678,4,87,2,13,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,True
+R-HSA-9706574,RHOBTB GTPase Cycle,0.007368807238384845,3,36,2,4,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-9679506,SARS-CoV Infections,0.007436199906926122,9,580,18,404,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-2565942,Regulation of PLK1 Activity at G2/M Transition,0.008462607833927493,4,92,5,12,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,True
+R-HSA-901042,Calnexin/calreticulin cycle,0.00888490759502325,3,40,5,12,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-983170,"Antigen Presentation: Folding, assembly and peptide loading of class I MHC",0.00888490759502325,3,40,6,16,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-9735869,SARS-CoV-1 modulates host translation machinery,0.009093162753432416,3,41,2,3,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,False
+R-HSA-9609507,Protein localization,0.009093162753432416,5,171,25,53,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,True,True
+R-HSA-9663891,Selective autophagy,0.009093162753432416,4,97,16,56,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-1500931,Cell-Cell communication,0.009093162753432416,7,365,18,208,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,True
+R-HSA-9612973,Autophagy,0.00952310176494997,5,174,33,117,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,True
+R-HSA-418990,Adherens junctions interactions,0.009789202824855292,6,267,16,164,MjAyNjA5MTMxMzA3NThfMjMxMjE%3D,24,False,False
+R-HSA-2980766,Nuclear Envelope Breakdown,0.00045683630373360984,5,65,5,13,MjAyNjA5MTMxMzA4MTJfMjMxMjM%3D,26,False,False
+R-HSA-68875,Mitotic Prophase,0.00045683630373360984,6,134,13,34,MjAyNjA5MTMxMzA4MTJfMjMxMjM%3D,26,False,False
+R-HSA-68882,Mitotic Anaphase,0.00045683630373360984,7,236,9,32,MjAyNjA5MTMxMzA4MTJfMjMxMjM%3D,26,False,False
+R-HSA-2555396,Mitotic Metaphase and Anaphase,0.00045683630373360984,7,237,9,33,MjAyNjA5MTMxMzA4MTJfMjMxMjM%3D,26,False,False
+R-HSA-1640170,Cell Cycle,0.00045683630373360984,11,729,84,474,MjAyNjA5MTMxMzA4MTJfMjMxMjM%3D,26,False,True
+R-HSA-2995410,Nuclear Envelope (NE) Reassembly,0.00045683630373360984,5,88,3,24,MjAyNjA5MTMxMzA4MTJfMjMxMjM%3D,26,False,False
+R-HSA-68886,M Phase,0.0009428112994220861,8,403,32,96,MjAyNjA5MTMxMzA4MTJfMjMxMjM%3D,26,False,False
+R-HSA-3108232,SUMO E3 ligases SUMOylate target proteins,0.0009428112994220861,6,184,18,132,MjAyNjA5MTMxMzA4MTJfMjMxMjM%3D,26,False,False
+R-HSA-2990846,SUMOylation,0.0009428112994220861,6,193,18,141,MjAyNjA5MTMxMzA4MTJfMjMxMjM%3D,26,False,True
+R-HSA-1221632,Meiotic synapsis,0.0011848229472111171,4,61,6,6,MjAyNjA5MTMxMzA4MTJfMjMxMjM%3D,26,True,False
+R-HSA-4419969,Depolymerization of the Nuclear Lamina,0.001495945292852241,3,23,2,6,MjAyNjA5MTMxMzA4MTJfMjMxMjM%3D,26,True,False
+R-HSA-2995383,Initiation of Nuclear Envelope (NE) Reformation,0.002175063324976745,3,27,1,7,MjAyNjA5MTMxMzA4MTJfMjMxMjM%3D,26,True,False
+R-HSA-3108214,SUMOylation of DNA damage response and repair proteins,0.0027215171380690073,4,81,7,24,MjAyNjA5MTMxMzA4MTJfMjMxMjM%3D,26,True,False
+R-HSA-1500620,Meiosis,0.004096404914357699,4,93,10,16,MjAyNjA5MTMxMzA4MTJfMjMxMjM%3D,26,False,False
+R-HSA-69278,"Cell Cycle, Mitotic",0.006596324671757081,8,587,63,367,MjAyNjA5MTMxMzA4MTJfMjMxMjM%3D,26,False,False
+R-HSA-4615885,SUMOylation of DNA replication proteins,0.009537620247389245,3,50,3,8,MjAyNjA5MTMxMzA4MTJfMjMxMjM%3D,26,True,False
+R-HSA-8953854,Metabolism of RNA,0.008328108767507336,11,863,47,244,MjAyNjA5MTMxMzA4MjdfMjMxMjU%3D,28,True,True
+R-HSA-9764265,Regulation of CDH1 Expression and Function,0.008328108767507336,6,192,12,92,MjAyNjA5MTMxMzA4MjdfMjMxMjU%3D,28,True,False
+R-HSA-9759476,Regulation of Homotypic Cell-Cell Adhesion,0.008328108767507336,6,215,12,125,MjAyNjA5MTMxMzA4MjdfMjMxMjU%3D,28,False,True
+R-HSA-9764274,Regulation of Expression and Function of Type I Classical Cadherins,0.008328108767507336,6,192,12,92,MjAyNjA5MTMxMzA4MjdfMjMxMjU%3D,28,False,False
+R-HSA-9839923,Dengue Virus Infection,0.008328108767507336,8,411,6,142,MjAyNjA5MTMxMzA4MjdfMjMxMjU%3D,28,True,True
+R-HSA-4419969,Depolymerization of the Nuclear Lamina,0.0029227151020203568,3,23,2,6,MjAyNjA5MTMxMzA5MTFfMjMxMzE%3D,34,True,True
+R-HSA-2995383,Initiation of Nuclear Envelope (NE) Reformation,0.0029227151020203568,3,27,1,7,MjAyNjA5MTMxMzA5MTFfMjMxMzE%3D,34,True,True
+R-HSA-5619107,Defective TPR may confer susceptibility towards thyroid papillary carcinoma (TPC),0.0008869468080435761,3,36,1,1,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,True
+R-HSA-1855196,IP3 and IP4 transport between cytosol and nucleus,0.0008869468080435761,3,37,3,3,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-1855229,IP6 and IP7 transport between cytosol and nucleus,0.0008869468080435761,3,37,2,2,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-159227,Transport of the SLBP independent Mature mRNA,0.0008869468080435761,3,39,3,3,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-1855170,IPs transport between nucleus and cytosol,0.0008869468080435761,3,40,4,4,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-159230,Transport of the SLBP Dependant Mature mRNA,0.0008869468080435761,3,40,3,3,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-3301854,Nuclear Pore Complex (NPC) Disassembly,0.0008869468080435761,3,42,2,2,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-159231,Transport of Mature mRNA Derived from an Intronless Transcript,0.0008869468080435761,3,46,3,3,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-159234,Transport of Mature mRNAs Derived from Intronless Transcripts,0.0008869468080435761,3,47,9,9,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,False
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,0.0008869468080435761,6,317,35,52,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,False
+R-HSA-180910,Vpr-mediated nuclear import of PICs,0.0008869468080435761,3,44,1,2,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-4085377,SUMOylation of SUMOylation proteins,0.0008869468080435761,3,39,2,5,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-3232142,SUMOylation of ubiquitinylation proteins,0.0008869468080435761,3,43,1,3,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-180746,Nuclear import of Rev protein,0.0008869468080435761,3,41,2,7,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-177243,Interactions of Rev with host cellular proteins,0.0008869468080435761,3,47,4,16,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,False
+R-HSA-176033,Interactions of Vpr with host cellular proteins,0.0008869468080435761,3,47,1,4,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,False
+R-HSA-168271,Transport of Ribonucleoproteins into the Host Nucleus,0.0008869468080435761,3,48,1,4,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,True
+R-HSA-170822,Regulation of Glucokinase by Glucokinase Regulatory Protein,0.0008869468080435761,3,40,1,5,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-165054,Rev-mediated nuclear export of HIV RNA,0.0008869468080435761,3,45,2,10,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-4551638,SUMOylation of chromatin organization proteins,0.0008869468080435761,4,62,3,15,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-168276,NS1 Mediated Effects on Host Pathways,0.0008869468080435761,3,48,1,8,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,True
+R-HSA-4615885,SUMOylation of DNA replication proteins,0.0010000078108874932,3,50,2,8,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-168333,NEP/NS2 Interacts with the Cellular Export Machinery,0.0010547459954368676,3,53,1,2,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-4570464,SUMOylation of RNA binding proteins,0.0010547459954368676,3,51,1,4,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-168274,Export of Viral Ribonucleoproteins from Nucleus,0.0011141955028053374,3,54,1,5,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,True
+R-HSA-194441,Metabolism of non-coding RNA,0.0018322821472520623,3,67,2,6,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,False
+R-HSA-191859,snRNP Assembly,0.0018322821472520623,3,67,2,6,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-2980766,Nuclear Envelope Breakdown,0.0018322821472520623,3,65,2,13,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,False
+R-HSA-168325,Viral Messenger RNA Synthesis,0.0019963444332224967,3,69,2,6,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,True
+R-HSA-6784531,tRNA processing in the nucleus,0.0020818166614422484,3,70,1,7,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-3108232,SUMO E3 ligases SUMOylate target proteins,0.0021354347247934946,4,184,13,132,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,False
+R-HSA-2990846,SUMOylation,0.00255532151204374,4,193,13,141,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,True
+R-HSA-159236,Transport of Mature mRNA derived from an Intron-Containing Transcript,0.0027272169513410383,3,81,3,4,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-3108214,SUMOylation of DNA damage response and repair proteins,0.0027272169513410383,3,81,4,24,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-1169408,ISG15 antiviral mechanism,0.0029269797921920304,3,83,1,16,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-72202,Transport of Mature Transcript to Cytoplasm,0.00308287004758101,3,90,12,13,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,False
+R-HSA-8953854,Metabolism of RNA,0.004099578610523014,7,863,39,244,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,True
+R-HSA-70171,Glycolysis,0.005634729425544882,3,111,1,23,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,False
+R-HSA-3371453,Regulation of HSF1-mediated heat shock response,0.005930092920486407,3,113,1,14,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,True,False
+R-HSA-1483249,Inositol phosphate metabolism,0.007707561232699334,3,125,9,71,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,True
+R-HSA-68875,Mitotic Prophase,0.007707561232699334,3,134,2,34,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,True
+R-HSA-70326,Glucose metabolism,0.007707561232699334,3,131,1,40,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,True
+R-HSA-1169410,Antimicrobial mechanism of IFN-stimulated genes,0.007707561232699334,4,284,2,103,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,True
+R-HSA-3371556,Cellular response to heat stress,0.007871642901782216,3,135,1,29,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,True
+R-HSA-162909,Host Interactions of HIV factors,0.008376950225279511,3,138,5,54,MjAyNjA5MTMxMzA5MjZfMjMxMzM%3D,36,False,True
+R-HSA-72163,mRNA Splicing - Major Pathway,0.001358627306247251,6,213,10,11,MjAyNjA5MTMxMzA5NDFfMjMxMzU%3D,38,True,False
+R-HSA-72172,mRNA Splicing,0.001358627306247251,6,224,10,16,MjAyNjA5MTMxMzA5NDFfMjMxMzU%3D,38,False,False
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,0.005490431771009607,6,317,27,52,MjAyNjA5MTMxMzA5NDFfMjMxMzU%3D,38,False,True
+R-HSA-193670,p75NTR negatively regulates cell cycle via SC1,0.005490431771009607,2,6,1,3,MjAyNjA5MTMxMzA5NDFfMjMxMzU%3D,38,True,True
+R-HSA-180910,Vpr-mediated nuclear import of PICs,0.0030013922884926103,3,44,2,2,MjAyNjA5MTMxMzEwMDNfMjMxMzg%3D,41,True,False
+R-HSA-176033,Interactions of Vpr with host cellular proteins,0.0030013922884926103,3,47,2,4,MjAyNjA5MTMxMzEwMDNfMjMxMzg%3D,41,False,True

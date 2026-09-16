@@ -1,7 +1,5 @@
 # Latent-space sensitivity analysis of the PTM co-regulation network
 
-Supplementary code for *TITLE OF THE MANUSCRIPT* (AUTHORS, YEAR), DOI: `TODO`.
-
 `MoDPA-sensisitivity-analysis.ipynb` quantifies how the inferred PTM co-regulation
 network changes with the latent-space dimensionality of the MoDPA model. Every model run
 is compared against a single reference run at the dimensionality used in the manuscript
@@ -302,14 +300,9 @@ pip freeze > requirements.txt
 
 ## License
 
-Licensed under the Apache License, Version 2.0. The full text is in `../LICENSE`, and a
-copy is available at <http://www.apache.org/licenses/LICENSE-2.0>.
+Licensed under the Apache License, Version 2.0.
 
 Unless required by applicable law or agreed to in writing, software distributed under the
 License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
 either express or implied. See the License for the specific language governing permissions
 and limitations under the License.
-
-## Citation
-
-`TODO`

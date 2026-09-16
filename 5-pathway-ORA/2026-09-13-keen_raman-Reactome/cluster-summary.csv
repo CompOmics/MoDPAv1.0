@@ -1,0 +1,44 @@
+LeidenCluster,n_events,n_proteins,n_ptm_types,tested,dominant_PTM,percent,top_pathways
+0,315,179,2,True,Phosphorylation,99.7,NS1 Mediated Effects on Host Pathways (FDR=1.3e-03); ISG15 antiviral mechanism (FDR=2.0e-03); Transport of Mature mRNA Derived from an Intronless Transcript (FDR=2.0e-03); Viral Messenger RNA Synthesis (FDR=2.0e-03); SUMOylation of DNA replication proteins (FDR=2.3e-03)
+1,290,130,3,True,Phosphorylation,98.3,mRNA Splicing - Major Pathway (FDR=1.4e-03); SUMOylation of DNA damage response and repair proteins (FDR=3.6e-03); CHD chromatin remodelers (FDR=3.9e-03); Formation of RNA Pol II elongation complex  (FDR=6.8e-03)
+2,268,158,11,True,Phosphorylation,28.4,Dengue Virus-Host Interactions (FDR=3.1e-09); mRNA Polyadenylation (FDR=2.8e-08); Platelet degranulation  (FDR=3.2e-08); mRNA Splicing - Major Pathway (FDR=6.4e-08); Peptide chain elongation (FDR=4.0e-07)
+3,225,130,4,True,Phosphorylation,94.7,SUMOylation of ubiquitinylation proteins (FDR=1.5e-04); Vpr-mediated nuclear import of PICs (FDR=1.5e-04); SUMOylation of DNA damage response and repair proteins (FDR=3.1e-04); SUMOylation of chromatin organization proteins (FDR=6.1e-04); IP3 and IP4 transport between cytosol and nucleus (FDR=6.1e-04)
+4,214,144,3,True,Methylation,98.6,Peptide chain elongation (FDR=6.9e-11); L13a-mediated translational silencing of Ceruloplasmin expression (FDR=6.9e-11); GTP hydrolysis and joining of the 60S ribosomal subunit (FDR=6.9e-11); Formation of a pool of free 40S subunits (FDR=1.7e-10); Response of EIF2AK4 (GCN2) to amino acid deficiency (FDR=4.3e-10)
+5,203,87,3,True,Phosphorylation,98.0,mRNA Splicing - Major Pathway (FDR=9.8e-04); rRNA modification in the nucleus and cytosol (FDR=6.2e-03); Viral Infection Pathways (FDR=8.2e-03)
+6,172,103,4,True,Phosphorylation,94.2,Processing of Capped Intron-Containing Pre-mRNA (FDR=6.1e-03); Chromatin organization (FDR=6.1e-03); Formation of RNA Pol II elongation complex  (FDR=6.1e-03)
+7,155,93,3,True,Phosphorylation,96.8,RHOBTB2 GTPase cycle (FDR=2.1e-04); Cellular response to heat stress (FDR=1.5e-03); RHO GTPases activate PAKs (FDR=1.5e-03); Nuclear Envelope Breakdown (FDR=2.1e-03); Nuclear RNA decay (FDR=3.4e-03)
+8,151,105,4,True,Phosphorylation,96.7,mRNA Polyadenylation (FDR=2.6e-03)
+9,148,78,7,True,Methylation,91.9,Platelet degranulation  (FDR=3.4e-07); Inhibition of DNA recombination at telomere (FDR=4.0e-07); Apoptosis induced DNA fragmentation (FDR=5.7e-07); Condensation of Prophase Chromosomes (FDR=7.6e-07); Amyloid fiber formation (FDR=1.0e-06)
+10,128,90,3,True,Phosphorylation,98.4,mRNA Splicing - Major Pathway (FDR=1.3e-03); mRNA Polyadenylation (FDR=1.7e-03); Dengue Virus-Host Interactions (FDR=1.7e-03); Defective Inhibition of DNA Recombination at Telomere Due to ATRX Mutations (FDR=2.5e-03); Defective Inhibition of DNA Recombination at Telomere Due to DAXX Mutations (FDR=2.5e-03)
+11,126,80,5,True,Phosphorylation,94.4,mRNA Splicing - Major Pathway (FDR=8.8e-05); mRNA Polyadenylation (FDR=1.3e-04); Mitotic Prophase (FDR=6.5e-03)
+12,122,79,9,True,Phosphorylation,67.2,VEGFA-VEGFR2 Pathway (FDR=3.4e-06); RHO GTPases Activate WASPs and WAVEs (FDR=6.3e-06); Nephrin family interactions (FDR=1.4e-05); Signal attenuation (FDR=3.1e-05); SHC1 events in ERBB2 signaling (FDR=5.3e-05)
+13,121,59,1,True,Phosphorylation,100.0,Metabolism of RNA (FDR=4.9e-03)
+14,112,45,4,True,Phosphorylation,95.5,Clathrin-mediated endocytosis (FDR=7.6e-03); Sensory processing of sound by inner hair cells of the cochlea (FDR=7.6e-03); Miscellaneous transport and binding events (FDR=8.6e-03); Neurotransmitter release cycle (FDR=8.6e-03)
+15,107,86,2,True,Phosphorylation,99.1,CDC42 GTPase cycle (FDR=5.8e-04); RHOJ GTPase cycle (FDR=1.8e-03); RHOH GTPase cycle (FDR=4.6e-03); VEGFR2 mediated vascular permeability (FDR=7.5e-03)
+16,103,55,7,True,Methylation,72.8,Integrin cell surface interactions (FDR=9.9e-08); Collagen chain trimerization (FDR=7.1e-07); Collagen degradation (FDR=5.8e-06); ECM proteoglycans (FDR=1.1e-05); Platelet degranulation  (FDR=1.8e-05)
+17,101,60,3,True,Phosphorylation,98.0,Apoptosis induced DNA fragmentation (FDR=3.0e-03); Budding and maturation of HIV virion (FDR=3.0e-03); Formation of Senescence-Associated Heterochromatin Foci (SAHF) (FDR=4.4e-03)
+18,100,54,2,True,Phosphorylation,98.0,Signaling by Rho GTPases (FDR=4.8e-03)
+19,97,81,1,True,Methylation,100.0,Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide (FDR=6.3e-07); Regulation of expression of SLITs and ROBOs (FDR=1.6e-06); Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC) (FDR=1.4e-05); mRNA Polyadenylation (FDR=2.8e-05); Response of EIF2AK4 (GCN2) to amino acid deficiency (FDR=8.3e-05)
+20,94,81,2,True,Methylation,96.8,Mitochondrial protein degradation (FDR=5.0e-07); HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand (FDR=7.3e-07); Neutrophil degranulation (FDR=2.0e-06); Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide (FDR=5.2e-06); The role of GTSE1 in G2/M progression after G2 checkpoint (FDR=7.5e-05)
+21,93,46,4,True,Phosphorylation,96.8,Dengue Virus-Host Interactions (FDR=8.5e-03); mRNA 3'-end processing (FDR=8.5e-03)
+22,92,63,1,True,Phosphorylation,100.0,Apoptotic cleavage of cellular proteins (FDR=3.6e-03); Dengue Virus-Host Interactions (FDR=3.6e-03); Signaling by RAF1 mutants (FDR=5.3e-03); Signaling downstream of RAS mutants (FDR=5.3e-03); Paradoxical activation of RAF signaling by kinase inactive BRAF (FDR=5.3e-03)
+23,92,47,1,True,Phosphorylation,100.0,Vpr-mediated nuclear import of PICs (FDR=1.0e-03); Caspase-mediated cleavage of cytoskeletal proteins (FDR=1.0e-03); SUMOylation of DNA replication proteins (FDR=1.0e-03); IP3 and IP4 transport between cytosol and nucleus (FDR=4.1e-03); Transport of Mature mRNA Derived from an Intronless Transcript (FDR=4.1e-03)
+24,87,64,5,True,Acetylation,41.4,Chaperone Mediated Autophagy (FDR=3.0e-04); Mitochondrial protein degradation (FDR=3.4e-04); Dengue Virus-Host Interactions (FDR=8.1e-04); Maturation of DENV proteins (FDR=8.5e-04); Apoptosis induced DNA fragmentation (FDR=1.1e-03)
+25,82,58,4,True,Phosphorylation,81.7,
+26,76,45,4,True,Phosphorylation,96.1,Meiotic synapsis (FDR=1.2e-03); Depolymerization of the Nuclear Lamina (FDR=1.5e-03); Initiation of Nuclear Envelope (NE) Reformation (FDR=2.2e-03); SUMOylation of DNA damage response and repair proteins (FDR=2.7e-03); SUMOylation of DNA replication proteins (FDR=9.5e-03)
+27,75,45,2,True,Phosphorylation,98.7,
+28,74,47,9,True,Phosphorylation,68.9,Metabolism of RNA (FDR=8.3e-03); Dengue Virus Infection (FDR=8.3e-03); Regulation of CDH1 Expression and Function (FDR=8.3e-03)
+29,70,46,3,True,Phosphorylation,92.9,
+30,69,23,2,True,Phosphorylation,98.6,
+31,68,37,4,True,Phosphorylation,91.2,
+32,67,42,2,True,Phosphorylation,97.0,
+33,67,53,2,True,Phosphorylation,98.5,
+34,66,34,2,True,Phosphorylation,95.5,Depolymerization of the Nuclear Lamina (FDR=2.9e-03); Initiation of Nuclear Envelope (NE) Reformation (FDR=2.9e-03)
+35,63,28,2,True,Phosphorylation,96.8,
+36,57,28,2,True,Phosphorylation,96.5,Transport of Ribonucleoproteins into the Host Nucleus (FDR=8.9e-04); SUMOylation of ubiquitinylation proteins (FDR=8.9e-04); Regulation of Glucokinase by Glucokinase Regulatory Protein (FDR=8.9e-04); SUMOylation of SUMOylation proteins (FDR=8.9e-04); Nuclear import of Rev protein (FDR=8.9e-04)
+37,57,31,3,True,Phosphorylation,96.5,
+38,57,37,2,True,Phosphorylation,96.5,mRNA Splicing - Major Pathway (FDR=1.4e-03); p75NTR negatively regulates cell cycle via SC1 (FDR=5.5e-03)
+39,52,31,3,True,Phosphorylation,86.5,
+40,51,35,3,True,Phosphorylation,90.2,
+41,43,21,1,True,Phosphorylation,100.0,Vpr-mediated nuclear import of PICs (FDR=3.0e-03)
+42,42,21,2,True,Phosphorylation,97.6,
