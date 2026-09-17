@@ -102,12 +102,22 @@ columns are MS runs.
 
 ## Running the four steps in one go
 
-`quant_pipeline_executable.py` calls the four functions in order. Edit the paths at the top of the
-file and run it:
+`quant_pipeline_executable.py` calls the four functions in order, passing each step's output to the
+next. It takes the same arguments as the individual scripts:
 
 ```bash
-python quant_pipeline_executable.py
+python quant_pipeline_executable.py \
+    ./v0113-2026/unprocessed/20260220_Peptidoforms_IDs_v0113.csv.gz \
+    ./v0113-2026/unprocessed/20260220_Peptidoforms_counts_v0113_breast_cancer.csv.gz \
+    ./Human_2026_01_canonical.fasta.gz \
+    -p Validation-20260812 \
+    -m ./PTMs-of-interest-submission.csv \
+    -c ./MQcontaminants_2023_11_14.fasta.gz
 ```
+
+The FASTA positional is used twice, once to map peptidoforms to proteins in step 1 and once to
+prefilter the matrices in step 3. `-c/--contaminants` is optional; without it no contaminant
+filtering is applied. Run `python quant_pipeline_executable.py -h` for the full list.
 
 `quant-pipeline-notebook.ipynb` is the same pipeline as a notebook.
 

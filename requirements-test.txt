@@ -1,0 +1,28 @@
+# Dependencies needed to run the test suite only. This is a small subset of
+# env.yml, which additionally pins TensorFlow and the rest of the analysis stack
+# and is far too slow to build in CI.
+#
+# Install locally with:  pip install -r requirements-test.txt
+pytest
+
+# Core numerics, used by every test file.
+numpy
+pandas
+scipy
+
+# tests/test_pair_packing.py extracts functions from s15_background.py, whose
+# import line pulls in duckdb.
+duckdb
+
+# tests/test_validate_edges.py imports validate_edges.py, which imports both.
+matplotlib
+seaborn
+
+# tests/test_topology_compare.py and the module it tests.
+networkx
+igraph
+leidenalg
+scikit-learn
+
+# Used by modpa_network_utilities.py and 4-PTM-pairs-annotation/scripts/_common.py.
+polars
