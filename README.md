@@ -84,8 +84,8 @@ bash setup-wsl-gpu.sh check
 `setup` creates the environment from `env-wsl-gpu.yml` and installs PTMmap; `check` verifies that
 TensorFlow sees the GPU.
 
-`2-VAE-code/Sensitivity_analysis/requirements.txt` covers that directory alone, for running the
-sensitivity analysis without the GPU-side dependencies.
+`env.yml` covers every stage except VAE training, which needs the GPU environment. Everything
+downstream of training, including the sensitivity analysis, runs in the CPU environment.
 
 Estimated run time of the full pipeline on the pulsed SILAC dataset is one to two hours, and about
 three hours on a low-end laptop. Training the VAE grid and scoring all PTM pairs on the full

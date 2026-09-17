@@ -13,7 +13,6 @@ ordinary run-to-run variation at a fixed dimensionality.
 | --- | --- |
 | `MoDPA-sensisitivity-analysis.ipynb` | The analysis notebook |
 | `topology_compare.py` | Helper module with the topology comparison functions |
-| `requirements.txt` | Python dependencies |
 | `2026-09-15_sensitivity_output/` | Figures and tables produced by the run of 2026-09-15 |
 | `Supplementary-Methods-Latent-Dimensionality-Sensitivity.docx` | Supplementary methods text |
 
@@ -82,15 +81,16 @@ repository and is not tracked in git. See the data availability section of the r
 
 ## Installation
 
+The notebook runs in the environment of the repository, created from the repository root:
+
 ```bash
-python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+conda env create -f env.yml
+conda activate MoDPA-env
 ```
 
-`../env.yml` holds the full conda environment used for the manuscript, including the
-GPU-side dependencies of the model itself. `requirements.txt` covers only what this
-directory needs.
+That environment covers everything this directory needs: `polars`, `pandas`, `matplotlib`,
+`seaborn`, `scipy` and `jupyterlab` for the notebook, and `numpy`, `networkx`, `igraph`,
+`leidenalg` and `scikit-learn` for `modpa_network_utilities.py` and `topology_compare.py`.
 
 `leidenalg` and `igraph` ship wheels for the common platforms. If a source build is
 triggered, a C compiler and the igraph C library headers are required; installing
@@ -293,10 +293,11 @@ checks nothing.
 
 ## Reproducibility
 
-Pin the exact environment before archiving:
+`../../env.yml` is the archived environment. A few of its entries are unpinned, `igraph`,
+`leidenalg` and `scikit-learn` among them, so pin them before archiving:
 
 ```bash
-pip freeze > requirements.txt
+conda env export --no-builds > env.yml
 ```
 
 ## License
