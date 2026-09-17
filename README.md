@@ -103,6 +103,38 @@ Estimated run time of the full pipeline on the pulsed SILAC dataset is one to tw
 three hours on a low-end laptop. Training the VAE grid and scoring all PTM pairs on the full
 dataset is considerably longer and needs a GPU and a large amount of RAM.
 
+## Tests
+
+The pure functions that carry a reported number are covered by a pytest suite in `tests/`.
+
+```bash
+pip install -r requirements-test.txt
+python -m pytest
+```
+
+`requirements-test.txt` is a small subset of `env.yml`; it omits TensorFlow and the rest of the
+training stack, which the tests do not need. Configuration is in `pyproject.toml`, which declares no
+`[project]` table because this repository is a collection of analysis scripts rather than an
+installable package. `tests/conftest.py` puts every script directory on `sys.path` and provides
+`load_functions()`, which extracts named functions from the numbered stage scripts of stage 4
+without executing their module-level queries.
+
+| File | Covers |
+| --- | --- |
+| `tests/test_tryptic.py` | `cuts_of` and `shares` in `4-PTM-pairs-annotation/scripts/s10_tryptic.py`, the tryptic co-peptide flags |
+| `tests/test_pair_packing.py` | `pack`, `packp`, `isin_sorted`, `dec` and `tier_of` in `4-PTM-pairs-annotation/scripts/s15_background.py` |
+| `tests/test_bh_adjust.py` | `bh_adjust` in `5-pathway-ORA/reactome_network_background_ora.py`, against `scipy.stats.false_discovery_control` |
+| `tests/test_validate_edges.py` | the edge labelling rules in `3-pulse-silac-validation/validate_edges.py` |
+| `tests/test_topology_compare.py` | `2-VAE-code/Sensitivity-analysis/topology_compare.py`, converted from its `_self_test()` block |
+
+`tests/test_topology_compare.py` skips as a whole when igraph, leidenalg or scikit-learn are absent,
+so a partial environment reports a skip rather than an error.
+
+`.github/workflows/tests.yml` runs the suite on every push to `main` and on every pull request,
+against Python 3.10 and 3.11. A second job byte-compiles every tracked `.py` file with
+`py_compile`, which catches a syntax error in the scripts that have no tests without needing their
+dependencies or their input files.
+
 ## Reproducing the published results
 
 To reproduce the results you need a peptidoform identifications file, a peptidoform counts file and
@@ -123,8 +155,22 @@ without regenerating its inputs. The archives are placed in the folder of the st
 | Archive | Size | Contents |
 | --- | --- | --- |
 | `1-quant-pipeline-latest/MoDPA_unprocessed.tar.gz` | 2.0 GB | unprocessed input of stage 1 |
-| `2-VAE-code/MoDPA_models.tar.gz` | 27 GB | trained models, latent spaces and association lists |
+| `2-VAE-code/MoDPA_models.tar.gz` | 9.9 GB | trained models: `config.json`, `vae.weights.h5` and `provenance.json` per run |
 | `4-PTM-pairs-annotation/input_and_expected_ouput.tar.gz` | 2.9 GB | inputs and expected outputs of stage 4 |
+
+> **The models archive holds weights only.** The latent spaces (`Latent-space.pkl.gz`) and the
+> association lists (`*-signed-distances.csv.gz`) were removed to bring the archive within the
+> Zenodo size limit, so they have to be regenerated from the weights before stages 3, 4 and 5 and
+> the sensitivity analysis can run. Per model run, in order:
+>
+> ```bash
+> python 2-VAE-code/VAE_encode.py <model folder> <MoDPA matrix .pkl.gz>
+> python 2-VAE-code/calculate_sdcorr.py <model folder>
+> ```
+>
+> Encoding is quick. Scoring all PTM pairs is not: it is quadratic in the number of PTM events and
+> writes an association list of 1.2 GB to 1.3 GB per run. Regenerate only the runs needed. Stages 3,
+> 4 and 5 need the reference run alone; the sensitivity analysis needs all 14.
 
 The v0113 peptidoform dataset is available on Zenodo as a separate record:
 https://zenodo.org/records/18310674

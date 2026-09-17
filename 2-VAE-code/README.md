@@ -109,9 +109,14 @@ This file is the MoDPA association list, and it is the input of steps 3, 4 and 5
 
 ## Model outputs
 
-`MoDPA_models.tar.gz` holds the trained models, their latent spaces and the association lists they
-produced. It is not tracked in git and is part of the Zenodo release. See the data availability
-section of the root README.
+`MoDPA_models.tar.gz` (9.9 GB) holds the trained models, that is `config.json`, `vae.weights.h5`
+and `provenance.json` per run. It is not tracked in git and is part of the Zenodo release.
+
+**Weights only.** The latent spaces and the association lists were removed to bring the archive
+within the Zenodo size limit, so steps 3 and 4 above have to be rerun on the unpacked models before
+anything downstream can use them. Encoding is quick; scoring all PTM pairs is quadratic in the
+number of PTM events and writes 1.2 GB to 1.3 GB per run, so regenerate only the runs that are
+needed. See the data availability section of the root README.
 
 ## `Sensitivity-analysis/`
 

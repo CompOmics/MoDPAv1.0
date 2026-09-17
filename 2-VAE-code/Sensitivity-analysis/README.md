@@ -14,7 +14,6 @@ ordinary run-to-run variation at a fixed dimensionality.
 | `MoDPA-sensisitivity-analysis.ipynb` | The analysis notebook |
 | `topology_compare.py` | Helper module with the topology comparison functions |
 | `2026-09-15_sensitivity_output/` | Figures and tables produced by the run of 2026-09-15 |
-| `Supplementary-Methods-Latent-Dimensionality-Sensitivity.docx` | Supplementary methods text |
 
 ## Dependencies outside this directory
 
@@ -76,8 +75,19 @@ at the latent dimensionalities 32, 64, 96, 124, 128 (five runs: the reference an
 replicates), 132, 160, 192, 256 and 512. `REPLICATE_RUNS` therefore holds four labels and
 `COMPARISON_RUNS` nine.
 
-The model outputs are in `../MoDPA_models.tar.gz`, which is part of the Zenodo release of this
-repository and is not tracked in git. See the data availability section of the root README.
+The trained models are in `../MoDPA_models.tar.gz`, which is part of the Zenodo release of this
+repository and is not tracked in git. **That archive holds weights only.** The signed-distance
+files this notebook reads were removed from it to meet the Zenodo size limit, so they have to be
+regenerated from the unpacked models before the notebook can run. Per run, in order:
+
+```bash
+python ../VAE_encode.py <model folder> <MoDPA matrix .pkl.gz>
+python ../calculate_sdcorr.py <model folder>
+```
+
+This notebook needs all 14 runs, so that is 14 association lists of 1.2 GB to 1.3 GB each, which is
+the expensive part of reproducing this analysis. See the data availability section of the root
+README.
 
 ## Installation
 
