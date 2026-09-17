@@ -2,6 +2,8 @@
 
 # MoDPA: Modification-Dependent Protein Associations
 
+[![tests](https://github.com/EnriMassi/MoDPAv1.0/actions/workflows/tests.yml/badge.svg)](https://github.com/EnriMassi/MoDPAv1.0/actions/workflows/tests.yml)
+
 Post-translational modifications (PTMs) are key regulators of protein function and cellular
 processes. The overall principles of PTM co-regulation and crosstalk, however, remain to be fully
 understood.
