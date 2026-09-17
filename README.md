@@ -57,6 +57,16 @@ when both PTMs carry the same modification and sit within `adjacency_window` (5 
 residues of each other on the same protein, which is the configuration in which a shared peptide
 can produce a correlation that is not biological. These edges are annotated, not removed.
 
+> **`shared_peptide` and `potential_artefact` are rough approximations and should be treated with
+> caution.** Both rest on a fixed proximity rule, `same_protein` and `position_gap <= 5`, which is
+> not a statement about what was actually measured together. Whether two sites can fall on one
+> tryptic peptide depends on where the cleavage sites are, not on how far apart the sites are, so
+> the rule both flags pairs that cannot share a peptide and misses pairs that can.
+> `4-PTM-pairs-annotation/scripts/s10_tryptic.py` computes the proper test, digesting the protein
+> sequence with trypsin at up to two missed cleavages, and quantifies how far the proximity rule
+> departs from it. Do not read either column as evidence of co-quantification. Both columns are
+> scheduled for removal.
+
 Clustering uses Leiden on the RBConfiguration objective with the absolute SDCor as the edge weight,
 `resolution_parameter = 2`, `n_iterations = 2` and seed 42. On the reference network this gives 556
 clusters, of which 43 hold at least 20 distinct proteins and were therefore tested for pathway

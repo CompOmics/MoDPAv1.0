@@ -28,6 +28,15 @@ read, type (a) and type (b) evidence never merged, nothing large loaded into mem
 every PubMed identifier taken verbatim from a UniProt evidence string rather than from a web
 search.
 
+`scripts/s10_tryptic.py` holds the co-quantification test: it digests each protein sequence with
+trypsin at up to two missed cleavages and asks whether one peptide can cover both sites, in a
+standard variant and in an upper-bound variant that treats a modified lysine or arginine as
+non-cleavable. This supersedes the `shared_peptide` and `potential_artefact` columns of
+`parse_network`, which use a fixed `position_gap <= 5` proximity rule. The script also reports how
+far the two rules disagree. The flag is carried and reported throughout stage 4 but is never used
+to remove a pair, because 61 of the 85 pairs UniProt documents as explicit crosstalk fall on one
+peptide.
+
 ## `Compare-retained-discarded-edges-nodes.ipynb`
 
 Compares the edges and nodes that survive the `Score >= 0.6` threshold with those that do not,

@@ -165,6 +165,15 @@ of each other on the same protein, which is the configuration in which a shared 
 can produce a correlation that is not biological. These edges are annotated but not
 removed.
 
+> **`shared_peptide` and `potential_artefact` are rough approximations and should be
+> treated with caution.** The proximity rule behind them is not a statement about what was
+> actually measured together. The tryptic test in
+> `../../4-PTM-pairs-annotation/scripts/s10_tryptic.py` is the accurate one. See the root
+> README. Both columns are scheduled for removal.
+
+No section of this notebook reads either column, so the caveat does not affect any result
+reported here.
+
 ## Analyses
 
 | Section | Measure | Reference point |
