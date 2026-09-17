@@ -4,7 +4,7 @@ Literature triage of the unfiltered MoDPA PTM association list. Run from the pro
 this directory:
 
 ```
-cd C:\Users\Enrico\Desktop\let-claude-cook
+cd 4-PTM-pairs-annotation
 python scripts/s03_rawstats.py
 ```
 

@@ -29,7 +29,7 @@ A saved model is a folder holding `config.json` and `vae.weights.h5`, which is w
 ### 1. Grid search
 
 ```bash
-python VAE-gridsearch-subprocess.py <MoDPA matrix .pkl.gz> -f <output folder>
+python VAE_gridsearch_subprocess.py <MoDPA matrix .pkl.gz> -f <output folder>
 ```
 
 Trains every hyperparameter combination. The grid is either the one written in `build_param_grid`
@@ -58,7 +58,7 @@ to `<output folder>/original.pkl.gz`.
 ### 2. Select a model
 
 ```bash
-python VAE-validation.py <output folder> [--data <matrix .pkl.gz>]
+python VAE_validation.py <output folder> [--data <matrix .pkl.gz>]
 ```
 
 Evaluates every model in the folder and ranks them. Distortion is measured per sample and only over
@@ -74,7 +74,7 @@ If the trainer used the full matrix for training and validation, every number is
 ### 3. Encode
 
 ```bash
-python VAE-encode.py <model folder> <matrix .pkl.gz>
+python VAE_encode.py <model folder> <matrix .pkl.gz>
 ```
 
 Writes `Latent-space.pkl.gz` and `Reconstruction.pkl.gz` into the model folder. The bracketed
@@ -85,7 +85,7 @@ used by every downstream step.
 ### 4. Score PTM pairs
 
 ```bash
-python calculate-sdcorr.py <model folder>
+python calculate_sdcorr.py <model folder>
 ```
 
 Reads `Latent-space.pkl.gz` from the model folder and computes, for every pair of PTM events, the
@@ -104,8 +104,8 @@ This file is the MoDPA association list, and it is the input of steps 3, 4 and 5
 
 | Script | Purpose |
 | --- | --- |
-| `VAE-inspect-kl-per-dimension.py` | raw KL in nats carried by each latent dimension, written to CSV. Not floored by `free_bits`, so it shows whether a `free_bits` threshold is sensible |
-| `modpa-matrix-sparsity.py` | sparsity of a MoDPA matrix, with observation histograms per PTM event and per MS run |
+| `VAE_inspect_kl_per_dimension.py` | raw KL in nats carried by each latent dimension, written to CSV. Not floored by `free_bits`, so it shows whether a `free_bits` threshold is sensible |
+| `modpa_matrix_sparsity.py` | sparsity of a MoDPA matrix, with observation histograms per PTM event and per MS run |
 
 ## Model outputs
 
@@ -113,7 +113,7 @@ This file is the MoDPA association list, and it is the input of steps 3, 4 and 5
 produced. It is not tracked in git and is part of the Zenodo release. See the data availability
 section of the root README.
 
-## `Sensitivity_analysis/`
+## `Sensitivity-analysis/`
 
 Quantifies how much the network changes with the latent dimensionality, against the run-to-run
 variation at a fixed dimensionality. It has its own README.

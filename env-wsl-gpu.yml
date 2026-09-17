@@ -145,6 +145,7 @@ dependencies:
       - pygments==2.19.2
       - pyparsing==3.2.5
       - pyteomics==4.7.5
+      - pytest
       - python-dateutil==2.9.0.post0
       - python-json-logger==4.0.0
       - pytz==2025.2

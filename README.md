@@ -24,7 +24,7 @@ inputs and the outputs.
 | 4 | [`4-PTM-pairs-annotation`](4-PTM-pairs-annotation) | annotate PTM pairs against UniProt and the literature | triage tables, shortlist |
 | 5 | [`5-pathway-ORA`](5-pathway-ORA) | Reactome over-representation analysis per network cluster | enrichment tables, heatmaps |
 
-`2-VAE-code/Sensitivity_analysis` quantifies how much the network depends on the latent
+`2-VAE-code/Sensitivity-analysis` quantifies how much the network depends on the latent
 dimensionality, and has its own README.
 
 The association list produced by stage 2 has one row per PTM pair, with the columns `nodeA`,

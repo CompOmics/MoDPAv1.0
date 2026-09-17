@@ -48,7 +48,7 @@ Outputs, written to `OUT_DIR`:
 | `ptms-per-cluster.png`, `.svg` | modification composition figure |
 | `reactome-clustermap-*.png`, `.svg` | the `-log10(FDR)` heatmaps |
 
-## `reactome-network-background-ora.py`
+## `reactome_network_background_ora.py`
 
 A supplementary sensitivity analysis. Reactome's Analysis Service always tests against the full
 annotated human reference proteome; the v3 REST API offers no custom background parameter at all.
@@ -62,7 +62,7 @@ correction within each cluster over every pathway tested for that cluster, not o
 were significant under the whole-proteome background.
 
 ```bash
-python reactome-network-background-ora.py
+python reactome_network_background_ora.py
 ```
 
 `OUT_DIR` at the top of the file is the only thing to change when the pipeline is rerun on a new

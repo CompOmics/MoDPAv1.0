@@ -44,7 +44,7 @@ across the model runs discovered under `MODEL_ROOT`. It imports `parse_network`,
 `discover_runs` and `jaccard` from `modpa_network_utilities.py` in the repository root, which it
 adds to `sys.path`, so it must be started from within this directory.
 
-The notebook is a copy of `../2-VAE-code/Sensitivity_analysis/MoDPA-sensisitivity-analysis.ipynb`
+The notebook is a copy of `../2-VAE-code/Sensitivity-analysis/MoDPA-sensisitivity-analysis.ipynb`
 with the retained and discarded comparison as its focus. The sensitivity analysis README documents
 the input layout, the configuration parameters, the filtering and the memory requirements, and all
 of it applies here as well.

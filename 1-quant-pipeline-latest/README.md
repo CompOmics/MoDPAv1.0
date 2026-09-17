@@ -102,11 +102,11 @@ columns are MS runs.
 
 ## Running the four steps in one go
 
-`quant-pipeline-executable.py` calls the four functions in order. Edit the paths at the top of the
+`quant_pipeline_executable.py` calls the four functions in order. Edit the paths at the top of the
 file and run it:
 
 ```bash
-python quant-pipeline-executable.py
+python quant_pipeline_executable.py
 ```
 
 `quant-pipeline-notebook.ipynb` is the same pipeline as a notebook.

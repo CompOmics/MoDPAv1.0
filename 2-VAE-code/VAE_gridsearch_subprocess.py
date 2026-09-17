@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 """
-Driver/worker variant of New-VAE-gridsearch-latest.py.
-
 Why this exists
 ----------------
 TensorFlow/CUDA does not reliably release GPU (or host) memory back to the OS
@@ -21,7 +19,7 @@ via `subprocess.run(...)`, using this same file's "worker mode"
 
 Usage
 -----
-    python New-VAE-gridsearch-subprocess.py <your_data.pkl> -f <output_folder>
+    python VAE_gridsearch_subprocess.py <your_data.pkl> -f <output_folder>
 
 This single command runs the *entire* grid search — no need for a PowerShell
 restart loop. Progress is checkpointed to `<output_folder>/.checkpoint.json`,

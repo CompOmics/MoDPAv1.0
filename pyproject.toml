@@ -1,0 +1,13 @@
+# Test configuration only. This repository is a collection of analysis scripts,
+# not an installable package, so no [project] table is declared here.
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+markers = [
+    "slow: long-running or TensorFlow-dependent tests",
+    "network: requires external API access",
+]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
