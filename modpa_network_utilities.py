@@ -63,6 +63,32 @@ def run_leiden(
         for i in range(G_ig.vcount())
     }
 
+def run_leiden_unweighted(
+    G: nx.Graph,
+    seed: int = 42,
+    resolution: float = 2.0,
+    n_iterations: int = 2,
+) -> dict[str, int]:
+    """Run unweighted Leiden clustering and return ``{node_name: cluster_id}``."""
+    if G.number_of_nodes() == 0:
+        return {}
+
+    G_ig = ig.Graph.from_networkx(G)
+
+    partition = leidenalg.RBConfigurationVertexPartition(
+        G_ig,
+        weights=None,
+        resolution_parameter=resolution,
+    )
+    optimiser = leidenalg.Optimiser()
+    optimiser.set_rng_seed(seed)
+    optimiser.optimise_partition(partition, n_iterations=n_iterations)
+
+    return {
+        G_ig.vs[i]["_nx_name"]: partition.membership[i]
+        for i in range(G_ig.vcount())
+    }
+
 
 def build_clusters_df(leiden_membership: dict[str, int]) -> pd.DataFrame:
     """Convert Leiden membership into one annotated row per phosphosite node."""
@@ -76,14 +102,32 @@ def build_clusters_df(leiden_membership: dict[str, int]) -> pd.DataFrame:
     )
 
 
+# Sequence and header carry no information that a downstream step reads, and
+# the sequence alone is most of the size of the cluster table, so both are
+# dropped from the annotation merge.
+UNUSED_PROTEIN_COLUMNS = ("Seq", "Header")
+
+
 def add_protein_annotations(clusters_df: pd.DataFrame, proteins: pd.DataFrame) -> pd.DataFrame:
-    """Add protein annotations to a phosphosite cluster table by UniProt accession."""
+    """Add protein annotations to a phosphosite cluster table by UniProt accession.
+
+    Any column named in :data:`UNUSED_PROTEIN_COLUMNS` is dropped before the
+    merge, so passing a full FASTA-derived table does not put protein sequences
+    into the cluster table.
+    """
     if "UniAcc" not in clusters_df.columns:
         raise KeyError("clusters_df must contain a 'UniAcc' column")
     if "UniAcc" not in proteins.columns:
         raise KeyError("proteins must contain a 'UniAcc' column")
 
     protein_annotations = proteins.loc[proteins["UniAcc"].notna()].copy()
+    protein_annotations = protein_annotations.drop(
+        columns=[
+            column
+            for column in UNUSED_PROTEIN_COLUMNS
+            if column in protein_annotations.columns
+        ]
+    )
     duplicated_accessions = protein_annotations.loc[
         protein_annotations["UniAcc"].duplicated(keep=False), "UniAcc"
     ].unique()
@@ -222,11 +266,12 @@ def parse_network(
             ).then(pl.col("nodeB")).otherwise(pl.col("nodeA"))
         ).alias("pair_key"),
         # pl.col("Score").rank(method="average").alias("Rank"),
-    ).filter(
-        ~pl.col("potential_artefact")
     ).sort(
         "Score"
     )
+    # .filter(
+    #     ~pl.col("potential_artefact")
+    # )
 
     return edges
 

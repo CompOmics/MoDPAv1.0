@@ -36,17 +36,30 @@ correlation (SDCor) and `distance` is its magnitude. Nodes are PTM events identi
 
 ## Building and clustering the network
 
-`modpa_network_utilities.py` in the repository root holds the functions that turn an association
-list into the analysed network. Stages 4 and 5 and the sensitivity analysis all use it.
+`2-VAE-code/build_modpa_network.py` turns an association list into the two files that stages 3, 4
+and 5 read, `<prefix>-filtered-distances.csv` and `<prefix>-Leiden-clusters.csv`:
+
+```bash
+python 2-VAE-code/build_modpa_network.py <model folder>/<datetime>-<run name>-signed-distances.csv.gz
+```
+
+It is a driver over `modpa_network_utilities.py`, in the repository root, which holds the functions
+that turn an association list into the analysed network. Stages 4 and 5 and the sensitivity
+analysis all use the same module.
 
 | Function | Purpose |
 | --- | --- |
 | `discover_runs` | locate the signed-distance file of every model run under a directory |
 | `parse_network` | lazily scan, filter and annotate an association list |
 | `build_graph` | build a NetworkX graph, collapsing duplicate and reversed edges |
-| `run_leiden` | Leiden clustering, returning node to cluster membership |
+| `run_leiden`, `run_leiden_unweighted` | Leiden clustering, weighted by the absolute SDCor or unweighted, returning node to cluster membership |
 | `build_clusters_df`, `add_protein_annotations` | assemble the annotated cluster table |
 | `jaccard`, `count_edges`, `count_nodes`, `edge_set`, `node_set` | set comparisons between runs |
+
+Nodes carry the Unimod accession of their modification, not its name. Passing `--ptm-names
+1-quant-pipeline-latest/PTMs-of-interest-submission.csv`, the PTM list the published matrix was
+built with, adds a `PTM_name` column to the cluster table, joining on the accession and the residue
+together. A different PTM set needs its own list.
 
 An edge is kept when `Score >= min_score` and `qvalue < 0.05`. The score test uses the signed
 score, so the analysis covers positively correlated PTM pairs and discards strongly anti-correlated
@@ -72,7 +85,9 @@ can produce a correlation that is not biological. These edges are annotated, not
 Clustering uses Leiden on the RBConfiguration objective with the absolute SDCor as the edge weight,
 `resolution_parameter = 2`, `n_iterations = 2` and seed 42. On the reference network this gives 556
 clusters, of which 43 hold at least 20 distinct proteins and were therefore tested for pathway
-over-representation in stage 5.
+over-representation in stage 5. `run_leiden_unweighted`, exposed by the driver as `--unweighted`,
+gives every retained edge the same weight, so the partition depends on the topology of the filtered
+network alone. Every published result uses the weighted partition.
 
 ## Installation
 

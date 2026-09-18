@@ -100,6 +100,51 @@ Writes `<datetime>-<run name>-signed-distances.csv.gz` into the model folder, wi
 
 This file is the MoDPA association list, and it is the input of steps 3, 4 and 5.
 
+### 5. Build and cluster the network
+
+```bash
+python build_modpa_network.py <model folder>/<datetime>-<run name>-signed-distances.csv.gz
+```
+
+Filters the association list, builds the network, partitions it with Leiden, annotates the
+partition with protein-level information from a FASTA file, and writes two CSV files into the
+directory of the association list:
+
+| File | Contents |
+| --- | --- |
+| `<prefix>-filtered-distances.csv` | one row per retained edge, with the annotation columns added by `parse_network` |
+| `<prefix>-Leiden-clusters.csv` | one row per node, with its cluster and the protein annotations |
+
+The prefix defaults to `<today>-True-data`, matching the published files. An edge is kept when
+`Score >= --min-score` (0.6 by default) and `qvalue < --qvalue` (0.05 by default); edges flagged as
+a potential artefact are annotated, not removed. Leiden runs on the RBConfiguration objective
+with `--resolution` 2, `--n-iterations` 2 and `--seed` 42.
+
+`--unweighted` clusters the network without edge weights, so every retained edge counts equally and
+the partition depends on the topology alone rather than on the association scores. The default is
+the weighted partition, using the absolute SDCor as the edge weight, which is the one used
+throughout the published analysis. The unweighted partition is written to
+`<prefix>-Leiden-unweighted-clusters.csv`, so the two never overwrite each other. Existing output is
+not overwritten unless `--overwrite` is given.
+
+Protein annotations are read from `--fasta`, which defaults to the canonical human FASTA of step 1.
+The script fails if an accession in the network has no annotation, so the FASTA file must be the
+one the matrix was built against.
+
+Nodes carry the Unimod accession of their modification, not its name. `--ptm-names` adds a
+`PTM_name` column to the cluster table from a PTM list of step 1, for example
+
+```bash
+python build_modpa_network.py <association list> --ptm-names ../1-quant-pipeline-latest/PTMs-of-interest-submission.csv
+```
+
+which is the list the published run was built with. The list has to be that same list, because
+`Generate_PTM_matrices.py` selects PTM events on the accession and the residue together, so the
+join is on both and an unnamed PTM event is an error rather than a blank. Without `--ptm-names` the
+cluster table carries the accession alone, which is what every downstream step reads.
+
+These two files are the network input of steps 3, 4 and 5.
+
 ## Diagnostics
 
 | Script | Purpose |
