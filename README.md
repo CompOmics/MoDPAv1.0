@@ -136,14 +136,16 @@ without executing their module-level queries.
 
 | File | Covers |
 | --- | --- |
+| `tests/test_parse_network.py` | `parse_network` in `modpa_network_utilities.py`, the score and q-value filters, the artefact annotation and the malformed-node check |
 | `tests/test_tryptic.py` | `cuts_of` and `shares` in `4-PTM-pairs-annotation/scripts/s10_tryptic.py`, the tryptic co-peptide flags |
 | `tests/test_pair_packing.py` | `pack`, `packp`, `isin_sorted`, `dec` and `tier_of` in `4-PTM-pairs-annotation/scripts/s15_background.py` |
 | `tests/test_bh_adjust.py` | `bh_adjust` in `5-pathway-ORA/reactome_network_background_ora.py`, against `scipy.stats.false_discovery_control` |
 | `tests/test_validate_edges.py` | the edge labelling rules in `3-pulse-silac-validation/validate_edges.py` |
 | `tests/test_topology_compare.py` | `2-VAE-code/Sensitivity-analysis/topology_compare.py`, converted from its `_self_test()` block |
 
-`tests/test_topology_compare.py` skips as a whole when igraph, leidenalg or scikit-learn are absent,
-so a partial environment reports a skip rather than an error.
+`tests/test_topology_compare.py` and `tests/test_parse_network.py` skip as a whole when igraph,
+leidenalg, networkx or scikit-learn are absent, so a partial environment reports a skip rather than
+an error.
 
 `.github/workflows/tests.yml` runs the suite on every push to `main` and on every pull request,
 against Python 3.10 and 3.11. A second job byte-compiles every tracked `.py` file with
